@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */; };
+		F3B42F8F1EB1F57900295A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42F8E1EB1F57900295A89 /* ViewController.swift */; };
+		F3B42F921EB1F57900295A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F901EB1F57900295A89 /* Main.storyboard */; };
+		F3B42F951EB1F57900295A89 /* FitHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3B42F931EB1F57900295A89 /* FitHelper.xcdatamodeld */; };
+		F3B42F971EB1F57900295A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F961EB1F57900295A89 /* Assets.xcassets */; };
+		F3B42F9A1EB1F57900295A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F981EB1F57900295A89 /* LaunchScreen.storyboard */; };
+		F3B42FA51EB1F57900295A89 /* FitHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42FA41EB1F57900295A89 /* FitHelperTests.swift */; };
+		F3B42FB01EB1F57900295A89 /* FitHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42FAF1EB1F57900295A89 /* FitHelperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B42FA11EB1F57900295A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B42F811EB1F57900295A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B42F881EB1F57900295A89;
+			remoteInfo = FitHelper;
+		};
+		F3B42FAC1EB1F57900295A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B42F811EB1F57900295A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B42F881EB1F57900295A89;
+			remoteInfo = FitHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3B42F891EB1F57900295A89 /* FitHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3B42F8E1EB1F57900295A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3B42F911EB1F57900295A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B42F941EB1F57900295A89 /* FitHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitHelper.xcdatamodel; sourceTree = "<group>"; };
+		F3B42F961EB1F57900295A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B42F991EB1F57900295A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3B42F9B1EB1F57900295A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B42FA01EB1F57900295A89 /* FitHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B42FA41EB1F57900295A89 /* FitHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHelperTests.swift; sourceTree = "<group>"; };
+		F3B42FA61EB1F57900295A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B42FAB1EB1F57900295A89 /* FitHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B42FAF1EB1F57900295A89 /* FitHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHelperUITests.swift; sourceTree = "<group>"; };
+		F3B42FB11EB1F57900295A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B42F861EB1F57900295A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B42F9D1EB1F57900295A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B42FA81EB1F57900295A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B42F801EB1F57900295A89 = {
+			isa = PBXGroup;
+			children = (
+				F3B42F8B1EB1F57900295A89 /* FitHelper */,
+				F3B42FA31EB1F57900295A89 /* FitHelperTests */,
+				F3B42FAE1EB1F57900295A89 /* FitHelperUITests */,
+				F3B42F8A1EB1F57900295A89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B42F8A1EB1F57900295A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B42F891EB1F57900295A89 /* FitHelper.app */,
+				F3B42FA01EB1F57900295A89 /* FitHelperTests.xctest */,
+				F3B42FAB1EB1F57900295A89 /* FitHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B42F8B1EB1F57900295A89 /* FitHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */,
+				F3B42F8E1EB1F57900295A89 /* ViewController.swift */,
+				F3B42F901EB1F57900295A89 /* Main.storyboard */,
+				F3B42F961EB1F57900295A89 /* Assets.xcassets */,
+				F3B42F981EB1F57900295A89 /* LaunchScreen.storyboard */,
+				F3B42F9B1EB1F57900295A89 /* Info.plist */,
+				F3B42F931EB1F57900295A89 /* FitHelper.xcdatamodeld */,
+			);
+			path = FitHelper;
+			sourceTree = "<group>";
+		};
+		F3B42FA31EB1F57900295A89 /* FitHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B42FA41EB1F57900295A89 /* FitHelperTests.swift */,
+				F3B42FA61EB1F57900295A89 /* Info.plist */,
+			);
+			path = FitHelperTests;
+			sourceTree = "<group>";
+		};
+		F3B42FAE1EB1F57900295A89 /* FitHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B42FAF1EB1F57900295A89 /* FitHelperUITests.swift */,
+				F3B42FB11EB1F57900295A89 /* Info.plist */,
+			);
+			path = FitHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B42F881EB1F57900295A89 /* FitHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B42FB41EB1F57900295A89 /* Build configuration list for PBXNativeTarget "FitHelper" */;
+			buildPhases = (
+				F3B42F851EB1F57900295A89 /* Sources */,
+				F3B42F861EB1F57900295A89 /* Frameworks */,
+				F3B42F871EB1F57900295A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitHelper;
+			productName = FitHelper;
+			productReference = F3B42F891EB1F57900295A89 /* FitHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B42F9F1EB1F57900295A89 /* FitHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B42FB71EB1F57900295A89 /* Build configuration list for PBXNativeTarget "FitHelperTests" */;
+			buildPhases = (
+				F3B42F9C1EB1F57900295A89 /* Sources */,
+				F3B42F9D1EB1F57900295A89 /* Frameworks */,
+				F3B42F9E1EB1F57900295A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B42FA21EB1F57900295A89 /* PBXTargetDependency */,
+			);
+			name = FitHelperTests;
+			productName = FitHelperTests;
+			productReference = F3B42FA01EB1F57900295A89 /* FitHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3B42FAA1EB1F57900295A89 /* FitHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B42FBA1EB1F57900295A89 /* Build configuration list for PBXNativeTarget "FitHelperUITests" */;
+			buildPhases = (
+				F3B42FA71EB1F57900295A89 /* Sources */,
+				F3B42FA81EB1F57900295A89 /* Frameworks */,
+				F3B42FA91EB1F57900295A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B42FAD1EB1F57900295A89 /* PBXTargetDependency */,
+			);
+			name = FitHelperUITests;
+			productName = FitHelperUITests;
+			productReference = F3B42FAB1EB1F57900295A89 /* FitHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B42F811EB1F57900295A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "артем";
+				TargetAttributes = {
+					F3B42F881EB1F57900295A89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UNZP8WBNM9;
+						ProvisioningStyle = Automatic;
+					};
+					F3B42F9F1EB1F57900295A89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UNZP8WBNM9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3B42F881EB1F57900295A89;
+					};
+					F3B42FAA1EB1F57900295A89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UNZP8WBNM9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3B42F881EB1F57900295A89;
+					};
+				};
+			};
+			buildConfigurationList = F3B42F841EB1F57900295A89 /* Build configuration list for PBXProject "FitHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B42F801EB1F57900295A89;
+			productRefGroup = F3B42F8A1EB1F57900295A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B42F881EB1F57900295A89 /* FitHelper */,
+				F3B42F9F1EB1F57900295A89 /* FitHelperTests */,
+				F3B42FAA1EB1F57900295A89 /* FitHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B42F871EB1F57900295A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B42F9A1EB1F57900295A89 /* LaunchScreen.storyboard in Resources */,
+				F3B42F971EB1F57900295A89 /* Assets.xcassets in Resources */,
+				F3B42F921EB1F57900295A89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B42F9E1EB1F57900295A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B42FA91EB1F57900295A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B42F851EB1F57900295A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B42F8F1EB1F57900295A89 /* ViewController.swift in Sources */,
+				F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */,
+				F3B42F951EB1F57900295A89 /* FitHelper.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B42F9C1EB1F57900295A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B42FA51EB1F57900295A89 /* FitHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B42FA71EB1F57900295A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B42FB01EB1F57900295A89 /* FitHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B42FA21EB1F57900295A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B42F881EB1F57900295A89 /* FitHelper */;
+			targetProxy = F3B42FA11EB1F57900295A89 /* PBXContainerItemProxy */;
+		};
+		F3B42FAD1EB1F57900295A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B42F881EB1F57900295A89 /* FitHelper */;
+			targetProxy = F3B42FAC1EB1F57900295A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3B42F901EB1F57900295A89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B42F911EB1F57900295A89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3B42F981EB1F57900295A89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B42F991EB1F57900295A89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B42FB21EB1F57900295A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3B42FB31EB1F57900295A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B42FB51EB1F57900295A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = FitHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.FitHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3B42FB61EB1F57900295A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = FitHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.FitHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F3B42FB81EB1F57900295A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = FitHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.FitHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitHelper.app/FitHelper";
+			};
+			name = Debug;
+		};
+		F3B42FB91EB1F57900295A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = FitHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.FitHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitHelper.app/FitHelper";
+			};
+			name = Release;
+		};
+		F3B42FBB1EB1F57900295A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = FitHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.FitHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FitHelper;
+			};
+			name = Debug;
+		};
+		F3B42FBC1EB1F57900295A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = FitHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.FitHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FitHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B42F841EB1F57900295A89 /* Build configuration list for PBXProject "FitHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B42FB21EB1F57900295A89 /* Debug */,
+				F3B42FB31EB1F57900295A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B42FB41EB1F57900295A89 /* Build configuration list for PBXNativeTarget "FitHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B42FB51EB1F57900295A89 /* Debug */,
+				F3B42FB61EB1F57900295A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3B42FB71EB1F57900295A89 /* Build configuration list for PBXNativeTarget "FitHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B42FB81EB1F57900295A89 /* Debug */,
+				F3B42FB91EB1F57900295A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3B42FBA1EB1F57900295A89 /* Build configuration list for PBXNativeTarget "FitHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B42FBB1EB1F57900295A89 /* Debug */,
+				F3B42FBC1EB1F57900295A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3B42F931EB1F57900295A89 /* FitHelper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3B42F941EB1F57900295A89 /* FitHelper.xcdatamodel */,
+			);
+			currentVersion = F3B42F941EB1F57900295A89 /* FitHelper.xcdatamodel */;
+			path = FitHelper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3B42F811EB1F57900295A89 /* Project object */;
+}
