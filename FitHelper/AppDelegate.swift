@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let count = Exercise.allExercises().count
         print (count)
-        
+        //here you must save changes
         return true
     }
 

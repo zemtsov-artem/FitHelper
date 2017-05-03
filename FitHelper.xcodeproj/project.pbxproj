@@ -234,8 +234,8 @@
 			isa = PBXGroup;
 			children = (
 				F3C16CC71EBA2D640007CB71 /* Objects */,
-				F3C16CC61EBA2D570007CB71 /* Helper */,
 				F3C16CC51EBA2D4A0007CB71 /* Model */,
+				F3C16CC61EBA2D570007CB71 /* Helper */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
