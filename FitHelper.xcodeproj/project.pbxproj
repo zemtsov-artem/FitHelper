@@ -10,14 +10,22 @@
 		329DFD63E7421BD0E30E30D4 /* Pods_FitHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7C13B29DB20476DF7F3E22 /* Pods_FitHelperTests.framework */; };
 		A7EFA353A2B47325BA083028 /* Pods_FitHelperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09789BB4CA9E6D678B7C51C3 /* Pods_FitHelperUITests.framework */; };
 		B16E011B591FC08A528FE981 /* Pods_FitHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA1D77208FE29BC8A7E34FA /* Pods_FitHelper.framework */; };
+		F30E54491EB357AB0069FD83 /* UserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E54481EB357AB0069FD83 /* UserPage.swift */; };
+		F30E544B1EB357CE0069FD83 /* TrainingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E544A1EB357CE0069FD83 /* TrainingPage.swift */; };
+		F30E544F1EB358380069FD83 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E544E1EB358380069FD83 /* SettingsPage.swift */; };
+		F30E54511EB358860069FD83 /* GraphPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E54501EB358860069FD83 /* GraphPage.swift */; };
 		F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */; };
-		F3B42F8F1EB1F57900295A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42F8E1EB1F57900295A89 /* ViewController.swift */; };
 		F3B42F921EB1F57900295A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F901EB1F57900295A89 /* Main.storyboard */; };
-		F3B42F951EB1F57900295A89 /* FitHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3B42F931EB1F57900295A89 /* FitHelper.xcdatamodeld */; };
 		F3B42F971EB1F57900295A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F961EB1F57900295A89 /* Assets.xcassets */; };
 		F3B42F9A1EB1F57900295A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F981EB1F57900295A89 /* LaunchScreen.storyboard */; };
 		F3B42FA51EB1F57900295A89 /* FitHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42FA41EB1F57900295A89 /* FitHelperTests.swift */; };
 		F3B42FB01EB1F57900295A89 /* FitHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42FAF1EB1F57900295A89 /* FitHelperUITests.swift */; };
+		F3C16CC21EBA244D0007CB71 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CC01EBA244D0007CB71 /* Model.xcdatamodeld */; };
+		F3C16CC41EBA24C50007CB71 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CC31EBA24C50007CB71 /* CoreDataHelper.swift */; };
+		F3C16CE41EBA3CF10007CB71 /* ExerciseCDClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CE01EBA3CF10007CB71 /* ExerciseCDClass.swift */; };
+		F3C16CE51EBA3CF10007CB71 /* ExerciseCDPR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CE11EBA3CF10007CB71 /* ExerciseCDPR.swift */; };
+		F3C16CE61EBA3CF10007CB71 /* TrainingCDClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CE21EBA3CF10007CB71 /* TrainingCDClass.swift */; };
+		F3C16CE71EBA3CF10007CB71 /* TrainingCDPR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CE31EBA3CF10007CB71 /* TrainingCDPR.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,11 +55,14 @@
 		9DB1FB2B243C6C06430EBD0F /* Pods-FitHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitHelperTests/Pods-FitHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E7C13B29DB20476DF7F3E22 /* Pods_FitHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA66DD728EEC1B1F0D91B0A /* Pods-FitHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHelperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitHelperUITests/Pods-FitHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F30E54481EB357AB0069FD83 /* UserPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserPage.swift; path = ViewControllers/UserPage.swift; sourceTree = "<group>"; };
+		F30E544A1EB357CE0069FD83 /* TrainingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainingPage.swift; path = ViewControllers/TrainingPage.swift; sourceTree = "<group>"; };
+		F30E544E1EB358380069FD83 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsPage.swift; path = ViewControllers/SettingsPage.swift; sourceTree = "<group>"; };
+		F30E54501EB358860069FD83 /* GraphPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphPage.swift; path = ViewControllers/GraphPage.swift; sourceTree = "<group>"; };
+		F3211EDC1EBA6F3B00007AD9 /* v0.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v0.1.xcdatamodel; sourceTree = "<group>"; };
 		F3B42F891EB1F57900295A89 /* FitHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3B42F8E1EB1F57900295A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3B42F911EB1F57900295A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3B42F941EB1F57900295A89 /* FitHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitHelper.xcdatamodel; sourceTree = "<group>"; };
 		F3B42F961EB1F57900295A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B42F991EB1F57900295A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3B42F9B1EB1F57900295A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +72,12 @@
 		F3B42FAB1EB1F57900295A89 /* FitHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B42FAF1EB1F57900295A89 /* FitHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHelperUITests.swift; sourceTree = "<group>"; };
 		F3B42FB11EB1F57900295A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C16CC11EBA244D0007CB71 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F3C16CC31EBA24C50007CB71 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		F3C16CE01EBA3CF10007CB71 /* ExerciseCDClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCDClass.swift; sourceTree = "<group>"; };
+		F3C16CE11EBA3CF10007CB71 /* ExerciseCDPR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCDPR.swift; sourceTree = "<group>"; };
+		F3C16CE21EBA3CF10007CB71 /* TrainingCDClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingCDClass.swift; sourceTree = "<group>"; };
+		F3C16CE31EBA3CF10007CB71 /* TrainingCDPR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingCDPR.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +131,57 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F30E543F1EB350450069FD83 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F30E544E1EB358380069FD83 /* SettingsPage.swift */,
+				F30E54481EB357AB0069FD83 /* UserPage.swift */,
+				F30E544A1EB357CE0069FD83 /* TrainingPage.swift */,
+				F30E54501EB358860069FD83 /* GraphPage.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F30E54521EB358E40069FD83 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F3B42F901EB1F57900295A89 /* Main.storyboard */,
+				F3B42F981EB1F57900295A89 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F30E54531EB3592B0069FD83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3B42F961EB1F57900295A89 /* Assets.xcassets */,
+				F3B42F9B1EB1F57900295A89 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F3211EDD1EBA74CE00007AD9 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				F3C16CE11EBA3CF10007CB71 /* ExerciseCDPR.swift */,
+				F3C16CE31EBA3CF10007CB71 /* TrainingCDPR.swift */,
+			);
+			name = Property;
+			sourceTree = "<group>";
+		};
+		F3211EDE1EBA74EE00007AD9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3C16CE01EBA3CF10007CB71 /* ExerciseCDClass.swift */,
+				F3C16CE21EBA3CF10007CB71 /* TrainingCDClass.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		F3B42F801EB1F57900295A89 = {
 			isa = PBXGroup;
 			children = (
+				F3C16CBF1EBA24340007CB71 /* CoreData */,
 				F3B42F8B1EB1F57900295A89 /* FitHelper */,
 				F3B42FA31EB1F57900295A89 /* FitHelperTests */,
 				F3B42FAE1EB1F57900295A89 /* FitHelperUITests */,
@@ -140,12 +205,9 @@
 			isa = PBXGroup;
 			children = (
 				F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */,
-				F3B42F8E1EB1F57900295A89 /* ViewController.swift */,
-				F3B42F901EB1F57900295A89 /* Main.storyboard */,
-				F3B42F961EB1F57900295A89 /* Assets.xcassets */,
-				F3B42F981EB1F57900295A89 /* LaunchScreen.storyboard */,
-				F3B42F9B1EB1F57900295A89 /* Info.plist */,
-				F3B42F931EB1F57900295A89 /* FitHelper.xcdatamodeld */,
+				F30E54531EB3592B0069FD83 /* Resources */,
+				F30E543F1EB350450069FD83 /* ViewControllers */,
+				F30E54521EB358E40069FD83 /* Storyboards */,
 			);
 			path = FitHelper;
 			sourceTree = "<group>";
@@ -166,6 +228,41 @@
 				F3B42FB11EB1F57900295A89 /* Info.plist */,
 			);
 			path = FitHelperUITests;
+			sourceTree = "<group>";
+		};
+		F3C16CBF1EBA24340007CB71 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F3C16CC71EBA2D640007CB71 /* Objects */,
+				F3C16CC61EBA2D570007CB71 /* Helper */,
+				F3C16CC51EBA2D4A0007CB71 /* Model */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		F3C16CC51EBA2D4A0007CB71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3C16CC01EBA244D0007CB71 /* Model.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F3C16CC61EBA2D570007CB71 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F3C16CC31EBA24C50007CB71 /* CoreDataHelper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		F3C16CC71EBA2D640007CB71 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				F3211EDE1EBA74EE00007AD9 /* Classes */,
+				F3211EDD1EBA74CE00007AD9 /* Property */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,9 +549,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B42F8F1EB1F57900295A89 /* ViewController.swift in Sources */,
+				F30E54511EB358860069FD83 /* GraphPage.swift in Sources */,
 				F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */,
-				F3B42F951EB1F57900295A89 /* FitHelper.xcdatamodeld in Sources */,
+				F30E544B1EB357CE0069FD83 /* TrainingPage.swift in Sources */,
+				F3C16CE41EBA3CF10007CB71 /* ExerciseCDClass.swift in Sources */,
+				F3C16CC41EBA24C50007CB71 /* CoreDataHelper.swift in Sources */,
+				F30E54491EB357AB0069FD83 /* UserPage.swift in Sources */,
+				F30E544F1EB358380069FD83 /* SettingsPage.swift in Sources */,
+				F3C16CC21EBA244D0007CB71 /* Model.xcdatamodeld in Sources */,
+				F3C16CE71EBA3CF10007CB71 /* TrainingCDPR.swift in Sources */,
+				F3C16CE51EBA3CF10007CB71 /* ExerciseCDPR.swift in Sources */,
+				F3C16CE61EBA3CF10007CB71 /* TrainingCDClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,6 +816,7 @@
 				F3B42FB61EB1F57900295A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3B42FB71EB1F57900295A89 /* Build configuration list for PBXNativeTarget "FitHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +825,7 @@
 				F3B42FB91EB1F57900295A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3B42FBA1EB1F57900295A89 /* Build configuration list for PBXNativeTarget "FitHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,17 +834,19 @@
 				F3B42FBC1EB1F57900295A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F3B42F931EB1F57900295A89 /* FitHelper.xcdatamodeld */ = {
+		F3C16CC01EBA244D0007CB71 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F3B42F941EB1F57900295A89 /* FitHelper.xcdatamodel */,
+				F3211EDC1EBA6F3B00007AD9 /* v0.1.xcdatamodel */,
+				F3C16CC11EBA244D0007CB71 /* Model.xcdatamodel */,
 			);
-			currentVersion = F3B42F941EB1F57900295A89 /* FitHelper.xcdatamodel */;
-			path = FitHelper.xcdatamodeld;
+			currentVersion = F3C16CC11EBA244D0007CB71 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
