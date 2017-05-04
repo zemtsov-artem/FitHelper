@@ -2,6 +2,7 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Exercise" representedClassName=".Exercise" syncable="YES">
         <attribute name="interval" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="muscleGroup" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="repeateNumber" attributeType="Integer 16" minValueString="0" defaultValueString="1" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="specification" optional="YES" attributeType="String" syncable="YES"/>
@@ -16,7 +17,7 @@
         <relationship name="exercise" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Exercise" inverseName="training" inverseEntity="Exercise" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Exercise" positionX="-396" positionY="18" width="225" height="133"/>
+        <element name="Exercise" positionX="-234" positionY="-25" width="225" height="148"/>
         <element name="Training" positionX="88" positionY="-12" width="128" height="118"/>
     </elements>
 </model>

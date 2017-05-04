@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "f12cf5405811bd6d7a22bf7a13ab16b0"
+build_time: [546603825, 239245000]
+inputs:
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift": [546603737, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift": [546603737, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift": [546603737, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift": [546603737, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift": [546603737, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift": [546603737, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift": [546603737, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift": [546603737, 0]

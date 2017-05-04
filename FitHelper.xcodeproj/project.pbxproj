@@ -14,6 +14,7 @@
 		F30E544B1EB357CE0069FD83 /* TrainingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E544A1EB357CE0069FD83 /* TrainingPage.swift */; };
 		F30E544F1EB358380069FD83 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E544E1EB358380069FD83 /* SettingsPage.swift */; };
 		F30E54511EB358860069FD83 /* GraphPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E54501EB358860069FD83 /* GraphPage.swift */; };
+		F3211EE11EBB2A1600007AD9 /* Localisation.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3211EE01EBB2A1600007AD9 /* Localisation.strings */; };
 		F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */; };
 		F3B42F921EB1F57900295A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F901EB1F57900295A89 /* Main.storyboard */; };
 		F3B42F971EB1F57900295A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F961EB1F57900295A89 /* Assets.xcassets */; };
@@ -60,6 +61,8 @@
 		F30E544E1EB358380069FD83 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsPage.swift; path = ViewControllers/SettingsPage.swift; sourceTree = "<group>"; };
 		F30E54501EB358860069FD83 /* GraphPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphPage.swift; path = ViewControllers/GraphPage.swift; sourceTree = "<group>"; };
 		F3211EDC1EBA6F3B00007AD9 /* v0.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v0.1.xcdatamodel; sourceTree = "<group>"; };
+		F3211EE01EBB2A1600007AD9 /* Localisation.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localisation.strings; sourceTree = "<group>"; };
+		F3211EE21EBB2B9100007AD9 /* v0.1.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v0.1.1.xcdatamodel; sourceTree = "<group>"; };
 		F3B42F891EB1F57900295A89 /* FitHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B42F911EB1F57900295A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -156,6 +159,7 @@
 			children = (
 				F3B42F961EB1F57900295A89 /* Assets.xcassets */,
 				F3B42F9B1EB1F57900295A89 /* Info.plist */,
+				F3211EDF1EBB29F000007AD9 /* Localisation */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -176,6 +180,14 @@
 				F3C16CE21EBA3CF10007CB71 /* TrainingCDClass.swift */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		F3211EDF1EBB29F000007AD9 /* Localisation */ = {
+			isa = PBXGroup;
+			children = (
+				F3211EE01EBB2A1600007AD9 /* Localisation.strings */,
+			);
+			name = Localisation;
 			sourceTree = "<group>";
 		};
 		F3B42F801EB1F57900295A89 = {
@@ -205,9 +217,9 @@
 			isa = PBXGroup;
 			children = (
 				F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */,
-				F30E54531EB3592B0069FD83 /* Resources */,
 				F30E543F1EB350450069FD83 /* ViewControllers */,
 				F30E54521EB358E40069FD83 /* Storyboards */,
+				F30E54531EB3592B0069FD83 /* Resources */,
 			);
 			path = FitHelper;
 			sourceTree = "<group>";
@@ -387,6 +399,7 @@
 				F3B42F9A1EB1F57900295A89 /* LaunchScreen.storyboard in Resources */,
 				F3B42F971EB1F57900295A89 /* Assets.xcassets in Resources */,
 				F3B42F921EB1F57900295A89 /* Main.storyboard in Resources */,
+				F3211EE11EBB2A1600007AD9 /* Localisation.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,6 +855,7 @@
 		F3C16CC01EBA244D0007CB71 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				F3211EE21EBB2B9100007AD9 /* v0.1.1.xcdatamodel */,
 				F3211EDC1EBA6F3B00007AD9 /* v0.1.xcdatamodel */,
 				F3C16CC11EBA244D0007CB71 /* Model.xcdatamodel */,
 			);

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-FitHelper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FitHelperTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FitHelperUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RAMAnimatedTabBarController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>42AD56ABC7FBBA0378EC3FAE7E3726FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>86F3B4CC70F347563E58FB9EF170AD6A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9D34FD61E358AD2A61396ED77AA254F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD903D54E6C5F5B8AAB40192B6287D53</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
