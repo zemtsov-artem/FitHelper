@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Release-iphonesimulator/Pods_FitHelper.framework/Headers",
+      'name': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Debug-iphoneos/Pods_FitHelper.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -14,29 +14,29 @@
         {
           'type': 'file',
           'name': "Pods_FitHelper-Swift.h",
-          'external-contents': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Release-iphonesimulator/Pods_FitHelper.framework/Headers/Pods_FitHelper-Swift.h"
+          'external-contents': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Debug-iphoneos/Pods_FitHelper.framework/Headers/Pods_FitHelper-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Release-iphonesimulator/Pods_FitHelper.framework/Modules",
+      'name': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Debug-iphoneos/Pods_FitHelper.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Release-iphonesimulator/Pods-FitHelper.build/module.modulemap"
+          'external-contents': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Debug-iphoneos/Pods-FitHelper.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Release-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers",
+      'name': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Debug-iphoneos/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "RAMAnimatedTabBarController-Swift.h",
-          'external-contents': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Release-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-Swift.h"
+          'external-contents': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Debug-iphoneos/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-Swift.h"
         },
         {
           'type': 'file',
@@ -47,12 +47,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Release-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules",
+      'name': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Debug-iphoneos/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Release-iphonesimulator/RAMAnimatedTabBarController.build/module.modulemap"
+          'external-contents': "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Debug-iphoneos/RAMAnimatedTabBarController.build/module.modulemap"
         }
       ]
     }

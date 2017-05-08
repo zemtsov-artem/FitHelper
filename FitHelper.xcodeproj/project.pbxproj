@@ -15,6 +15,11 @@
 		F30E544F1EB358380069FD83 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E544E1EB358380069FD83 /* SettingsPage.swift */; };
 		F30E54511EB358860069FD83 /* GraphPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E54501EB358860069FD83 /* GraphPage.swift */; };
 		F3211EE11EBB2A1600007AD9 /* Localisation.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3211EE01EBB2A1600007AD9 /* Localisation.strings */; };
+		F3211EE51EBB319600007AD9 /* ExercisesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3211EE41EBB319600007AD9 /* ExercisesList.swift */; };
+		F3211EE81EBB442200007AD9 /* TrainingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3211EE71EBB442200007AD9 /* TrainingCell.swift */; };
+		F3211EED1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3211EEC1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift */; };
+		F33E7C451EBC83E200F6DD88 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33E7C441EBC83E200F6DD88 /* ExerciseCell.swift */; };
+		F33E7C471EBC96E300F6DD88 /* TheExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33E7C461EBC96E300F6DD88 /* TheExercise.swift */; };
 		F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */; };
 		F3B42F921EB1F57900295A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F901EB1F57900295A89 /* Main.storyboard */; };
 		F3B42F971EB1F57900295A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F961EB1F57900295A89 /* Assets.xcassets */; };
@@ -63,6 +68,11 @@
 		F3211EDC1EBA6F3B00007AD9 /* v0.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v0.1.xcdatamodel; sourceTree = "<group>"; };
 		F3211EE01EBB2A1600007AD9 /* Localisation.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localisation.strings; sourceTree = "<group>"; };
 		F3211EE21EBB2B9100007AD9 /* v0.1.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v0.1.1.xcdatamodel; sourceTree = "<group>"; };
+		F3211EE41EBB319600007AD9 /* ExercisesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesList.swift; sourceTree = "<group>"; };
+		F3211EE71EBB442200007AD9 /* TrainingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingCell.swift; sourceTree = "<group>"; };
+		F3211EEC1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsExerciseAndTrainings.swift; sourceTree = "<group>"; };
+		F33E7C441EBC83E200F6DD88 /* ExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
+		F33E7C461EBC96E300F6DD88 /* TheExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheExercise.swift; sourceTree = "<group>"; };
 		F3B42F891EB1F57900295A89 /* FitHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B42F911EB1F57900295A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +91,9 @@
 		F3C16CE11EBA3CF10007CB71 /* ExerciseCDPR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCDPR.swift; sourceTree = "<group>"; };
 		F3C16CE21EBA3CF10007CB71 /* TrainingCDClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingCDClass.swift; sourceTree = "<group>"; };
 		F3C16CE31EBA3CF10007CB71 /* TrainingCDPR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingCDPR.swift; sourceTree = "<group>"; };
+		F3C729111EBC6DD000FDF22E /* v.0.1.2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.0.1.2.xcdatamodel; sourceTree = "<group>"; };
+		F3C729121EBC6F9C00FDF22E /* v.0.1.3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.0.1.3.xcdatamodel; sourceTree = "<group>"; };
+		F3C729131EBC73F800FDF22E /* v.1.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.1.0.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +154,8 @@
 				F30E54481EB357AB0069FD83 /* UserPage.swift */,
 				F30E544A1EB357CE0069FD83 /* TrainingPage.swift */,
 				F30E54501EB358860069FD83 /* GraphPage.swift */,
+				F3211EE41EBB319600007AD9 /* ExercisesList.swift */,
+				F33E7C461EBC96E300F6DD88 /* TheExercise.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -157,6 +172,7 @@
 		F30E54531EB3592B0069FD83 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F3211EEB1EBB4D0600007AD9 /* DefaultsValues */,
 				F3B42F961EB1F57900295A89 /* Assets.xcassets */,
 				F3B42F9B1EB1F57900295A89 /* Info.plist */,
 				F3211EDF1EBB29F000007AD9 /* Localisation */,
@@ -190,13 +206,38 @@
 			name = Localisation;
 			sourceTree = "<group>";
 		};
+		F3211EE31EBB2F4D00007AD9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B42FAE1EB1F57900295A89 /* FitHelperUITests */,
+				F3B42FA31EB1F57900295A89 /* FitHelperTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		F3211EE61EBB43D700007AD9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F3211EE71EBB442200007AD9 /* TrainingCell.swift */,
+				F33E7C441EBC83E200F6DD88 /* ExerciseCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		F3211EEB1EBB4D0600007AD9 /* DefaultsValues */ = {
+			isa = PBXGroup;
+			children = (
+				F3211EEC1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift */,
+			);
+			name = DefaultsValues;
+			sourceTree = "<group>";
+		};
 		F3B42F801EB1F57900295A89 = {
 			isa = PBXGroup;
 			children = (
-				F3C16CBF1EBA24340007CB71 /* CoreData */,
 				F3B42F8B1EB1F57900295A89 /* FitHelper */,
-				F3B42FA31EB1F57900295A89 /* FitHelperTests */,
-				F3B42FAE1EB1F57900295A89 /* FitHelperUITests */,
+				F3C16CBF1EBA24340007CB71 /* CoreData */,
+				F3211EE31EBB2F4D00007AD9 /* Tests */,
 				F3B42F8A1EB1F57900295A89 /* Products */,
 				5585D1C731521EB070E2565D /* Pods */,
 				025B72ACAC51F0700B775358 /* Frameworks */,
@@ -219,6 +260,7 @@
 				F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */,
 				F30E543F1EB350450069FD83 /* ViewControllers */,
 				F30E54521EB358E40069FD83 /* Storyboards */,
+				F3211EE61EBB43D700007AD9 /* Cells */,
 				F30E54531EB3592B0069FD83 /* Resources */,
 			);
 			path = FitHelper;
@@ -562,16 +604,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3211EE81EBB442200007AD9 /* TrainingCell.swift in Sources */,
 				F30E54511EB358860069FD83 /* GraphPage.swift in Sources */,
 				F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */,
 				F30E544B1EB357CE0069FD83 /* TrainingPage.swift in Sources */,
 				F3C16CE41EBA3CF10007CB71 /* ExerciseCDClass.swift in Sources */,
+				F33E7C471EBC96E300F6DD88 /* TheExercise.swift in Sources */,
 				F3C16CC41EBA24C50007CB71 /* CoreDataHelper.swift in Sources */,
 				F30E54491EB357AB0069FD83 /* UserPage.swift in Sources */,
 				F30E544F1EB358380069FD83 /* SettingsPage.swift in Sources */,
+				F33E7C451EBC83E200F6DD88 /* ExerciseCell.swift in Sources */,
 				F3C16CC21EBA244D0007CB71 /* Model.xcdatamodeld in Sources */,
+				F3211EE51EBB319600007AD9 /* ExercisesList.swift in Sources */,
 				F3C16CE71EBA3CF10007CB71 /* TrainingCDPR.swift in Sources */,
 				F3C16CE51EBA3CF10007CB71 /* ExerciseCDPR.swift in Sources */,
+				F3211EED1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift in Sources */,
 				F3C16CE61EBA3CF10007CB71 /* TrainingCDClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -855,11 +902,14 @@
 		F3C16CC01EBA244D0007CB71 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				F3C729131EBC73F800FDF22E /* v.1.0.xcdatamodel */,
+				F3C729121EBC6F9C00FDF22E /* v.0.1.3.xcdatamodel */,
+				F3C729111EBC6DD000FDF22E /* v.0.1.2.xcdatamodel */,
 				F3211EE21EBB2B9100007AD9 /* v0.1.1.xcdatamodel */,
 				F3211EDC1EBA6F3B00007AD9 /* v0.1.xcdatamodel */,
 				F3C16CC11EBA244D0007CB71 /* Model.xcdatamodel */,
 			);
-			currentVersion = F3C16CC11EBA244D0007CB71 /* Model.xcdatamodel */;
+			currentVersion = F3C729131EBC73F800FDF22E /* v.1.0.xcdatamodel */;
 			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

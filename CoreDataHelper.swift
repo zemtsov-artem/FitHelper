@@ -37,6 +37,11 @@ class CoreDataHelper: NSObject {
         context.persistentStoreCoordinator = coordinator
         super.init()
     }
+    
+    func allObjectsFromContext() -> [NSManagedObject]{
+        return Array(context.registeredObjects)
+    }
+    
     func save(){
         do {
             try context.save()

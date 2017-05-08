@@ -16,11 +16,13 @@ extension Exercise {
         return NSFetchRequest<Exercise>(entityName: "Exercise")
     }
 
-    @NSManaged public var name: String?
+    @NSManaged public var exerciseName: String?
     @NSManaged public var specification: String?
     @NSManaged public var weigth: Int16
     @NSManaged public var interval: Int16
+    @NSManaged public var muscleGroup: String?
     @NSManaged public var repeateNumber: Int16
     @NSManaged public var training: Training?
+    @NSManaged public var series: Int16
 
 }

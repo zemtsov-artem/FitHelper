@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Exercise" representedClassName=".Exercise" syncable="YES">
+        <attribute name="exerciseName" attributeType="String" syncable="YES"/>
+        <attribute name="interval" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="muscleGroup" attributeType="String" minValueString="0" syncable="YES"/>
+        <attribute name="repeateNumber" attributeType="Integer 16" minValueString="0" defaultValueString="1" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="series" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="specification" attributeType="String" defaultValueString="empty" syncable="YES"/>
+        <attribute name="weigth" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="training" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Training" inverseName="exercise" inverseEntity="Training" syncable="YES"/>
+    </entity>
+    <entity name="Training" representedClassName=".Training" syncable="YES">
+        <attribute name="desiredDay" attributeType="String" syncable="YES"/>
+        <attribute name="specification" attributeType="String" syncable="YES"/>
+        <attribute name="trainingName" attributeType="String" syncable="YES"/>
+        <attribute name="trainingType" attributeType="String" syncable="YES"/>
+        <relationship name="exercise" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Exercise" inverseName="training" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Exercise" positionX="-234" positionY="-25" width="225" height="165"/>
+        <element name="Training" positionX="88" positionY="-12" width="128" height="120"/>
+    </elements>
+</model>

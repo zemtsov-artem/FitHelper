@@ -19,8 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let count = Exercise.allExercises().count
-        print (count)
+        var count = Exercise.allExercises().count
+        print ("Before \(count)")
+        if (count == 0) {
+            setDefaultsExercises()
+            count = Exercise.allExercises().count
+            print ("After \(count)")
+        }
+        
         //here you must save changes
         return true
     }
