@@ -1,0 +1,371 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Exercise"
+- "showExercise"
+provides-nominal:
+- "C9FitHelper8Exercise"
+provides-member:
+- ["C9FitHelper8Exercise", ""]
+provides-dynamic-lookup:
+- "Entity"
+- "allExercises"
+depends-top-level:
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "CoreDataHelper"
+- "Exercise"
+- "Int16"
+- "NSEntityDescription"
+- !private "NSFetchRequest"
+- !private "NSFetchRequestResult"
+- "NSManagedObject"
+- "String"
+- !private "StringLiteralType"
+- "Training"
+- "Void"
+- !private "print"
+- "showExercise"
+depends-member:
+- !private ["Ps9AnyObject", "CoreDataHelper"]
+- !private ["Ps9AnyObject", "Entity"]
+- !private ["Ps9AnyObject", "Exercise"]
+- !private ["Ps9AnyObject", "NSEntityDescription"]
+- !private ["Ps9AnyObject", "NSFetchRequest"]
+- !private ["Ps9AnyObject", "context"]
+- !private ["Ps9AnyObject", "entity"]
+- !private ["Ps9AnyObject", "exerciseName"]
+- !private ["Ps9AnyObject", "fetch"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instance"]
+- !private ["Ps9AnyObject", "interval"]
+- !private ["Ps9AnyObject", "muscleGroup"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "repeateNumber"]
+- !private ["Ps9AnyObject", "series"]
+- !private ["Ps9AnyObject", "specification"]
+- !private ["Ps9AnyObject", "training"]
+- !private ["Ps9AnyObject", "weigth"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "CoreDataHelper"]
+- !private ["Ps7CVarArg", "Entity"]
+- !private ["Ps7CVarArg", "Exercise"]
+- !private ["Ps7CVarArg", "NSEntityDescription"]
+- !private ["Ps7CVarArg", "NSFetchRequest"]
+- !private ["Ps7CVarArg", "context"]
+- !private ["Ps7CVarArg", "entity"]
+- !private ["Ps7CVarArg", "exerciseName"]
+- !private ["Ps7CVarArg", "fetch"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instance"]
+- !private ["Ps7CVarArg", "interval"]
+- !private ["Ps7CVarArg", "muscleGroup"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "repeateNumber"]
+- !private ["Ps7CVarArg", "series"]
+- !private ["Ps7CVarArg", "specification"]
+- !private ["Ps7CVarArg", "training"]
+- !private ["Ps7CVarArg", "weigth"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["C9FitHelper14CoreDataHelper", "context"]
+- !private ["C9FitHelper14CoreDataHelper", "instance"]
+- !private ["Ps28CustomDebugStringConvertible", "CoreDataHelper"]
+- !private ["Ps28CustomDebugStringConvertible", "Entity"]
+- !private ["Ps28CustomDebugStringConvertible", "Exercise"]
+- !private ["Ps28CustomDebugStringConvertible", "NSEntityDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFetchRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "context"]
+- !private ["Ps28CustomDebugStringConvertible", "entity"]
+- !private ["Ps28CustomDebugStringConvertible", "exerciseName"]
+- !private ["Ps28CustomDebugStringConvertible", "fetch"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instance"]
+- !private ["Ps28CustomDebugStringConvertible", "interval"]
+- !private ["Ps28CustomDebugStringConvertible", "muscleGroup"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "repeateNumber"]
+- !private ["Ps28CustomDebugStringConvertible", "series"]
+- !private ["Ps28CustomDebugStringConvertible", "specification"]
+- !private ["Ps28CustomDebugStringConvertible", "training"]
+- !private ["Ps28CustomDebugStringConvertible", "weigth"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CoreDataHelper"]
+- !private ["Ps23CustomStringConvertible", "Entity"]
+- !private ["Ps23CustomStringConvertible", "Exercise"]
+- !private ["Ps23CustomStringConvertible", "NSEntityDescription"]
+- !private ["Ps23CustomStringConvertible", "NSFetchRequest"]
+- !private ["Ps23CustomStringConvertible", "context"]
+- !private ["Ps23CustomStringConvertible", "entity"]
+- !private ["Ps23CustomStringConvertible", "exerciseName"]
+- !private ["Ps23CustomStringConvertible", "fetch"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instance"]
+- !private ["Ps23CustomStringConvertible", "interval"]
+- !private ["Ps23CustomStringConvertible", "muscleGroup"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "repeateNumber"]
+- !private ["Ps23CustomStringConvertible", "series"]
+- !private ["Ps23CustomStringConvertible", "specification"]
+- !private ["Ps23CustomStringConvertible", "training"]
+- !private ["Ps23CustomStringConvertible", "weigth"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CoreDataHelper"]
+- !private ["Ps9Equatable", "Entity"]
+- !private ["Ps9Equatable", "Exercise"]
+- !private ["Ps9Equatable", "NSEntityDescription"]
+- !private ["Ps9Equatable", "NSFetchRequest"]
+- !private ["Ps9Equatable", "context"]
+- !private ["Ps9Equatable", "entity"]
+- !private ["Ps9Equatable", "exerciseName"]
+- !private ["Ps9Equatable", "fetch"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instance"]
+- !private ["Ps9Equatable", "interval"]
+- !private ["Ps9Equatable", "muscleGroup"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "repeateNumber"]
+- !private ["Ps9Equatable", "series"]
+- !private ["Ps9Equatable", "specification"]
+- !private ["Ps9Equatable", "training"]
+- !private ["Ps9Equatable", "weigth"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["C9FitHelper8Exercise", "CoreDataHelper"]
+- ["C9FitHelper8Exercise", "Entity"]
+- ["C9FitHelper8Exercise", "Exercise"]
+- ["C9FitHelper8Exercise", "Int16"]
+- ["C9FitHelper8Exercise", "NSEntityDescription"]
+- !private ["C9FitHelper8Exercise", "NSFetchRequest"]
+- !private ["C9FitHelper8Exercise", "NSFetchRequestResult"]
+- ["C9FitHelper8Exercise", "String"]
+- ["C9FitHelper8Exercise", "Training"]
+- ["C9FitHelper8Exercise", "allExercises"]
+- ["C9FitHelper8Exercise", "deinit"]
+- !private ["C9FitHelper8Exercise", "exerciseName"]
+- ["C9FitHelper8Exercise", "init"]
+- !private ["C9FitHelper8Exercise", "interval"]
+- !private ["C9FitHelper8Exercise", "muscleGroup"]
+- !private ["C9FitHelper8Exercise", "print"]
+- !private ["C9FitHelper8Exercise", "repeateNumber"]
+- !private ["C9FitHelper8Exercise", "series"]
+- !private ["C9FitHelper8Exercise", "specification"]
+- !private ["C9FitHelper8Exercise", "training"]
+- !private ["C9FitHelper8Exercise", "weigth"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CoreDataHelper"]
+- !private ["Ps8Hashable", "Entity"]
+- !private ["Ps8Hashable", "Exercise"]
+- !private ["Ps8Hashable", "NSEntityDescription"]
+- !private ["Ps8Hashable", "NSFetchRequest"]
+- !private ["Ps8Hashable", "context"]
+- !private ["Ps8Hashable", "entity"]
+- !private ["Ps8Hashable", "exerciseName"]
+- !private ["Ps8Hashable", "fetch"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instance"]
+- !private ["Ps8Hashable", "interval"]
+- !private ["Ps8Hashable", "muscleGroup"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "repeateNumber"]
+- !private ["Ps8Hashable", "series"]
+- !private ["Ps8Hashable", "specification"]
+- !private ["Ps8Hashable", "training"]
+- !private ["Ps8Hashable", "weigth"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "entity"]
+- !private ["PSo8NSCoding", "fetch"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "entity"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo19NSEntityDescription", "entity"]
+- !private ["PSo17NSFastEnumeration", "entity"]
+- !private ["CSo14NSFetchRequest", "init"]
+- !private ["PSo20NSFetchRequestResult", "CoreDataHelper"]
+- !private ["PSo20NSFetchRequestResult", "Entity"]
+- !private ["PSo20NSFetchRequestResult", "Exercise"]
+- !private ["PSo20NSFetchRequestResult", "NSEntityDescription"]
+- !private ["PSo20NSFetchRequestResult", "NSFetchRequest"]
+- !private ["PSo20NSFetchRequestResult", "exerciseName"]
+- !private ["PSo20NSFetchRequestResult", "init"]
+- !private ["PSo20NSFetchRequestResult", "interval"]
+- !private ["PSo20NSFetchRequestResult", "muscleGroup"]
+- !private ["PSo20NSFetchRequestResult", "print"]
+- !private ["PSo20NSFetchRequestResult", "repeateNumber"]
+- !private ["PSo20NSFetchRequestResult", "series"]
+- !private ["PSo20NSFetchRequestResult", "specification"]
+- !private ["PSo20NSFetchRequestResult", "training"]
+- !private ["PSo20NSFetchRequestResult", "weigth"]
+- ["PSo20NSFetchRequestResult", ""]
+- !private ["PSo9NSLocking", "fetch"]
+- !private ["CSo15NSManagedObject", "CoreDataHelper"]
+- ["CSo15NSManagedObject", "Entity"]
+- ["CSo15NSManagedObject", "Exercise"]
+- ["CSo15NSManagedObject", "Int16"]
+- ["CSo15NSManagedObject", "NSEntityDescription"]
+- !private ["CSo15NSManagedObject", "NSFetchRequest"]
+- !private ["CSo15NSManagedObject", "NSFetchRequestResult"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "Training"]
+- ["CSo15NSManagedObject", "allExercises"]
+- !private ["CSo15NSManagedObject", "exerciseName"]
+- ["CSo15NSManagedObject", "init"]
+- !private ["CSo15NSManagedObject", "interval"]
+- !private ["CSo15NSManagedObject", "muscleGroup"]
+- !private ["CSo15NSManagedObject", "print"]
+- !private ["CSo15NSManagedObject", "repeateNumber"]
+- !private ["CSo15NSManagedObject", "series"]
+- !private ["CSo15NSManagedObject", "specification"]
+- !private ["CSo15NSManagedObject", "training"]
+- !private ["CSo15NSManagedObject", "weigth"]
+- ["CSo15NSManagedObject", ""]
+- !private ["CSo22NSManagedObjectContext", "fetch"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CoreDataHelper"]
+- ["CSo8NSObject", "Entity"]
+- ["CSo8NSObject", "Exercise"]
+- ["CSo8NSObject", "Int16"]
+- ["CSo8NSObject", "NSEntityDescription"]
+- !private ["CSo8NSObject", "NSFetchRequest"]
+- !private ["CSo8NSObject", "NSFetchRequestResult"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Training"]
+- ["CSo8NSObject", "allExercises"]
+- !private ["CSo8NSObject", "context"]
+- !private ["CSo8NSObject", "entity"]
+- !private ["CSo8NSObject", "exerciseName"]
+- !private ["CSo8NSObject", "fetch"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instance"]
+- !private ["CSo8NSObject", "interval"]
+- !private ["CSo8NSObject", "muscleGroup"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "repeateNumber"]
+- !private ["CSo8NSObject", "series"]
+- !private ["CSo8NSObject", "specification"]
+- !private ["CSo8NSObject", "training"]
+- !private ["CSo8NSObject", "weigth"]
+- !private ["PSo16NSObjectProtocol", "CoreDataHelper"]
+- !private ["PSo16NSObjectProtocol", "Entity"]
+- !private ["PSo16NSObjectProtocol", "Exercise"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
+- !private ["PSo16NSObjectProtocol", "context"]
+- !private ["PSo16NSObjectProtocol", "entity"]
+- !private ["PSo16NSObjectProtocol", "exerciseName"]
+- !private ["PSo16NSObjectProtocol", "fetch"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instance"]
+- !private ["PSo16NSObjectProtocol", "interval"]
+- !private ["PSo16NSObjectProtocol", "muscleGroup"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "repeateNumber"]
+- !private ["PSo16NSObjectProtocol", "series"]
+- !private ["PSo16NSObjectProtocol", "specification"]
+- !private ["PSo16NSObjectProtocol", "training"]
+- !private ["PSo16NSObjectProtocol", "weigth"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CoreDataHelper"]
+- !private ["Ps9_Hashable", "Entity"]
+- !private ["Ps9_Hashable", "Exercise"]
+- !private ["Ps9_Hashable", "NSEntityDescription"]
+- !private ["Ps9_Hashable", "NSFetchRequest"]
+- !private ["Ps9_Hashable", "context"]
+- !private ["Ps9_Hashable", "entity"]
+- !private ["Ps9_Hashable", "exerciseName"]
+- !private ["Ps9_Hashable", "fetch"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instance"]
+- !private ["Ps9_Hashable", "interval"]
+- !private ["Ps9_Hashable", "muscleGroup"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "repeateNumber"]
+- !private ["Ps9_Hashable", "series"]
+- !private ["Ps9_Hashable", "specification"]
+- !private ["Ps9_Hashable", "training"]
+- !private ["Ps9_Hashable", "weigth"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "C9FitHelper14CoreDataHelper"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- "C9FitHelper8Exercise"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo14NSFetchRequest"
+- "PSo20NSFetchRequestResult"
+- !private "PSo9NSLocking"
+- "CSo15NSManagedObject"
+- !private "CSo22NSManagedObjectContext"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "0acfed9d3cae4368be1efc1bc301d3c1"
