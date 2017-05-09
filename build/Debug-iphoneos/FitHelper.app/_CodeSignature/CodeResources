@@ -20,45 +20,53 @@
 		<data>
 		ST3CzGrfwFm0cQaz5plqU90hHWA=
 		</data>
+		<key>Base.lproj/Main.storyboardc/3Uh-p2-vDC-view-N3t-wl-MJI.nib</key>
+		<data>
+		fDT2oe6LEjs07hwb6/xDnHUE2PY=
+		</data>
 		<key>Base.lproj/Main.storyboardc/4eh-ap-l86-view-PzQ-p4-WjB.nib</key>
 		<data>
-		xz1mDtnjybZdryxFTG4n2LG3tRc=
+		13JZ9BO8TCFe9dvFCcoxbJ0qjMw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/56y-qu-7Bi-view-jYh-8j-WvG.nib</key>
 		<data>
-		JFwE5glvHWpndcoIhy/GvQSjTFg=
+		VzKmOP/k3arRtlNRE/JhHAc7um4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/AoF-ko-z0t-view-SwX-Ye-mwF.nib</key>
 		<data>
-		A90uKx0iLPK5U1P/M+UKtsRmbaw=
+		bzuyYP5IWucoAJXU2O6YpYIsMfQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		yqp5hlI4GZUG2rYjAz2nvjBDBSk=
+		7a+YyIJ+/Fy1kabWv9nPscmuxIc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-sEs-uq-qlJ.nib</key>
 		<data>
-		maZkhIWyDnrT0pmCKBMv/2q+QFA=
+		FmK7euFCQzhem80/mumwMda5QRw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-Xjz-mt-2jA.nib</key>
 		<data>
-		bArzDHjoeWXc9zSenNE9uZgvmNQ=
+		ABki7VuA4Fkgt9Dn1M2+gPher8o=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-56y-qu-7Bi.nib</key>
+		<data>
+		TXjXpmZmu+gPF5U8ZhKO7xE9nR4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Xjz-mt-2jA-view-9eR-L0-Idf.nib</key>
 		<data>
-		pZDWgJe40vH1iY1AuCHkkFegUa4=
+		fHgFdw2+h3PW9X6QmVEq0ixxFnI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/pwI-Po-Bx4-view-h7x-SB-Cvt.nib</key>
 		<data>
-		ufvLz7UTrepXsJGalgDcbe+lG5U=
+		NlP0NltskSql64iSK4Bou+VpkKY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/theExercise.nib</key>
 		<data>
-		b+sRAu2sRhzYdySwMmYxmWNhijY=
+		2JRpwk8HYrFARlAsA+QXotc2L7Y=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ziU-yX-sfj-view-3iQ-xi-OXq.nib</key>
 		<data>
-		p9MngB0+CPc/3qFxM2/pEezFxpg=
+		yM5HbgClWTe3LXw71yQmhYono+Y=
 		</data>
 		<key>Frameworks/RAMAnimatedTabBarController.framework/Info.plist</key>
 		<data>
@@ -66,7 +74,7 @@
 		</data>
 		<key>Frameworks/RAMAnimatedTabBarController.framework/RAMAnimatedTabBarController</key>
 		<data>
-		1gV16bcU7vpUoY8kwBfzi/iBG1s=
+		s1vx5UA9K9X3KGX4gkiz5Ty9+N0=
 		</data>
 		<key>Frameworks/RAMAnimatedTabBarController.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -75,6 +83,10 @@
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
 		T4nURGnNIdpegTeJy/EByF74F6Y=
+		</data>
+		<key>Frameworks/libswiftCoreAudio.dylib</key>
+		<data>
+		FSyJTcB2nusiZN3FhNnyOrN1+RY=
 		</data>
 		<key>Frameworks/libswiftCoreData.dylib</key>
 		<data>
@@ -215,114 +227,136 @@
 			4QTgfbps64pKW933lt4AkWyBa2b3eoIgOAQNTxFi85M=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/3Uh-p2-vDC-view-N3t-wl-MJI.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fDT2oe6LEjs07hwb6/xDnHUE2PY=
+			</data>
+			<key>hash2</key>
+			<data>
+			e2VRCFeSECIYLBFkpmBSnduX0oaxyQhabKWFFaHL/tk=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/4eh-ap-l86-view-PzQ-p4-WjB.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xz1mDtnjybZdryxFTG4n2LG3tRc=
+			13JZ9BO8TCFe9dvFCcoxbJ0qjMw=
 			</data>
 			<key>hash2</key>
 			<data>
-			oj39y1td7h36GNe4RQReQkF0rmpuKGmL/RQzaPOu+hU=
+			QEBG4gfkDSXWf4ggNKJW9u8kV7l9EwA0qiFeNpCTyaQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/56y-qu-7Bi-view-jYh-8j-WvG.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JFwE5glvHWpndcoIhy/GvQSjTFg=
+			VzKmOP/k3arRtlNRE/JhHAc7um4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pPKGt+/mNg2ZnZXiMtnwU2l1emj6QBmp/RpXooxFDkk=
+			ziT4kWhBXse4n9ABQ1tfbksgvE72C0Yo/ML3bQ8wMRU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/AoF-ko-z0t-view-SwX-Ye-mwF.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A90uKx0iLPK5U1P/M+UKtsRmbaw=
+			bzuyYP5IWucoAJXU2O6YpYIsMfQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			6NzxXblaX6uyLFFJsE/zDLAgyR3Cj2WjwpycCqM6ifI=
+			tBmItpqYC4uVDPhfyuaTEtZ/MJ8BBguffkKV+834iR4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yqp5hlI4GZUG2rYjAz2nvjBDBSk=
+			7a+YyIJ+/Fy1kabWv9nPscmuxIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			G5UHoGp4ZMPUIwQMh9llAFvgT5XKTde84qfBEkOfReg=
+			lclmYawiEslYEOVVikAicd41jyONLpggtIoej6DvuLI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-sEs-uq-qlJ.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			maZkhIWyDnrT0pmCKBMv/2q+QFA=
+			FmK7euFCQzhem80/mumwMda5QRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			4yv5tQsyRV9HZccR88QX1DvMlHVLWXnZLJtsJXF4jJI=
+			VxVuQE0gFPr9pRes3c0z7sAxqRS76v9ng/kFkwjuA1U=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-Xjz-mt-2jA.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bArzDHjoeWXc9zSenNE9uZgvmNQ=
+			ABki7VuA4Fkgt9Dn1M2+gPher8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			mdSo9CL3WR6m5PCgm+H3heNalvgLyRNr095+MAgv8H0=
+			/Dt4mFoCEGvLVC88CjMJREa5UHXf+L51VYztl1zVa6s=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-56y-qu-7Bi.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TXjXpmZmu+gPF5U8ZhKO7xE9nR4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q4AXD8WrTC2ea54xSF0FlDnlgpde/V6FF/hRznKx22M=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Xjz-mt-2jA-view-9eR-L0-Idf.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pZDWgJe40vH1iY1AuCHkkFegUa4=
+			fHgFdw2+h3PW9X6QmVEq0ixxFnI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q0PIsri5Vrrt/3qCHZyElnwqQd5rmM1NkG33F8OzhJU=
+			UeFm5or56FLBlm+TZYzTNXMiOcCQ1QzdCRf6xHEE6cs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/pwI-Po-Bx4-view-h7x-SB-Cvt.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ufvLz7UTrepXsJGalgDcbe+lG5U=
+			NlP0NltskSql64iSK4Bou+VpkKY=
 			</data>
 			<key>hash2</key>
 			<data>
-			k0RL77EZXFT3QV8+y0qVFhyUTyN+hxcKBY1BYGRU5dw=
+			nA3bFbblqgZ7y4LoqIQwPgBp0JG6cSGxOwiMxyfQZ1s=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/theExercise.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b+sRAu2sRhzYdySwMmYxmWNhijY=
+			2JRpwk8HYrFARlAsA+QXotc2L7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			iDzKvWpiEXTwp7DFl4/uAj6jeeEp6heI4aGENZtMKVc=
+			jz9skfDeCBIlSgB63cARfTr8DIq63irKgH3C3aRRkG0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/ziU-yX-sfj-view-3iQ-xi-OXq.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p9MngB0+CPc/3qFxM2/pEezFxpg=
+			yM5HbgClWTe3LXw71yQmhYono+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			pNuCB/AHmz9OJS0LMm1k2NBsjd39JhgWiXsjmr40AwU=
+			t7zJt6QSWIIGVTYtdVYpf4kN5SmweGCK9gvPjxnflac=
 			</data>
 		</dict>
 		<key>Frameworks/RAMAnimatedTabBarController.framework/Info.plist</key>
@@ -340,11 +374,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1gV16bcU7vpUoY8kwBfzi/iBG1s=
+			s1vx5UA9K9X3KGX4gkiz5Ty9+N0=
 			</data>
 			<key>hash2</key>
 			<data>
-			izYKs4aPP32XPNxLuaKL5fOYQdohFuDbnWQSu+/t26Y=
+			DMu+FExn7NcH1SNQnJtiyTPI7vMwxalW0VbEwCbVN3s=
 			</data>
 		</dict>
 		<key>Frameworks/RAMAnimatedTabBarController.framework/_CodeSignature/CodeResources</key>
@@ -367,6 +401,17 @@
 			<key>hash2</key>
 			<data>
 			dugozqD4E5hLZNbWwQyJfKSmkmQ/xPltqRRrj9jnxC4=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftCoreAudio.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FSyJTcB2nusiZN3FhNnyOrN1+RY=
+			</data>
+			<key>hash2</key>
+			<data>
+			nZ5bZtyBewhitMst7kTXHr7zeAa6LVztDiNAg8a+3ZE=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreData.dylib</key>

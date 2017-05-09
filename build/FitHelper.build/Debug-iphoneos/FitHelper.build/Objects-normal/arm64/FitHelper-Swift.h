@@ -255,13 +255,15 @@ SWIFT_CLASS("_TtC9FitHelper12SettingsPage")
 @class UIEvent;
 
 SWIFT_CLASS("_TtC9FitHelper11TheExercise")
-@interface TheExercise : UIViewController <UITextFieldDelegate>
+@interface TheExercise : UIViewController
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified exerciseInterval;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified exerciseImage;
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified exerciseName;
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified exerciseWeight;
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified exerciseRepeteNumber;
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified exerciseSpecification;
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified exerciseSeries;
+- (IBAction)saveIsClicked:(id _Nonnull)sender;
 @property (nonatomic, strong) Exercise * _Null_unspecified currentExercise;
 @property (nonatomic, strong) UIImage * _Null_unspecified image;
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
@@ -316,6 +318,19 @@ SWIFT_CLASS("_TtC9FitHelper12TrainingPage")
 @interface TrainingPage : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9FitHelper13TrainingsList")
+@interface TrainingsList : UITableViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

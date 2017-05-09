@@ -18,6 +18,9 @@
 		F3211EE51EBB319600007AD9 /* ExercisesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3211EE41EBB319600007AD9 /* ExercisesList.swift */; };
 		F3211EE81EBB442200007AD9 /* TrainingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3211EE71EBB442200007AD9 /* TrainingCell.swift */; };
 		F3211EED1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3211EEC1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift */; };
+		F32279E61EC22A8800EC9E08 /* StringChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32279E51EC22A8800EC9E08 /* StringChecker.swift */; };
+		F32279E91EC242C800EC9E08 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32279E81EC242C800EC9E08 /* Alert.swift */; };
+		F32279F01EC26B9100EC9E08 /* TrainingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32279EF1EC26B9100EC9E08 /* TrainingsList.swift */; };
 		F33E7C451EBC83E200F6DD88 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33E7C441EBC83E200F6DD88 /* ExerciseCell.swift */; };
 		F33E7C471EBC96E300F6DD88 /* TheExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33E7C461EBC96E300F6DD88 /* TheExercise.swift */; };
 		F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */; };
@@ -71,6 +74,9 @@
 		F3211EE41EBB319600007AD9 /* ExercisesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesList.swift; sourceTree = "<group>"; };
 		F3211EE71EBB442200007AD9 /* TrainingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingCell.swift; sourceTree = "<group>"; };
 		F3211EEC1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsExerciseAndTrainings.swift; sourceTree = "<group>"; };
+		F32279E51EC22A8800EC9E08 /* StringChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringChecker.swift; sourceTree = "<group>"; };
+		F32279E81EC242C800EC9E08 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		F32279EF1EC26B9100EC9E08 /* TrainingsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingsList.swift; sourceTree = "<group>"; };
 		F33E7C441EBC83E200F6DD88 /* ExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
 		F33E7C461EBC96E300F6DD88 /* TheExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheExercise.swift; sourceTree = "<group>"; };
 		F3B42F891EB1F57900295A89 /* FitHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,12 +156,10 @@
 		F30E543F1EB350450069FD83 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F30E544E1EB358380069FD83 /* SettingsPage.swift */,
-				F30E54481EB357AB0069FD83 /* UserPage.swift */,
-				F30E544A1EB357CE0069FD83 /* TrainingPage.swift */,
-				F30E54501EB358860069FD83 /* GraphPage.swift */,
-				F3211EE41EBB319600007AD9 /* ExercisesList.swift */,
-				F33E7C461EBC96E300F6DD88 /* TheExercise.swift */,
+				F32279EA1EC26B1200EC9E08 /* First */,
+				F32279EB1EC26B2E00EC9E08 /* Trainings */,
+				F32279EC1EC26B3600EC9E08 /* Statistics */,
+				F32279ED1EC26B4100EC9E08 /* Settings */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -172,6 +176,7 @@
 		F30E54531EB3592B0069FD83 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F32279E71EC242AF00EC9E08 /* AlertData */,
 				F3211EEB1EBB4D0600007AD9 /* DefaultsValues */,
 				F3B42F961EB1F57900295A89 /* Assets.xcassets */,
 				F3B42F9B1EB1F57900295A89 /* Info.plist */,
@@ -228,8 +233,60 @@
 			isa = PBXGroup;
 			children = (
 				F3211EEC1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift */,
+				F32279E51EC22A8800EC9E08 /* StringChecker.swift */,
 			);
 			name = DefaultsValues;
+			sourceTree = "<group>";
+		};
+		F32279E71EC242AF00EC9E08 /* AlertData */ = {
+			isa = PBXGroup;
+			children = (
+				F32279E81EC242C800EC9E08 /* Alert.swift */,
+			);
+			name = AlertData;
+			sourceTree = "<group>";
+		};
+		F32279EA1EC26B1200EC9E08 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				F30E54481EB357AB0069FD83 /* UserPage.swift */,
+			);
+			name = First;
+			sourceTree = "<group>";
+		};
+		F32279EB1EC26B2E00EC9E08 /* Trainings */ = {
+			isa = PBXGroup;
+			children = (
+				F30E544A1EB357CE0069FD83 /* TrainingPage.swift */,
+				F32279EF1EC26B9100EC9E08 /* TrainingsList.swift */,
+				F32279EE1EC26B5700EC9E08 /* Exercise */,
+			);
+			name = Trainings;
+			sourceTree = "<group>";
+		};
+		F32279EC1EC26B3600EC9E08 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				F30E54501EB358860069FD83 /* GraphPage.swift */,
+			);
+			name = Statistics;
+			sourceTree = "<group>";
+		};
+		F32279ED1EC26B4100EC9E08 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F30E544E1EB358380069FD83 /* SettingsPage.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		F32279EE1EC26B5700EC9E08 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				F3211EE41EBB319600007AD9 /* ExercisesList.swift */,
+				F33E7C461EBC96E300F6DD88 /* TheExercise.swift */,
+			);
+			name = Exercise;
 			sourceTree = "<group>";
 		};
 		F3B42F801EB1F57900295A89 = {
@@ -604,10 +661,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32279E91EC242C800EC9E08 /* Alert.swift in Sources */,
+				F32279F01EC26B9100EC9E08 /* TrainingsList.swift in Sources */,
 				F3211EE81EBB442200007AD9 /* TrainingCell.swift in Sources */,
 				F30E54511EB358860069FD83 /* GraphPage.swift in Sources */,
 				F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */,
 				F30E544B1EB357CE0069FD83 /* TrainingPage.swift in Sources */,
+				F32279E61EC22A8800EC9E08 /* StringChecker.swift in Sources */,
 				F3C16CE41EBA3CF10007CB71 /* ExerciseCDClass.swift in Sources */,
 				F33E7C471EBC96E300F6DD88 /* TheExercise.swift in Sources */,
 				F3C16CC41EBA24C50007CB71 /* CoreDataHelper.swift in Sources */,

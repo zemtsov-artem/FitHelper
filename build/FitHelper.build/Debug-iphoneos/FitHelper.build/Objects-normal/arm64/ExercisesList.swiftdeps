@@ -14,6 +14,7 @@ provides-dynamic-lookup:
 - "viewDidAppear"
 - "viewDidLoad"
 depends-top-level:
+- !private "+"
 - !private "=="
 - !private "Array"
 - "AssignmentPrecedence"
@@ -37,7 +38,6 @@ depends-top-level:
 - "UITableViewController"
 - !private "_ImageLiteralType"
 - !private "print"
-- !private "showExercise"
 depends-member:
 - !private ["Ps9AnyObject", "CoreDataHelper"]
 - !private ["Ps9AnyObject", "Exercise"]
@@ -45,7 +45,6 @@ depends-member:
 - !private ["Ps9AnyObject", "UIFont"]
 - !private ["Ps9AnyObject", "UIFontTextStyle"]
 - !private ["Ps9AnyObject", "allExercises"]
-- !private ["Ps9AnyObject", "allObjectsFromContext"]
 - !private ["Ps9AnyObject", "backBarButtonItem"]
 - !private ["Ps9AnyObject", "context"]
 - !private ["Ps9AnyObject", "currentExercise"]
@@ -69,7 +68,6 @@ depends-member:
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "reloadData"]
 - !private ["Ps9AnyObject", "save"]
-- !private ["Ps9AnyObject", "showExercise"]
 - !private ["Ps9AnyObject", "tableView"]
 - !private ["Ps9AnyObject", "text"]
 - !private ["Ps9AnyObject", "textLabel"]
@@ -102,7 +100,6 @@ depends-member:
 - !private ["Ps7CVarArg", "UIFont"]
 - !private ["Ps7CVarArg", "UIFontTextStyle"]
 - !private ["Ps7CVarArg", "allExercises"]
-- !private ["Ps7CVarArg", "allObjectsFromContext"]
 - !private ["Ps7CVarArg", "backBarButtonItem"]
 - !private ["Ps7CVarArg", "context"]
 - !private ["Ps7CVarArg", "count"]
@@ -128,7 +125,6 @@ depends-member:
 - !private ["Ps7CVarArg", "print"]
 - !private ["Ps7CVarArg", "reloadData"]
 - !private ["Ps7CVarArg", "save"]
-- !private ["Ps7CVarArg", "showExercise"]
 - !private ["Ps7CVarArg", "subscript"]
 - !private ["Ps7CVarArg", "tableView"]
 - !private ["Ps7CVarArg", "text"]
@@ -144,7 +140,6 @@ depends-member:
 - !private ["Ps10Comparable", "headline"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps10Comparable", "row"]
-- !private ["C9FitHelper14CoreDataHelper", "allObjectsFromContext"]
 - !private ["C9FitHelper14CoreDataHelper", "context"]
 - !private ["C9FitHelper14CoreDataHelper", "instance"]
 - !private ["C9FitHelper14CoreDataHelper", "save"]
@@ -154,7 +149,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "UIFont"]
 - !private ["Ps28CustomDebugStringConvertible", "UIFontTextStyle"]
 - !private ["Ps28CustomDebugStringConvertible", "allExercises"]
-- !private ["Ps28CustomDebugStringConvertible", "allObjectsFromContext"]
 - !private ["Ps28CustomDebugStringConvertible", "backBarButtonItem"]
 - !private ["Ps28CustomDebugStringConvertible", "context"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
@@ -181,7 +175,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "reloadData"]
 - !private ["Ps28CustomDebugStringConvertible", "row"]
 - !private ["Ps28CustomDebugStringConvertible", "save"]
-- !private ["Ps28CustomDebugStringConvertible", "showExercise"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "tableView"]
 - !private ["Ps28CustomDebugStringConvertible", "text"]
@@ -205,7 +198,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "UIFontTextStyle"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "allExercises"]
-- !private ["Ps23CustomStringConvertible", "allObjectsFromContext"]
 - !private ["Ps23CustomStringConvertible", "backBarButtonItem"]
 - !private ["Ps23CustomStringConvertible", "context"]
 - !private ["Ps23CustomStringConvertible", "count"]
@@ -232,7 +224,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "reloadData"]
 - !private ["Ps23CustomStringConvertible", "row"]
 - !private ["Ps23CustomStringConvertible", "save"]
-- !private ["Ps23CustomStringConvertible", "showExercise"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Ps23CustomStringConvertible", "tableView"]
 - !private ["Ps23CustomStringConvertible", "text"]
@@ -248,7 +239,6 @@ depends-member:
 - !private ["Ps9Equatable", "UIFontTextStyle"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "allExercises"]
-- !private ["Ps9Equatable", "allObjectsFromContext"]
 - !private ["Ps9Equatable", "automatic"]
 - !private ["Ps9Equatable", "backBarButtonItem"]
 - !private ["Ps9Equatable", "context"]
@@ -275,7 +265,6 @@ depends-member:
 - !private ["Ps9Equatable", "reloadData"]
 - !private ["Ps9Equatable", "row"]
 - !private ["Ps9Equatable", "save"]
-- !private ["Ps9Equatable", "showExercise"]
 - !private ["Ps9Equatable", "tableView"]
 - !private ["Ps9Equatable", "text"]
 - !private ["Ps9Equatable", "textLabel"]
@@ -313,7 +302,6 @@ depends-member:
 - ["C9FitHelper13ExercisesList", "numberOfSections"]
 - ["C9FitHelper13ExercisesList", "prepare"]
 - !private ["C9FitHelper13ExercisesList", "print"]
-- !private ["C9FitHelper13ExercisesList", "showExercise"]
 - ["C9FitHelper13ExercisesList", "tableView"]
 - ["C9FitHelper13ExercisesList", "viewDidAppear"]
 - ["C9FitHelper13ExercisesList", "viewDidLoad"]
@@ -332,7 +320,6 @@ depends-member:
 - !private ["Ps8Hashable", "UIFontTextStyle"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "allExercises"]
-- !private ["Ps8Hashable", "allObjectsFromContext"]
 - !private ["Ps8Hashable", "automatic"]
 - !private ["Ps8Hashable", "backBarButtonItem"]
 - !private ["Ps8Hashable", "context"]
@@ -359,7 +346,6 @@ depends-member:
 - !private ["Ps8Hashable", "reloadData"]
 - !private ["Ps8Hashable", "row"]
 - !private ["Ps8Hashable", "save"]
-- !private ["Ps8Hashable", "showExercise"]
 - !private ["Ps8Hashable", "tableView"]
 - !private ["Ps8Hashable", "text"]
 - !private ["Ps8Hashable", "textLabel"]
@@ -397,7 +383,6 @@ depends-member:
 - !private ["PSo8NSCoding", "navigationItem"]
 - !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "reloadData"]
-- !private ["PSo8NSCoding", "showExercise"]
 - !private ["PSo8NSCoding", "tableView"]
 - !private ["PSo8NSCoding", "text"]
 - !private ["PSo8NSCoding", "textLabel"]
@@ -419,7 +404,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "init"]
 - !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
-- !private ["PSo26NSExtensionRequestHandling", "showExercise"]
 - !private ["PSo26NSExtensionRequestHandling", "tableView"]
 - !private ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
 - !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
@@ -450,7 +434,6 @@ depends-member:
 - ["CSo8NSObject", "UITableViewCell"]
 - ["CSo8NSObject", "UITableViewCellEditingStyle"]
 - !private ["CSo8NSObject", "allExercises"]
-- !private ["CSo8NSObject", "allObjectsFromContext"]
 - !private ["CSo8NSObject", "backBarButtonItem"]
 - !private ["CSo8NSObject", "context"]
 - !private ["CSo8NSObject", "currentExercise"]
@@ -476,7 +459,6 @@ depends-member:
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "reloadData"]
 - !private ["CSo8NSObject", "save"]
-- !private ["CSo8NSObject", "showExercise"]
 - ["CSo8NSObject", "tableView"]
 - !private ["CSo8NSObject", "text"]
 - !private ["CSo8NSObject", "textLabel"]
@@ -489,7 +471,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UIFont"]
 - !private ["PSo16NSObjectProtocol", "UIFontTextStyle"]
 - !private ["PSo16NSObjectProtocol", "allExercises"]
-- !private ["PSo16NSObjectProtocol", "allObjectsFromContext"]
 - !private ["PSo16NSObjectProtocol", "backBarButtonItem"]
 - !private ["PSo16NSObjectProtocol", "context"]
 - !private ["PSo16NSObjectProtocol", "currentExercise"]
@@ -513,7 +494,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "reloadData"]
 - !private ["PSo16NSObjectProtocol", "save"]
-- !private ["PSo16NSObjectProtocol", "showExercise"]
 - !private ["PSo16NSObjectProtocol", "tableView"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - !private ["PSo16NSObjectProtocol", "textLabel"]
@@ -543,6 +523,7 @@ depends-member:
 - !private ["Ps20TextOutputStreamable", "init"]
 - !private ["C9FitHelper11TheExercise", "currentExercise"]
 - !private ["C9FitHelper11TheExercise", "image"]
+- !private ["C9FitHelper11TheExercise", "navigationItem"]
 - !private ["PSo29UIAccessibilityIdentification", "deleteRows"]
 - !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCell"]
 - !private ["PSo29UIAccessibilityIdentification", "exerciseImage"]
@@ -589,7 +570,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "navigationItem"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "reloadData"]
-- !private ["PSo21UIAppearanceContainer", "showExercise"]
 - !private ["PSo21UIAppearanceContainer", "tableView"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - !private ["PSo21UIAppearanceContainer", "textLabel"]
@@ -612,7 +592,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "init"]
 - !private ["PSo18UIContentContainer", "navigationItem"]
 - !private ["PSo18UIContentContainer", "print"]
-- !private ["PSo18UIContentContainer", "showExercise"]
 - !private ["PSo18UIContentContainer", "tableView"]
 - !private ["PSo18UIContentContainer", "viewDidAppear"]
 - !private ["PSo18UIContentContainer", "viewDidLoad"]
@@ -661,7 +640,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "navigationItem"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - !private ["PSo18UIFocusEnvironment", "reloadData"]
-- !private ["PSo18UIFocusEnvironment", "showExercise"]
 - !private ["PSo18UIFocusEnvironment", "tableView"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - !private ["PSo18UIFocusEnvironment", "textLabel"]
@@ -689,6 +667,7 @@ depends-member:
 - !private ["CSo7UILabel", "font"]
 - !private ["CSo7UILabel", "text"]
 - !private ["CSo16UINavigationItem", "backBarButtonItem"]
+- !private ["CSo16UINavigationItem", "title"]
 - ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "CoreDataHelper"]
 - ["CSo11UIResponder", "Exercise"]
@@ -720,7 +699,6 @@ depends-member:
 - ["CSo11UIResponder", "prepare"]
 - !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "reloadData"]
-- !private ["CSo11UIResponder", "showExercise"]
 - ["CSo11UIResponder", "tableView"]
 - !private ["CSo11UIResponder", "text"]
 - !private ["CSo11UIResponder", "textLabel"]
@@ -746,7 +724,6 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "navigationItem"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
 - !private ["PSo30UIResponderStandardEditActions", "reloadData"]
-- !private ["PSo30UIResponderStandardEditActions", "showExercise"]
 - !private ["PSo30UIResponderStandardEditActions", "tableView"]
 - !private ["PSo30UIResponderStandardEditActions", "text"]
 - !private ["PSo30UIResponderStandardEditActions", "textLabel"]
@@ -767,7 +744,6 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "init"]
 - !private ["PSo20UIScrollViewDelegate", "navigationItem"]
 - !private ["PSo20UIScrollViewDelegate", "print"]
-- !private ["PSo20UIScrollViewDelegate", "showExercise"]
 - !private ["PSo20UIScrollViewDelegate", "tableView"]
 - !private ["PSo20UIScrollViewDelegate", "viewDidAppear"]
 - !private ["PSo20UIScrollViewDelegate", "viewDidLoad"]
@@ -784,7 +760,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "init"]
 - !private ["PSo16UIStateRestoring", "navigationItem"]
 - !private ["PSo16UIStateRestoring", "print"]
-- !private ["PSo16UIStateRestoring", "showExercise"]
 - !private ["PSo16UIStateRestoring", "tableView"]
 - !private ["PSo16UIStateRestoring", "viewDidAppear"]
 - !private ["PSo16UIStateRestoring", "viewDidLoad"]
@@ -821,7 +796,6 @@ depends-member:
 - ["CSo21UITableViewController", "numberOfSections"]
 - ["CSo21UITableViewController", "prepare"]
 - !private ["CSo21UITableViewController", "print"]
-- !private ["CSo21UITableViewController", "showExercise"]
 - ["CSo21UITableViewController", "tableView"]
 - ["CSo21UITableViewController", "viewDidAppear"]
 - ["CSo21UITableViewController", "viewDidLoad"]
@@ -836,7 +810,6 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "init"]
 - !private ["PSo21UITableViewDataSource", "navigationItem"]
 - !private ["PSo21UITableViewDataSource", "print"]
-- !private ["PSo21UITableViewDataSource", "showExercise"]
 - !private ["PSo21UITableViewDataSource", "tableView"]
 - !private ["PSo21UITableViewDataSource", "viewDidAppear"]
 - !private ["PSo21UITableViewDataSource", "viewDidLoad"]
@@ -851,14 +824,11 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "init"]
 - !private ["PSo19UITableViewDelegate", "navigationItem"]
 - !private ["PSo19UITableViewDelegate", "print"]
-- !private ["PSo19UITableViewDelegate", "showExercise"]
 - !private ["PSo19UITableViewDelegate", "tableView"]
 - !private ["PSo19UITableViewDelegate", "viewDidAppear"]
 - !private ["PSo19UITableViewDelegate", "viewDidLoad"]
 - ["PSo19UITableViewDelegate", ""]
 - !private ["OSC23UITableViewRowAnimation", "automatic"]
-- !private ["PSo19UITextFieldDelegate", "currentExercise"]
-- !private ["PSo19UITextFieldDelegate", "image"]
 - !private ["PSo18UITraitEnvironment", "CoreDataHelper"]
 - !private ["PSo18UITraitEnvironment", "Exercise"]
 - !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
@@ -879,7 +849,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "navigationItem"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "reloadData"]
-- !private ["PSo18UITraitEnvironment", "showExercise"]
 - !private ["PSo18UITraitEnvironment", "tableView"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - !private ["PSo18UITraitEnvironment", "textLabel"]
@@ -920,7 +889,6 @@ depends-member:
 - ["CSo16UIViewController", "numberOfSections"]
 - ["CSo16UIViewController", "prepare"]
 - !private ["CSo16UIViewController", "print"]
-- !private ["CSo16UIViewController", "showExercise"]
 - ["CSo16UIViewController", "tableView"]
 - ["CSo16UIViewController", "viewDidAppear"]
 - ["CSo16UIViewController", "viewDidLoad"]
@@ -959,7 +927,6 @@ depends-member:
 - !private ["Ps9_Hashable", "UIFontTextStyle"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps9_Hashable", "allExercises"]
-- !private ["Ps9_Hashable", "allObjectsFromContext"]
 - !private ["Ps9_Hashable", "automatic"]
 - !private ["Ps9_Hashable", "backBarButtonItem"]
 - !private ["Ps9_Hashable", "context"]
@@ -986,7 +953,6 @@ depends-member:
 - !private ["Ps9_Hashable", "reloadData"]
 - !private ["Ps9_Hashable", "row"]
 - !private ["Ps9_Hashable", "save"]
-- !private ["Ps9_Hashable", "showExercise"]
 - !private ["Ps9_Hashable", "tableView"]
 - !private ["Ps9_Hashable", "text"]
 - !private ["Ps9_Hashable", "textLabel"]
@@ -1100,7 +1066,6 @@ depends-nominal:
 - "PSo21UITableViewDataSource"
 - "PSo19UITableViewDelegate"
 - !private "OSC23UITableViewRowAnimation"
-- !private "PSo19UITextFieldDelegate"
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
@@ -1133,6 +1098,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
@@ -1140,6 +1106,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
