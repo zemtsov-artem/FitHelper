@@ -34,7 +34,6 @@ class ExercisesList: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //return exercisesData.count
         return Exercise.allExercises().count
     }
     
@@ -44,17 +43,19 @@ class ExercisesList: UITableViewController {
         cell.textLabel?.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
         //Exercise data
         cell.exerciseName?.text = exercisesData[indexPath.row].exerciseName
-        cell.muscleGroup?.text = exercisesData[indexPath.row].muscleGroup
+        cell.muscleGroup?.text = "Группа мыщц: " + exercisesData[indexPath.row].muscleGroup!
         //Here i can add image check
         cell.exerciseImage?.image = #imageLiteral(resourceName: "Good")
         return cell
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
         if let destination = segue.destination as? TheExercise {
             let backItem = UIBarButtonItem()
             backItem.title = "Список упражнений"
             navigationItem.backBarButtonItem = backItem
+            
             if segue.identifier == "fromListToExercise"{
                 if let path = tableView.indexPathForSelectedRow {
                     destination.currentExercise = exercisesData[path.row]
@@ -62,20 +63,17 @@ class ExercisesList: UITableViewController {
                 }
             }else{
                 if segue.identifier == "addExercise"{
-                    var _:Exercise = Exercise( name: "",
-                                                    specification:"",
+                    var _:Exercise = Exercise( name: "Название упражнения",
+                                                    specification:"Описание",
                                                     weigth: 0,
                                                     interval: 0,
-                                                    muscleGroup: "",
+                                                    muscleGroup: "Мышечная группа",
                                                     repeateNumber: 0,
                                                     series:0
                     )
                     CoreDataHelper.instance.save()
-                    print ("AFTER")
-                    for iter in Exercise.allExercises(){
-                        showExercise(exercise: iter)
-                    }
-                    //something to fix
+                    destination.navigationItem.title = "Новое упражнение"
+                    
                     destination.currentExercise = Exercise.allExercises().last
                     destination.image = #imageLiteral(resourceName: "Good")
                 }
@@ -86,12 +84,11 @@ class ExercisesList: UITableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
-            //myData.remove(at: indexPath.row)
-            print (CoreDataHelper.instance.allObjectsFromContext().count )
+            // delete data from core data
             CoreDataHelper.instance.context.delete(exercisesData[indexPath.row])
             CoreDataHelper.instance.save()
-            print (CoreDataHelper.instance.allObjectsFromContext().count )
-            //tableView.deleteRows(at: [indexPath], with: .fade)
+            //reload class data
+            exercisesData = Exercise.allExercises()
             tableView.deleteRows(at: [indexPath], with: .automatic)
             
         }

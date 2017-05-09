@@ -31,6 +31,65 @@
             </objects>
             <point key="canvasLocation" x="233" y="-310"/>
         </scene>
+        <!--Тренировки-->
+        <scene sceneID="Gxp-HH-EdG">
+            <objects>
+                <tableViewController id="3Uh-p2-vDC" customClass="TrainingsList" customModule="FitHelper" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="N3t-wl-MJI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="81P-y0-zSg">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="3Uh-p2-vDC" id="uIm-Jy-WPR"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="rPf-gA-AfL">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rPf-gA-AfL" id="Aks-da-5Gq">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="56y-qu-7Bi" kind="show" identifier="openExistTraining" id="Qm7-h5-nWr"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3Uh-p2-vDC" id="8AT-Fr-V3a"/>
+                            <outlet property="delegate" destination="3Uh-p2-vDC" id="DKC-Fl-G58"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Тренировки" id="YwF-Kk-hHT">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="A1X-5i-piI"/>
+                        <barButtonItem key="rightBarButtonItem" title="Добавить" id="abq-aO-XuG">
+                            <connections>
+                                <segue destination="56y-qu-7Bi" kind="show" identifier="createNewTraining" id="fb7-fE-JN9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="YJs-0e-E1t" id="4Hr-FA-AfK"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Otq-hX-tJS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="YJs-0e-E1t">
+                    <connections>
+                        <outlet property="delegate" destination="3Uh-p2-vDC" id="y7O-XY-Jrp"/>
+                        <outlet property="searchBar" destination="81P-y0-zSg" id="bJT-As-L4i"/>
+                        <outlet property="searchContentsController" destination="3Uh-p2-vDC" id="BZQ-Mh-7Tq"/>
+                        <outlet property="searchResultsDataSource" destination="3Uh-p2-vDC" id="J1A-93-4Vo"/>
+                        <outlet property="searchResultsDelegate" destination="3Uh-p2-vDC" id="YHK-fr-UPj"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="-817" y="1416"/>
+        </scene>
         <!--Упражнения-->
         <scene sceneID="8rZ-bL-u09">
             <objects>
@@ -39,9 +98,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="wBx-PG-EWE">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="Xjz-mt-2jA" id="Coz-fN-Zxg"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ExerciseCell" rowHeight="96" id="hhc-h4-fqZ" customClass="ExerciseCell" customModule="FitHelper" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="96"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="96"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hhc-h4-fqZ" id="3lf-4x-ydX">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
@@ -57,7 +124,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W0F-60-0gY">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W0F-60-0gY">
                                             <rect key="frame" x="317" y="12" width="50" height="50"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="50" id="6ql-f5-Exa"/>
@@ -65,20 +132,20 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muscle group" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1H-uS-mAy">
-                                            <rect key="frame" x="19" y="49" width="114" height="20.5"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
+                                            <rect key="frame" x="19" y="49" width="290" height="16"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.15598868110312064" green="0.21361785239361697" blue="0.19937236829590227" alpha="0.9846316149635036" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="z1H-uS-mAy" firstAttribute="top" secondItem="4Da-Mv-uDQ" secondAttribute="bottom" constant="3" id="F8U-uH-wFB"/>
                                         <constraint firstItem="4Da-Mv-uDQ" firstAttribute="top" secondItem="3lf-4x-ydX" secondAttribute="topMargin" constant="4" id="bez-j9-P1Y"/>
-                                        <constraint firstItem="W0F-60-0gY" firstAttribute="top" secondItem="3lf-4x-ydX" secondAttribute="topMargin" constant="9" id="bfl-kr-27Q"/>
+                                        <constraint firstItem="W0F-60-0gY" firstAttribute="top" secondItem="3lf-4x-ydX" secondAttribute="topMargin" constant="4" id="bfl-kr-27Q"/>
                                         <constraint firstItem="4Da-Mv-uDQ" firstAttribute="leading" secondItem="z1H-uS-mAy" secondAttribute="leading" id="h0b-Zw-41t"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="W0F-60-0gY" secondAttribute="trailing" id="iB7-oH-3Pv"/>
                                         <constraint firstItem="4Da-Mv-uDQ" firstAttribute="leading" secondItem="3lf-4x-ydX" secondAttribute="leadingMargin" constant="11" id="sGL-Yw-9D8"/>
-                                        <constraint firstItem="4Da-Mv-uDQ" firstAttribute="trailing" secondItem="z1H-uS-mAy" secondAttribute="trailing" constant="180" id="vBn-Pe-4Qx"/>
+                                        <constraint firstItem="4Da-Mv-uDQ" firstAttribute="trailing" secondItem="z1H-uS-mAy" secondAttribute="trailing" constant="4" id="vBn-Pe-4Qx"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -95,21 +162,34 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Упражнения" id="dFl-in-mPi">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="IHi-az-Sdw"/>
                         <barButtonItem key="rightBarButtonItem" title="Добавить" id="P45-3f-OXV">
                             <connections>
                                 <segue destination="4eh-ap-l86" kind="show" identifier="addExercise" id="0dY-fo-BtA"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="mLi-TH-uBs" id="5mM-rQ-tDX"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6DF-hb-dCQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="mLi-TH-uBs">
+                    <connections>
+                        <outlet property="delegate" destination="Xjz-mt-2jA" id="Q2c-uy-0xf"/>
+                        <outlet property="searchBar" destination="wBx-PG-EWE" id="rjW-HO-hE5"/>
+                        <outlet property="searchContentsController" destination="Xjz-mt-2jA" id="2ev-FW-YvQ"/>
+                        <outlet property="searchResultsDataSource" destination="Xjz-mt-2jA" id="TPH-mu-xdW"/>
+                        <outlet property="searchResultsDelegate" destination="Xjz-mt-2jA" id="t4t-8T-vzn"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-124" y="2232.2338830584708"/>
+            <point key="canvasLocation" x="-818" y="2138"/>
         </scene>
-        <!--The Exercise-->
+        <!--Title-->
         <scene sceneID="P94-p6-vh0">
             <objects>
-                <viewController storyboardIdentifier="theExercise" id="4eh-ap-l86" customClass="TheExercise" customModule="FitHelper" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="theExercise" title="Title" id="4eh-ap-l86" customClass="TheExercise" customModule="FitHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HwK-3x-Bk6"/>
                         <viewControllerLayoutGuide type="bottom" id="K4s-Ue-st8"/>
@@ -126,7 +206,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дополнительно" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGU-Dr-RwO">
-                                <rect key="frame" x="16" y="448" width="125" height="21"/>
+                                <rect key="frame" x="16" y="368" width="125" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="JNg-Mf-MOD"/>
                                     <constraint firstAttribute="height" constant="21" id="bvf-WF-yMO"/>
@@ -144,15 +224,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Название упражнения" translatesAutoresizingMaskIntoConstraints="NO" id="wrA-hx-hRT">
-                                <rect key="frame" x="124" y="95" width="235" height="77"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="77" id="1yD-xN-YTD"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вес" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBt-n1-A69">
                                 <rect key="frame" x="16" y="190" width="54" height="20"/>
                                 <constraints>
@@ -174,7 +245,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Подходы" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBZ-p5-cZo">
-                                <rect key="frame" x="16" y="370" width="72" height="21"/>
+                                <rect key="frame" x="151" y="189" width="72" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="Eud-uU-4kX"/>
                                     <constraint firstAttribute="height" constant="21" id="nCa-Eq-6aX"/>
@@ -183,86 +254,114 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Название упражнения" translatesAutoresizingMaskIntoConstraints="NO" id="wrA-hx-hRT">
+                                <rect key="frame" x="124" y="95" width="235" height="77"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="1yD-xN-YTD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Пример : 4                    " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mfb-vc-Dji">
-                                <rect key="frame" x="16" y="400" width="116" height="51"/>
+                                <rect key="frame" x="151" y="220" width="116" height="33"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="116" id="ANL-jj-mQD"/>
-                                    <constraint firstAttribute="height" constant="51" id="Oa0-RX-MEO"/>
+                                    <constraint firstAttribute="height" constant="33" id="Oa0-RX-MEO"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="numberPad"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Пример : 80                             " translatesAutoresizingMaskIntoConstraints="NO" id="C7N-Hd-Byy">
-                                <rect key="frame" x="16" y="220" width="116" height="50"/>
+                                <rect key="frame" x="16" y="220" width="116" height="33"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="116" id="A99-7n-9nm"/>
-                                    <constraint firstAttribute="height" constant="50" id="vE4-zv-Cju"/>
+                                    <constraint firstAttribute="height" constant="33" id="vE4-zv-Cju"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="numberPad"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Пример : 20                " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SJI-7U-H77">
-                                <rect key="frame" x="16" y="310" width="116" height="50"/>
+                                <rect key="frame" x="16" y="310" width="116" height="33"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="hI8-AT-DSi"/>
+                                    <constraint firstAttribute="height" constant="33" id="hI8-AT-DSi"/>
                                     <constraint firstAttribute="width" constant="116" id="ld9-tQ-rhC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="numberPad"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Дополнительное описание упражнения" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s6J-Te-5hu">
-                                <rect key="frame" x="16" y="477" width="343" height="146"/>
+                                <rect key="frame" x="16" y="397" width="343" height="146"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y7T-ON-Sda">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="iE0-AX-nEp">
-                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="j1Z-iy-YGd"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Интервал" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEj-Pi-hUI">
+                                <rect key="frame" x="151" y="280" width="77.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Пример : 20                " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kD8-OS-CUI">
+                                <rect key="frame" x="151" y="310" width="96" height="33"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="OOW-aE-1Sm"/>
+                                    <constraint firstAttribute="width" constant="96" id="aZh-yF-Tqa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="numberPad"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VaV-wB-hxb" firstAttribute="leading" secondItem="PzQ-p4-WjB" secondAttribute="leadingMargin" id="1dw-uF-XRV"/>
                             <constraint firstItem="s6J-Te-5hu" firstAttribute="top" secondItem="rGU-Dr-RwO" secondAttribute="bottom" constant="8" id="7yA-r2-CuS"/>
-                            <constraint firstItem="abk-ZQ-OKH" firstAttribute="top" secondItem="C7N-Hd-Byy" secondAttribute="bottom" constant="10" id="9g2-6n-jbf"/>
-                            <constraint firstItem="rGU-Dr-RwO" firstAttribute="leading" secondItem="mfb-vc-Dji" secondAttribute="leading" id="Bo4-KX-RVS"/>
+                            <constraint firstItem="abk-ZQ-OKH" firstAttribute="top" secondItem="C7N-Hd-Byy" secondAttribute="bottom" constant="27" id="9g2-6n-jbf"/>
+                            <constraint firstItem="rGU-Dr-RwO" firstAttribute="leading" secondItem="mfb-vc-Dji" secondAttribute="leading" constant="-135" id="Bo4-KX-RVS"/>
                             <constraint firstItem="s6J-Te-5hu" firstAttribute="leading" secondItem="PzQ-p4-WjB" secondAttribute="leadingMargin" id="CFv-sf-8r3"/>
                             <constraint firstItem="bIY-zt-ya5" firstAttribute="leading" secondItem="VaV-wB-hxb" secondAttribute="trailing" constant="8" id="GnJ-XO-Pog"/>
-                            <constraint firstItem="mfb-vc-Dji" firstAttribute="top" secondItem="ZBZ-p5-cZo" secondAttribute="bottom" constant="9" id="J01-Zb-eDc"/>
+                            <constraint firstItem="mfb-vc-Dji" firstAttribute="top" secondItem="ZBZ-p5-cZo" secondAttribute="bottom" constant="10" id="J01-Zb-eDc"/>
                             <constraint firstItem="abk-ZQ-OKH" firstAttribute="leading" secondItem="PzQ-p4-WjB" secondAttribute="leadingMargin" id="JbH-WN-IYY"/>
                             <constraint firstItem="C7N-Hd-Byy" firstAttribute="leading" secondItem="PzQ-p4-WjB" secondAttribute="leadingMargin" id="Kd5-Pp-kyS"/>
                             <constraint firstItem="wrA-hx-hRT" firstAttribute="bottom" secondItem="VaV-wB-hxb" secondAttribute="bottom" id="KtG-se-Gkf"/>
-                            <constraint firstItem="rGU-Dr-RwO" firstAttribute="top" secondItem="mfb-vc-Dji" secondAttribute="bottom" constant="-3" id="SjM-Kh-cR3"/>
+                            <constraint firstItem="rGU-Dr-RwO" firstAttribute="top" secondItem="mfb-vc-Dji" secondAttribute="bottom" constant="115" id="SjM-Kh-cR3"/>
                             <constraint firstItem="SJI-7U-H77" firstAttribute="leading" secondItem="PzQ-p4-WjB" secondAttribute="leadingMargin" id="UwH-Wg-Mo9"/>
                             <constraint firstItem="bIY-zt-ya5" firstAttribute="top" secondItem="HwK-3x-Bk6" secondAttribute="bottom" constant="8" id="ZqH-lL-Gqb"/>
+                            <constraint firstItem="kD8-OS-CUI" firstAttribute="top" secondItem="SJI-7U-H77" secondAttribute="top" id="Zz1-Sn-u64"/>
                             <constraint firstItem="VaV-wB-hxb" firstAttribute="top" secondItem="HwK-3x-Bk6" secondAttribute="bottom" constant="8" id="cA4-IM-JE5"/>
                             <constraint firstItem="C7N-Hd-Byy" firstAttribute="top" secondItem="oBt-n1-A69" secondAttribute="bottom" constant="10" id="cSI-fH-wnW"/>
                             <constraint firstItem="oBt-n1-A69" firstAttribute="top" secondItem="VaV-wB-hxb" secondAttribute="bottom" constant="18" id="dU8-i7-D4g"/>
-                            <constraint firstItem="mfb-vc-Dji" firstAttribute="leading" secondItem="PzQ-p4-WjB" secondAttribute="leadingMargin" id="dqS-ar-GvH"/>
-                            <constraint firstItem="ZBZ-p5-cZo" firstAttribute="leading" secondItem="PzQ-p4-WjB" secondAttribute="leadingMargin" id="eR5-FI-bDZ"/>
+                            <constraint firstItem="mfb-vc-Dji" firstAttribute="leading" secondItem="PzQ-p4-WjB" secondAttribute="leadingMargin" constant="135" id="dqS-ar-GvH"/>
+                            <constraint firstItem="kD8-OS-CUI" firstAttribute="leading" secondItem="mfb-vc-Dji" secondAttribute="leading" id="eCG-n7-muy"/>
+                            <constraint firstItem="ZBZ-p5-cZo" firstAttribute="leading" secondItem="PzQ-p4-WjB" secondAttribute="leadingMargin" constant="135" id="eR5-FI-bDZ"/>
                             <constraint firstItem="wrA-hx-hRT" firstAttribute="trailing" secondItem="PzQ-p4-WjB" secondAttribute="trailingMargin" id="fjL-yq-Igd"/>
                             <constraint firstItem="s6J-Te-5hu" firstAttribute="trailing" secondItem="PzQ-p4-WjB" secondAttribute="trailingMargin" id="hZI-u8-kiV"/>
                             <constraint firstAttribute="trailing" secondItem="bIY-zt-ya5" secondAttribute="trailing" constant="8" id="kJH-HO-wwq"/>
                             <constraint firstItem="oBt-n1-A69" firstAttribute="leading" secondItem="PzQ-p4-WjB" secondAttribute="leadingMargin" id="ldR-rJ-mDH"/>
                             <constraint firstItem="wrA-hx-hRT" firstAttribute="leading" secondItem="VaV-wB-hxb" secondAttribute="trailing" constant="8" id="nYC-0H-qZp"/>
-                            <constraint firstItem="K4s-Ue-st8" firstAttribute="top" secondItem="s6J-Te-5hu" secondAttribute="bottom" id="pgx-ov-Hi6"/>
-                            <constraint firstItem="ZBZ-p5-cZo" firstAttribute="top" secondItem="SJI-7U-H77" secondAttribute="bottom" constant="10" id="quT-2U-aHd"/>
+                            <constraint firstItem="K4s-Ue-st8" firstAttribute="top" secondItem="s6J-Te-5hu" secondAttribute="bottom" constant="80" id="pgx-ov-Hi6"/>
+                            <constraint firstItem="ZBZ-p5-cZo" firstAttribute="top" secondItem="SJI-7U-H77" secondAttribute="bottom" constant="-154" id="quT-2U-aHd"/>
+                            <constraint firstItem="kD8-OS-CUI" firstAttribute="leading" secondItem="lEj-Pi-hUI" secondAttribute="leading" id="rkD-EZ-uSK"/>
+                            <constraint firstItem="kD8-OS-CUI" firstAttribute="top" secondItem="lEj-Pi-hUI" secondAttribute="bottom" constant="9" id="w6P-Hm-PJq"/>
                             <constraint firstItem="SJI-7U-H77" firstAttribute="top" secondItem="abk-ZQ-OKH" secondAttribute="bottom" constant="9" id="yrJ-9e-VAM"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Упражнение" id="zoN-eS-AAw">
+                        <barButtonItem key="rightBarButtonItem" title="Сохранить" id="y6e-Vk-Gf1">
+                            <connections>
+                                <action selector="saveIsClicked:" destination="4eh-ap-l86" id="H6g-z9-1SK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="exerciseImage" destination="VaV-wB-hxb" id="26t-Rk-80h"/>
+                        <outlet property="exerciseInterval" destination="kD8-OS-CUI" id="W7s-Nv-HDI"/>
                         <outlet property="exerciseName" destination="wrA-hx-hRT" id="FSx-Zq-sy5"/>
                         <outlet property="exerciseRepeteNumber" destination="SJI-7U-H77" id="Sar-uW-uB8"/>
                         <outlet property="exerciseSeries" destination="mfb-vc-Dji" id="kTM-b6-rbx"/>
@@ -272,9 +371,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Asm-Ss-dKX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="704.79999999999995" y="2230.434782608696"/>
+            <point key="canvasLocation" x="-58" y="2138"/>
         </scene>
-        <!--Main Page-->
+        <!--Спортсмен-->
         <scene sceneID="Crb-xK-fcp">
             <objects>
                 <viewController id="ziU-yX-sfj" customClass="UserPage" customModule="FitHelper" customModuleProvider="target" sceneMemberID="viewController">
@@ -287,7 +386,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Main Page" image="AddIMG" id="cMo-ZW-mxy" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                    <tabBarItem key="tabBarItem" title="Спортсмен" image="AddIMG" id="cMo-ZW-mxy" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <connections>
                             <outlet property="animation" destination="Gqo-CA-L48" id="qCu-DU-MZj"/>
                         </connections>
@@ -298,7 +397,7 @@
             </objects>
             <point key="canvasLocation" x="-785" y="652"/>
         </scene>
-        <!--Training Page-->
+        <!--Тренировка-->
         <scene sceneID="Ur5-iF-W9c">
             <objects>
                 <viewController id="56y-qu-7Bi" customClass="TrainingPage" customModule="FitHelper" customModuleProvider="target" sceneMemberID="viewController">
@@ -311,8 +410,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cfN-Od-dLe">
-                        <barButtonItem key="rightBarButtonItem" title="Список упражнений" id="VWU-Hk-KR1">
+                    <navigationItem key="navigationItem" title="Тренировка" id="cfN-Od-dLe">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="3BR-7G-ktM"/>
+                        <barButtonItem key="rightBarButtonItem" title="Список" id="VWU-Hk-KR1">
                             <connections>
                                 <segue destination="Xjz-mt-2jA" kind="show" id="gjZ-pU-ppn"/>
                             </connections>
@@ -322,9 +422,9 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CWg-qq-lFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="jZQ-wH-hg0" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
-            <point key="canvasLocation" x="-124" y="1415"/>
+            <point key="canvasLocation" x="-57" y="1415"/>
         </scene>
-        <!--Graph-->
+        <!--Статистика-->
         <scene sceneID="jpF-W6-VOs">
             <objects>
                 <viewController id="AoF-ko-z0t" customClass="GraphPage" customModule="FitHelper" customModuleProvider="target" sceneMemberID="viewController">
@@ -337,7 +437,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Graph" image="graphIMG" id="wlX-mT-6Qq" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                    <tabBarItem key="tabBarItem" title="Статистика" image="graphIMG" id="wlX-mT-6Qq" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <connections>
                             <outlet property="animation" destination="JNn-wo-Uzl" id="bMu-Hb-PpB"/>
                         </connections>
@@ -368,11 +468,11 @@
             </objects>
             <point key="canvasLocation" x="1414" y="1394"/>
         </scene>
-        <!--Settings-->
+        <!--Настройки-->
         <scene sceneID="l0P-tC-MzX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cTf-9Q-peq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" image="SettingsIMG" id="w6r-nY-e5t" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                    <tabBarItem key="tabBarItem" title="Настройки" image="SettingsIMG" id="w6r-nY-e5t" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <connections>
                             <outlet property="animation" destination="xx1-67-PLS" id="Wu2-aS-3wT"/>
                         </connections>
@@ -392,11 +492,13 @@
             </objects>
             <point key="canvasLocation" x="1414" y="652"/>
         </scene>
-        <!--Training-->
+        <!--Тренировки-->
         <scene sceneID="ePG-of-mgy">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ja-bw-KWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="uJY-RL-0Hc" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IZP-jc-sQS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Training" image="MuscleIMG" id="jJf-nP-cpz" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                    <tabBarItem key="tabBarItem" title="Тренировки" image="MuscleIMG" id="jJf-nP-cpz" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <connections>
                             <outlet property="animation" destination="uJY-RL-0Hc" id="GZK-yx-gn9"/>
                         </connections>
@@ -408,11 +510,9 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="56y-qu-7Bi" kind="relationship" relationship="rootViewController" id="lY6-qj-FEe"/>
+                        <segue destination="3Uh-p2-vDC" kind="relationship" relationship="rootViewController" id="AiI-us-4f6"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ja-bw-KWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="uJY-RL-0Hc" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
             <point key="canvasLocation" x="-124" y="651.72413793103453"/>
         </scene>
@@ -424,6 +524,7 @@
         <image name="graphIMG" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="JVK-LQ-e9a"/>
+        <segue reference="0dY-fo-BtA"/>
+        <segue reference="fb7-fE-JN9"/>
     </inferredMetricsTieBreakers>
 </document>
