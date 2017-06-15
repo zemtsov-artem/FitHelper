@@ -1,0 +1,74 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TypedRowControllerType"
+- "HeaderFooterViewRepresentable"
+provides-nominal:
+- "P6Eureka22TypedRowControllerType"
+- "P6Eureka29HeaderFooterViewRepresentable"
+provides-member:
+- ["P6Eureka22TypedRowControllerType", ""]
+- ["P6Eureka29HeaderFooterViewRepresentable", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CGFloat"
+- "Equatable"
+- "HeaderFooterType"
+- "HeaderFooterViewRepresentable"
+- "RowControllerType"
+- "RowOf"
+- "Section"
+- "String"
+- "TypedRowControllerType"
+- "UIView"
+depends-member:
+- ["P6Eureka29HeaderFooterViewRepresentable", "CGFloat"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "HeaderFooterType"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "Section"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "String"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "UIView"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "height"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "title"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "viewForSection"]
+- ["PSo16NSObjectProtocol", "Equatable"]
+- ["PSo16NSObjectProtocol", "RowOf"]
+- ["PSo16NSObjectProtocol", "RowValue"]
+- ["PSo16NSObjectProtocol", "Self"]
+- ["PSo16NSObjectProtocol", "row"]
+- ["P6Eureka17RowControllerType", "Equatable"]
+- ["P6Eureka17RowControllerType", "RowOf"]
+- ["P6Eureka17RowControllerType", "RowValue"]
+- ["P6Eureka17RowControllerType", "Self"]
+- ["P6Eureka17RowControllerType", "row"]
+- ["P6Eureka17RowControllerType", ""]
+- ["P6Eureka22TypedRowControllerType", "Equatable"]
+- ["P6Eureka22TypedRowControllerType", "RowOf"]
+- ["P6Eureka22TypedRowControllerType", "RowValue"]
+- ["P6Eureka22TypedRowControllerType", "Self"]
+- ["P6Eureka22TypedRowControllerType", "row"]
+depends-nominal:
+- "P6Eureka29HeaderFooterViewRepresentable"
+- "PSo16NSObjectProtocol"
+- "P6Eureka17RowControllerType"
+- "P6Eureka22TypedRowControllerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/Target Support Files/Eureka/Eureka-umbrella.h"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Debug-iphoneos/Eureka.build/unextended-module.modulemap"
+interface-hash: "3251e5d805ce53790ec5601be6a39682"

@@ -86,10 +86,10 @@ open class RAMTransitionItemAnimations : RAMItemAnimation {
     if let iconImage = icon.image , iconSelectedColor != nil {
       let renderImage = iconImage.withRenderingMode(.alwaysTemplate)
       icon.image = renderImage
-      icon.tintColor = iconSelectedColor
+      icon.tintColor = UIColor.red
     }
     
-    textLabel.textColor = textSelectedColor
+    textLabel.textColor = UIColor.black
   }
 }
 

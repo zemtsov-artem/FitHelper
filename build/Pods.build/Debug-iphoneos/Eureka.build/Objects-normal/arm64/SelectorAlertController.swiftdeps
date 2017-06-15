@@ -1,0 +1,404 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SelectorAlertController"
+provides-nominal:
+- "C6Eureka23SelectorAlertController"
+provides-member:
+- ["C6Eureka23SelectorAlertController", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bundle"
+- "Equatable"
+- "NSCoder"
+- "NSLocalizedString"
+- "RowOf"
+- "SelectorAlertController"
+- "String"
+- "StringLiteralType"
+- "TypedRowControllerType"
+- !private "UIAlertAction"
+- "UIAlertController"
+- "UIViewController"
+- "Void"
+depends-member:
+- ["Ps9AnyObject", "NSLocalizedString"]
+- !private ["Ps9AnyObject", "UIAlertAction"]
+- !private ["Ps9AnyObject", "addAction"]
+- !private ["Ps9AnyObject", "cancelTitle"]
+- !private ["Ps9AnyObject", "dataProvider"]
+- !private ["Ps9AnyObject", "displayValueFor"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "onDismissCallback"]
+- ["Ps9AnyObject", "row"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["C6Eureka7BaseRow", "dataProvider"]
+- !private ["C6Eureka7BaseRow", "displayValueFor"]
+- !private ["C6Eureka7BaseRow", "value"]
+- !private ["P6Eureka11BaseRowType", "dataProvider"]
+- !private ["P6Eureka11BaseRowType", "displayValueFor"]
+- !private ["P6Eureka11BaseRowType", "value"]
+- ["Ps7CVarArg", "NSLocalizedString"]
+- !private ["Ps7CVarArg", "UIAlertAction"]
+- !private ["Ps7CVarArg", "addAction"]
+- !private ["Ps7CVarArg", "cancelTitle"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "onDismissCallback"]
+- ["Ps7CVarArg", "row"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "NSLocalizedString"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertAction"]
+- !private ["Ps28CustomDebugStringConvertible", "addAction"]
+- !private ["Ps28CustomDebugStringConvertible", "cancelTitle"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "onDismissCallback"]
+- ["Ps28CustomDebugStringConvertible", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "NSLocalizedString"]
+- !private ["Ps23CustomStringConvertible", "UIAlertAction"]
+- !private ["Ps23CustomStringConvertible", "addAction"]
+- !private ["Ps23CustomStringConvertible", "cancelTitle"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "onDismissCallback"]
+- ["Ps23CustomStringConvertible", "row"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V6Eureka12DataProvider", "arrayData"]
+- !private ["P6Eureka11Disableable", "dataProvider"]
+- !private ["P6Eureka11Disableable", "displayValueFor"]
+- !private ["P6Eureka11Disableable", "value"]
+- ["Ps9Equatable", "NSLocalizedString"]
+- !private ["Ps9Equatable", "UIAlertAction"]
+- !private ["Ps9Equatable", "addAction"]
+- !private ["Ps9Equatable", "cancel"]
+- !private ["Ps9Equatable", "cancelTitle"]
+- !private ["Ps9Equatable", "dataProvider"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "displayValueFor"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "onDismissCallback"]
+- ["Ps9Equatable", "row"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "NSLocalizedString"]
+- !private ["Ps8Hashable", "UIAlertAction"]
+- !private ["Ps8Hashable", "addAction"]
+- !private ["Ps8Hashable", "cancel"]
+- !private ["Ps8Hashable", "cancelTitle"]
+- !private ["Ps8Hashable", "default"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "onDismissCallback"]
+- ["Ps8Hashable", "row"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["P6Eureka7Hidable", "dataProvider"]
+- !private ["P6Eureka7Hidable", "displayValueFor"]
+- !private ["P6Eureka7Hidable", "value"]
+- ["P6Eureka18InputTypeInitiable", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "NSLocalizedString"]
+- !private ["PSo8NSCoding", "UIAlertAction"]
+- !private ["PSo8NSCoding", "addAction"]
+- !private ["PSo8NSCoding", "cancelTitle"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "onDismissCallback"]
+- ["PSo8NSCoding", "row"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "NSLocalizedString"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- !private ["PSo26NSExtensionRequestHandling", "cancelTitle"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "onDismissCallback"]
+- ["PSo26NSExtensionRequestHandling", "row"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bundle"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "NSLocalizedString"]
+- ["CSo8NSObject", "RowOf"]
+- ["CSo8NSObject", "RowValue"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "T"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addAction"]
+- ["CSo8NSObject", "cancelTitle"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "onDismissCallback"]
+- ["CSo8NSObject", "row"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "NSLocalizedString"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- !private ["PSo16NSObjectProtocol", "cancelTitle"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "onDismissCallback"]
+- ["PSo16NSObjectProtocol", "row"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["Ps16RawRepresentable", "cancel"]
+- !private ["Ps16RawRepresentable", "default"]
+- ["P6Eureka17RowControllerType", "NSLocalizedString"]
+- !private ["P6Eureka17RowControllerType", "UIAlertAction"]
+- !private ["P6Eureka17RowControllerType", "addAction"]
+- !private ["P6Eureka17RowControllerType", "cancelTitle"]
+- !private ["P6Eureka17RowControllerType", "init"]
+- ["P6Eureka17RowControllerType", "onDismissCallback"]
+- ["P6Eureka17RowControllerType", "row"]
+- ["P6Eureka17RowControllerType", ""]
+- !private ["C6Eureka5RowOf", "dataProvider"]
+- !private ["C6Eureka5RowOf", "displayValueFor"]
+- !private ["C6Eureka5RowOf", "value"]
+- ["C6Eureka23SelectorAlertController", "Bundle"]
+- ["C6Eureka23SelectorAlertController", "NSCoder"]
+- ["C6Eureka23SelectorAlertController", "NSLocalizedString"]
+- ["C6Eureka23SelectorAlertController", "RowOf"]
+- ["C6Eureka23SelectorAlertController", "RowValue"]
+- ["C6Eureka23SelectorAlertController", "String"]
+- ["C6Eureka23SelectorAlertController", "T"]
+- !private ["C6Eureka23SelectorAlertController", "UIAlertAction"]
+- ["C6Eureka23SelectorAlertController", "UIViewController"]
+- ["C6Eureka23SelectorAlertController", "Void"]
+- !private ["C6Eureka23SelectorAlertController", "addAction"]
+- ["C6Eureka23SelectorAlertController", "cancelTitle"]
+- ["C6Eureka23SelectorAlertController", "deinit"]
+- ["C6Eureka23SelectorAlertController", "init"]
+- ["C6Eureka23SelectorAlertController", "onDismissCallback"]
+- ["C6Eureka23SelectorAlertController", "row"]
+- ["C6Eureka23SelectorAlertController", "viewDidLoad"]
+- ["SS", "init"]
+- !private ["P6Eureka8Taggable", "dataProvider"]
+- !private ["P6Eureka8Taggable", "displayValueFor"]
+- !private ["P6Eureka8Taggable", "value"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["P6Eureka22TypedRowControllerType", "NSLocalizedString"]
+- !private ["P6Eureka22TypedRowControllerType", "UIAlertAction"]
+- !private ["P6Eureka22TypedRowControllerType", "addAction"]
+- !private ["P6Eureka22TypedRowControllerType", "cancelTitle"]
+- !private ["P6Eureka22TypedRowControllerType", "init"]
+- ["P6Eureka22TypedRowControllerType", "onDismissCallback"]
+- ["P6Eureka22TypedRowControllerType", "row"]
+- ["P6Eureka22TypedRowControllerType", ""]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "cancel"]
+- !private ["OSC18UIAlertActionStyle", "default"]
+- ["CSo17UIAlertController", "Bundle"]
+- ["CSo17UIAlertController", "NSCoder"]
+- ["CSo17UIAlertController", "NSLocalizedString"]
+- ["CSo17UIAlertController", "RowOf"]
+- ["CSo17UIAlertController", "RowValue"]
+- ["CSo17UIAlertController", "String"]
+- ["CSo17UIAlertController", "T"]
+- !private ["CSo17UIAlertController", "UIAlertAction"]
+- ["CSo17UIAlertController", "UIViewController"]
+- ["CSo17UIAlertController", "Void"]
+- !private ["CSo17UIAlertController", "addAction"]
+- ["CSo17UIAlertController", "cancelTitle"]
+- ["CSo17UIAlertController", "init"]
+- ["CSo17UIAlertController", "onDismissCallback"]
+- ["CSo17UIAlertController", "row"]
+- ["CSo17UIAlertController", "viewDidLoad"]
+- ["CSo17UIAlertController", ""]
+- ["PSo21UIAppearanceContainer", "NSLocalizedString"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- !private ["PSo21UIAppearanceContainer", "cancelTitle"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "onDismissCallback"]
+- ["PSo21UIAppearanceContainer", "row"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "NSLocalizedString"]
+- !private ["PSo18UIContentContainer", "UIAlertAction"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- !private ["PSo18UIContentContainer", "cancelTitle"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "onDismissCallback"]
+- ["PSo18UIContentContainer", "row"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "NSLocalizedString"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- !private ["PSo18UIFocusEnvironment", "cancelTitle"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "onDismissCallback"]
+- ["PSo18UIFocusEnvironment", "row"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "Bundle"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "NSLocalizedString"]
+- ["CSo11UIResponder", "RowOf"]
+- ["CSo11UIResponder", "RowValue"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "T"]
+- !private ["CSo11UIResponder", "UIAlertAction"]
+- ["CSo11UIResponder", "UIViewController"]
+- ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addAction"]
+- ["CSo11UIResponder", "cancelTitle"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "onDismissCallback"]
+- ["CSo11UIResponder", "row"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "NSLocalizedString"]
+- !private ["PSo30UIResponderStandardEditActions", "UIAlertAction"]
+- !private ["PSo30UIResponderStandardEditActions", "addAction"]
+- !private ["PSo30UIResponderStandardEditActions", "cancelTitle"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "onDismissCallback"]
+- ["PSo30UIResponderStandardEditActions", "row"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo16UIStateRestoring", "NSLocalizedString"]
+- !private ["PSo16UIStateRestoring", "UIAlertAction"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- !private ["PSo16UIStateRestoring", "cancelTitle"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "onDismissCallback"]
+- ["PSo16UIStateRestoring", "row"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "NSLocalizedString"]
+- !private ["PSo18UITraitEnvironment", "UIAlertAction"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- !private ["PSo18UITraitEnvironment", "cancelTitle"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "onDismissCallback"]
+- ["PSo18UITraitEnvironment", "row"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "Bundle"]
+- ["CSo16UIViewController", "NSCoder"]
+- ["CSo16UIViewController", "NSLocalizedString"]
+- ["CSo16UIViewController", "RowOf"]
+- ["CSo16UIViewController", "RowValue"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "T"]
+- !private ["CSo16UIViewController", "UIAlertAction"]
+- ["CSo16UIViewController", "UIViewController"]
+- ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "addAction"]
+- ["CSo16UIViewController", "cancelTitle"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "onDismissCallback"]
+- ["CSo16UIViewController", "row"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "NSLocalizedString"]
+- !private ["Ps9_Hashable", "UIAlertAction"]
+- !private ["Ps9_Hashable", "addAction"]
+- !private ["Ps9_Hashable", "cancel"]
+- !private ["Ps9_Hashable", "cancelTitle"]
+- !private ["Ps9_Hashable", "default"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "onDismissCallback"]
+- ["Ps9_Hashable", "row"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C6Eureka7BaseRow"
+- !private "P6Eureka11BaseRowType"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V6Eureka12DataProvider"
+- !private "P6Eureka11Disableable"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "P6Eureka7Hidable"
+- "P6Eureka18InputTypeInitiable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Ps16RawRepresentable"
+- "P6Eureka17RowControllerType"
+- !private "C6Eureka5RowOf"
+- "C6Eureka23SelectorAlertController"
+- "SS"
+- !private "P6Eureka8Taggable"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "P6Eureka22TypedRowControllerType"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- "CSo17UIAlertController"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/Target Support Files/Eureka/Eureka-umbrella.h"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Debug-iphoneos/Eureka.build/unextended-module.modulemap"
+interface-hash: "2d077d7027e4e03c19aa0c448bac323a"

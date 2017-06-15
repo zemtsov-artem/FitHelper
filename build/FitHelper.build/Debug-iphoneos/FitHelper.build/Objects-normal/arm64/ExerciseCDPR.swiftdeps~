@@ -6,7 +6,7 @@ provides-member:
 - ["C9FitHelper8Exercise", "fetchRequest"]
 - ["C9FitHelper8Exercise", "exerciseName"]
 - ["C9FitHelper8Exercise", "specification"]
-- ["C9FitHelper8Exercise", "weigth"]
+- ["C9FitHelper8Exercise", "weight"]
 - ["C9FitHelper8Exercise", "interval"]
 - ["C9FitHelper8Exercise", "muscleGroup"]
 - ["C9FitHelper8Exercise", "repeateNumber"]
@@ -20,7 +20,7 @@ provides-dynamic-lookup:
 - "series"
 - "specification"
 - "training"
-- "weigth"
+- "weight"
 depends-top-level:
 - "Exercise"
 - "Int16"
@@ -56,7 +56,7 @@ depends-member:
 - ["C9FitHelper8Exercise", "series"]
 - ["C9FitHelper8Exercise", "specification"]
 - ["C9FitHelper8Exercise", "training"]
-- ["C9FitHelper8Exercise", "weigth"]
+- ["C9FitHelper8Exercise", "weight"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
@@ -81,7 +81,7 @@ depends-member:
 - ["CSo15NSManagedObject", "series"]
 - ["CSo15NSManagedObject", "specification"]
 - ["CSo15NSManagedObject", "training"]
-- ["CSo15NSManagedObject", "weigth"]
+- ["CSo15NSManagedObject", "weight"]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Exercise"]
 - ["CSo8NSObject", "Int16"]
@@ -96,7 +96,7 @@ depends-member:
 - ["CSo8NSObject", "series"]
 - ["CSo8NSObject", "specification"]
 - ["CSo8NSObject", "training"]
-- ["CSo8NSObject", "weigth"]
+- ["CSo8NSObject", "weight"]
 - !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo14NSSecureCoding", "init"]
@@ -160,6 +160,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
@@ -167,8 +168,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "eeb01c8a9e2ddf0eba89db5588b18862"
+interface-hash: "1d92b06614439a6aeb91412279dac99b"

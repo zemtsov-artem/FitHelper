@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Exercise" representedClassName=".Exercise" syncable="YES">
+        <attribute name="exerciseName" attributeType="String" syncable="YES"/>
+        <attribute name="interval" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="muscleGroup" attributeType="String" minValueString="0" syncable="YES"/>
+        <attribute name="repeateNumber" attributeType="Integer 16" minValueString="0" defaultValueString="1" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="series" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="specification" attributeType="String" defaultValueString="empty" syncable="YES"/>
+        <attribute name="weight" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="training" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Training" inverseName="exercise" inverseEntity="Training" syncable="YES"/>
+    </entity>
+    <entity name="FinalisedExercise" representedClassName=".FinalisedExercise" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seriesValues" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="finalisedTraining" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FinalisedTraining" inverseName="finalisedExercises" inverseEntity="FinalisedTraining" syncable="YES"/>
+    </entity>
+    <entity name="FinalisedTraining" representedClassName=".FinalisedTraining" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="finalisedExercises" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FinalisedExercise" inverseName="finalisedTraining" inverseEntity="FinalisedExercise" syncable="YES"/>
+    </entity>
+    <entity name="Training" representedClassName=".Training" syncable="YES">
+        <attribute name="desiredDay" attributeType="String" syncable="YES"/>
+        <attribute name="specification" attributeType="String" syncable="YES"/>
+        <attribute name="trainingName" attributeType="String" syncable="YES"/>
+        <attribute name="trainingType" attributeType="String" syncable="YES"/>
+        <relationship name="exercise" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Exercise" inverseName="training" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Exercise" positionX="-234" positionY="-25" width="225" height="30"/>
+        <element name="FinalisedExercise" positionX="-227" positionY="45" width="128" height="105"/>
+        <element name="FinalisedTraining" positionX="-29" positionY="252" width="128" height="105"/>
+        <element name="Training" positionX="88" positionY="-12" width="245" height="120"/>
+    </elements>
+</model>

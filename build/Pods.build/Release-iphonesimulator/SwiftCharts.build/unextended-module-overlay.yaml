@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Release-iphonesimulator/SwiftCharts/SwiftCharts.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Release-iphonesimulator/SwiftCharts.build/unextended-module.modulemap',
+    }]
+  }]
+}

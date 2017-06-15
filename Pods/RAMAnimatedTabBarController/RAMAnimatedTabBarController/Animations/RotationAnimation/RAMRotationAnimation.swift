@@ -47,7 +47,7 @@ open class RAMRotationAnimation : RAMItemAnimation {
    */
   override open func playAnimation(_ icon : UIImageView, textLabel : UILabel) {
     playRoatationAnimation(icon)
-    textLabel.textColor = textSelectedColor
+    textLabel.textColor = UIColor.white
   }
   
   /**
@@ -77,12 +77,12 @@ open class RAMRotationAnimation : RAMItemAnimation {
    - parameter textLabel: animating UITabBarItem textLabel
    */
   override open func selectedState(_ icon : UIImageView, textLabel : UILabel) {
-    textLabel.textColor = textSelectedColor
+    textLabel.textColor = UIColor.white
     
     if let iconImage = icon.image {
       let renderImage = iconImage.withRenderingMode(.alwaysTemplate)
       icon.image = renderImage
-      icon.tintColor = textSelectedColor
+      icon.tintColor = UIColor.white
     }
   }
   
@@ -104,7 +104,7 @@ open class RAMRotationAnimation : RAMItemAnimation {
     if let iconImage = icon.image {
       let renderImage = iconImage.withRenderingMode(.alwaysTemplate)
       icon.image = renderImage
-      icon.tintColor = iconSelectedColor
+      icon.tintColor = UIColor.white
     }
   }
 }

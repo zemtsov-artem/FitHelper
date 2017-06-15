@@ -1,12 +1,18 @@
 PODS:
   - RAMAnimatedTabBarController (2.0.13)
+  - SwiftCharts (0.6)
+  - SwipeCellKit (1.8.0)
 
 DEPENDENCIES:
   - RAMAnimatedTabBarController (~> 2.0.13)
+  - SwiftCharts (~> 0.6)
+  - SwipeCellKit
 
 SPEC CHECKSUMS:
   RAMAnimatedTabBarController: 2510f3b66954c3f77ea1042a35d34df8f5f3b604
+  SwiftCharts: d8e6d60679bc982f48f8bea25cf5c1b94fcfec4f
+  SwipeCellKit: 01a58bf7e63d5df09aedd161828833944c4c333c
 
-PODFILE CHECKSUM: e5a8a89b9ac9c484bf77aeb23340474bfb6fa3f8
+PODFILE CHECKSUM: 0a93c6131f5d9bdc4a60a2cbb063bf6367244bd9
 
 COCOAPODS: 1.2.1

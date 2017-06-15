@@ -8,19 +8,41 @@
 
 import UIKit
 
-class ExercisesList: UITableViewController {
 
+protocol passDataToConnectDelegate {
+    func getSelectedExercises(inputExercises:[Exercise])
+}
+
+class ExercisesList: UITableViewController,UIPopoverPresentationControllerDelegate {
+    
+    var delegate:passDataToConnectDelegate?
+
+    //all exercises
     var exercisesData : [Exercise] = []
     
+    var exerciseFromTraining:[Exercise] = []
+    var indexOfExercisesToSend:[Int] = []
+    var exerciseToSend : [Exercise] = []
+
+    @IBAction func sendDataToConnectController(_ sender: Any) {
+
+        for item in 0..<indexOfExercisesToSend.count {
+            exerciseToSend.append(exercisesData[indexOfExercisesToSend[item]])
+        }
+        self.delegate?.getSelectedExercises(inputExercises: exerciseToSend)
+        self.navigationController?.popViewController(animated: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         exercisesData = Exercise.allExercises()
+        self.navigationItem.hidesBackButton = true
+        fromExerciseListToIndexList(inputExerciseList: exerciseFromTraining)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print ("I am in did appear")
+        garbageCollector()
         exercisesData = Exercise.allExercises()
         tableView.reloadData()
     }
@@ -37,6 +59,23 @@ class ExercisesList: UITableViewController {
         return Exercise.allExercises().count
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if tableView.cellForRow(at: indexPath)?.accessoryType == .checkmark{
+            tableView.cellForRow(at: indexPath)?.accessoryType = .none
+            if let indexToRemove = tryToGetIndexOfExerciseInSelectedData(indexPath.row){
+                indexOfExercisesToSend.remove(at: indexToRemove)
+                
+            }
+           
+        } else {
+            tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
+            indexOfExercisesToSend.append(indexPath.row)
+            
+
+        }
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ExerciseCell", for: indexPath) as! ExerciseCell
         //font
@@ -44,8 +83,13 @@ class ExercisesList: UITableViewController {
         //Exercise data
         cell.exerciseName?.text = exercisesData[indexPath.row].exerciseName
         cell.muscleGroup?.text = "Группа мыщц: " + exercisesData[indexPath.row].muscleGroup!
-        //Here i can add image check
-        cell.exerciseImage?.image = #imageLiteral(resourceName: "Good")
+        cell.exerciseImage?.image = getImageByMuscleGroupName(muscleGroupname: exercisesData[indexPath.row].muscleGroup!)
+        if (tryToGetIndexOfExerciseInSelectedData(indexPath.row) != nil){
+            cell.accessoryType = .checkmark
+        } else {
+            cell.accessoryType = .none
+        }
+        
         return cell
     }
     
@@ -56,42 +100,102 @@ class ExercisesList: UITableViewController {
             backItem.title = "Список упражнений"
             navigationItem.backBarButtonItem = backItem
             
-            if segue.identifier == "fromListToExercise"{
-                if let path = tableView.indexPathForSelectedRow {
-                    destination.currentExercise = exercisesData[path.row]
-                    destination.image = #imageLiteral(resourceName: "Good")
-                }
-            }else{
-                if segue.identifier == "addExercise"{
+            if segue.identifier == "fromEditToChange"{
+                // some fast and dirty
+                let pathIndex = sender!
+                destination.parentViewCellIndex = (pathIndex as AnyObject).row
+                destination.currentExercise = exercisesData[(pathIndex as AnyObject).row]
+                
+            }
+            if segue.identifier == "addExerciseByCellButton"{
                     var _:Exercise = Exercise( name: "Название упражнения",
                                                     specification:"Описание",
-                                                    weigth: 0,
+                                                    weight: 0,
                                                     interval: 0,
                                                     muscleGroup: "Мышечная группа",
-                                                    repeateNumber: 0,
-                                                    series:0
+                                                    repeateNumber: 1,
+                                                    series:1
                     )
                     CoreDataHelper.instance.save()
                     destination.navigationItem.title = "Новое упражнение"
-                    
+                    destination.isNewExercise = true
                     destination.currentExercise = Exercise.allExercises().last
-                    destination.image = #imageLiteral(resourceName: "Good")
+            }
+            
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        let editAction = UITableViewRowAction(style: .default, title: "Изменить"){ (UITableViewRowAction, NSIndexPath) in
+            self.performSegue(withIdentifier: "fromEditToChange", sender: indexPath)
+        }
+        editAction.backgroundColor = .lightGray
+        
+        let deleteAction = UITableViewRowAction(style: .destructive, title: "Удалить"){(UITableViewRowAction, NSIndexPath) in
+            // Delete the row from the data source
+            // delete data from core data
+            CoreDataHelper.instance.context.delete(self.exercisesData[indexPath.row])
+            CoreDataHelper.instance.save()
+            //reload class data
+            self.exercisesData = Exercise.allExercises()
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+        
+        return [deleteAction,editAction]
+
+    }
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return UIModalPresentationStyle.none
+    }
+    
+    
+    private func fromExerciseListToIndexList(inputExerciseList:[Exercise]){
+        for inputExercise in inputExerciseList{
+            for exerciseIndex in 0..<exercisesData.count {
+                if inputExercise == exercisesData[exerciseIndex]{
+                    indexOfExercisesToSend.append(exerciseIndex)
                 }
             }
         }
     }
     
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            // delete data from core data
-            CoreDataHelper.instance.context.delete(exercisesData[indexPath.row])
-            CoreDataHelper.instance.save()
-            //reload class data
-            exercisesData = Exercise.allExercises()
-            tableView.deleteRows(at: [indexPath], with: .automatic)
-            
+    private func tryToGetIndexOfExerciseInSelectedData(_ inputIndex:Int) ->Int?{
+        for index in 0..<indexOfExercisesToSend.count{
+            if indexOfExercisesToSend[index] == inputIndex{
+                return index
+            }
         }
+        return nil
     }
     
+    private func garbageCollector(){
+        var exerciseList:[Exercise] = Exercise.allExercises()
+        var arrayOfIndexesToDelete:[Int] = []
+        for number in 0..<exerciseList.count{
+            var checkArray:[Exercise] = exerciseList
+            checkArray.removeSubrange(0...number)
+            for checkExercise in checkArray{
+                if (exerciseList[number] == checkExercise) ||
+                    ((exerciseList[number].exerciseName) == (checkExercise.exerciseName) && (exerciseList[number].muscleGroup) == (checkExercise.muscleGroup)){
+                    arrayOfIndexesToDelete.insert(number, at: 0)
+                }
+            }
+        }
+        //
+        if ( !arrayOfIndexesToDelete.isEmpty ){
+            for item in 0..<arrayOfIndexesToDelete.count{
+                CoreDataHelper.instance.context.delete(self.exercisesData[arrayOfIndexesToDelete[item]])
+                CoreDataHelper.instance.save()
+            }
+        }
+        
+        
+    }
+    
+    
 }
+

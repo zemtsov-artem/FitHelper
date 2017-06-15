@@ -1,0 +1,682 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserPage"
+provides-nominal:
+- "C9FitHelper8UserPage"
+provides-member:
+- ["C9FitHelper8UserPage", ""]
+provides-dynamic-lookup:
+- "buttonState"
+- "currentDay"
+- "dayLabel"
+- "didReceiveMemoryWarning"
+- "gregorianCalendar"
+- "prepare"
+- "today"
+- "trainingNameForToday"
+- "viewDidAppear"
+- "viewDidLoad"
+- "weekdayComponent"
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Date"
+- "Int"
+- "NSCalendar"
+- "NSDate"
+- "NSDateComponents"
+- !private "StringLiteralType"
+- "UIButton"
+- "UILabel"
+- "UIStoryboardSegue"
+- "UIViewController"
+- "UserPage"
+- !private "checkTrainingsForToday"
+- !private "fromNumToNameOfTheDay"
+- !private "listOfExercisesInActivityTraining"
+depends-member:
+- !private ["Ps9AnyObject", "NSCalendar"]
+- !private ["Ps9AnyObject", "NSDate"]
+- !private ["Ps9AnyObject", "buttonState"]
+- !private ["Ps9AnyObject", "checkTrainingsForToday"]
+- !private ["Ps9AnyObject", "components"]
+- !private ["Ps9AnyObject", "currentDay"]
+- !private ["Ps9AnyObject", "currentTraining"]
+- !private ["Ps9AnyObject", "dayLabel"]
+- !private ["Ps9AnyObject", "destination"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "fromNumToNameOfTheDay"]
+- !private ["Ps9AnyObject", "gregorianCalendar"]
+- !private ["Ps9AnyObject", "identifier"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isHidden"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "today"]
+- !private ["Ps9AnyObject", "trainingName"]
+- !private ["Ps9AnyObject", "trainingNameForToday"]
+- !private ["Ps9AnyObject", "updateData"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "weekday"]
+- !private ["Ps9AnyObject", "weekdayComponent"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "isHidden"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "NSCalendar"]
+- !private ["Ps7CVarArg", "NSDate"]
+- !private ["Ps7CVarArg", "buttonState"]
+- !private ["Ps7CVarArg", "checkTrainingsForToday"]
+- !private ["Ps7CVarArg", "components"]
+- !private ["Ps7CVarArg", "currentDay"]
+- !private ["Ps7CVarArg", "currentTraining"]
+- !private ["Ps7CVarArg", "dayLabel"]
+- !private ["Ps7CVarArg", "destination"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "fromNumToNameOfTheDay"]
+- !private ["Ps7CVarArg", "gregorianCalendar"]
+- !private ["Ps7CVarArg", "identifier"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isHidden"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "today"]
+- !private ["Ps7CVarArg", "trainingName"]
+- !private ["Ps7CVarArg", "trainingNameForToday"]
+- !private ["Ps7CVarArg", "updateData"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- !private ["Ps7CVarArg", "weekday"]
+- !private ["Ps7CVarArg", "weekdayComponent"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "gregorian"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSCalendar"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDate"]
+- !private ["Ps28CustomDebugStringConvertible", "buttonState"]
+- !private ["Ps28CustomDebugStringConvertible", "checkTrainingsForToday"]
+- !private ["Ps28CustomDebugStringConvertible", "components"]
+- !private ["Ps28CustomDebugStringConvertible", "currentDay"]
+- !private ["Ps28CustomDebugStringConvertible", "currentTraining"]
+- !private ["Ps28CustomDebugStringConvertible", "dayLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "destination"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "fromNumToNameOfTheDay"]
+- !private ["Ps28CustomDebugStringConvertible", "gregorianCalendar"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "today"]
+- !private ["Ps28CustomDebugStringConvertible", "trainingName"]
+- !private ["Ps28CustomDebugStringConvertible", "trainingNameForToday"]
+- !private ["Ps28CustomDebugStringConvertible", "updateData"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "weekday"]
+- !private ["Ps28CustomDebugStringConvertible", "weekdayComponent"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSCalendar"]
+- !private ["Ps23CustomStringConvertible", "NSDate"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "buttonState"]
+- !private ["Ps23CustomStringConvertible", "checkTrainingsForToday"]
+- !private ["Ps23CustomStringConvertible", "components"]
+- !private ["Ps23CustomStringConvertible", "currentDay"]
+- !private ["Ps23CustomStringConvertible", "currentTraining"]
+- !private ["Ps23CustomStringConvertible", "dayLabel"]
+- !private ["Ps23CustomStringConvertible", "destination"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "fromNumToNameOfTheDay"]
+- !private ["Ps23CustomStringConvertible", "gregorianCalendar"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isHidden"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "today"]
+- !private ["Ps23CustomStringConvertible", "trainingName"]
+- !private ["Ps23CustomStringConvertible", "trainingNameForToday"]
+- !private ["Ps23CustomStringConvertible", "updateData"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "weekday"]
+- !private ["Ps23CustomStringConvertible", "weekdayComponent"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSCalendar"]
+- !private ["Ps9Equatable", "NSDate"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "buttonState"]
+- !private ["Ps9Equatable", "checkTrainingsForToday"]
+- !private ["Ps9Equatable", "components"]
+- !private ["Ps9Equatable", "currentDay"]
+- !private ["Ps9Equatable", "currentTraining"]
+- !private ["Ps9Equatable", "dayLabel"]
+- !private ["Ps9Equatable", "destination"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "fromNumToNameOfTheDay"]
+- !private ["Ps9Equatable", "gregorian"]
+- !private ["Ps9Equatable", "gregorianCalendar"]
+- !private ["Ps9Equatable", "identifier"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isHidden"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "today"]
+- !private ["Ps9Equatable", "trainingName"]
+- !private ["Ps9Equatable", "trainingNameForToday"]
+- !private ["Ps9Equatable", "updateData"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "weekday"]
+- !private ["Ps9Equatable", "weekdayComponent"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "weekday"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSCalendar"]
+- !private ["Ps8Hashable", "NSDate"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "buttonState"]
+- !private ["Ps8Hashable", "checkTrainingsForToday"]
+- !private ["Ps8Hashable", "components"]
+- !private ["Ps8Hashable", "currentDay"]
+- !private ["Ps8Hashable", "currentTraining"]
+- !private ["Ps8Hashable", "dayLabel"]
+- !private ["Ps8Hashable", "destination"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "fromNumToNameOfTheDay"]
+- !private ["Ps8Hashable", "gregorian"]
+- !private ["Ps8Hashable", "gregorianCalendar"]
+- !private ["Ps8Hashable", "identifier"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isHidden"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "today"]
+- !private ["Ps8Hashable", "trainingName"]
+- !private ["Ps8Hashable", "trainingNameForToday"]
+- !private ["Ps8Hashable", "updateData"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "weekday"]
+- !private ["Ps8Hashable", "weekdayComponent"]
+- ["Ps8Hashable", ""]
+- !private ["VCSo10NSCalendar10Identifier", "gregorian"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["CSo10NSCalendar", "components"]
+- !private ["CSo10NSCalendar", "init"]
+- !private ["PSo8NSCoding", "NSCalendar"]
+- !private ["PSo8NSCoding", "NSDate"]
+- !private ["PSo8NSCoding", "buttonState"]
+- !private ["PSo8NSCoding", "checkTrainingsForToday"]
+- !private ["PSo8NSCoding", "components"]
+- !private ["PSo8NSCoding", "currentDay"]
+- !private ["PSo8NSCoding", "currentTraining"]
+- !private ["PSo8NSCoding", "dayLabel"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "fromNumToNameOfTheDay"]
+- !private ["PSo8NSCoding", "gregorianCalendar"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isHidden"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "today"]
+- !private ["PSo8NSCoding", "trainingNameForToday"]
+- !private ["PSo8NSCoding", "updateData"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "weekday"]
+- !private ["PSo8NSCoding", "weekdayComponent"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "components"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "weekday"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo16NSDateComponents", "weekday"]
+- !private ["PSo26NSExtensionRequestHandling", "NSCalendar"]
+- !private ["PSo26NSExtensionRequestHandling", "NSDate"]
+- !private ["PSo26NSExtensionRequestHandling", "buttonState"]
+- !private ["PSo26NSExtensionRequestHandling", "checkTrainingsForToday"]
+- !private ["PSo26NSExtensionRequestHandling", "currentDay"]
+- !private ["PSo26NSExtensionRequestHandling", "currentTraining"]
+- !private ["PSo26NSExtensionRequestHandling", "dayLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "fromNumToNameOfTheDay"]
+- !private ["PSo26NSExtensionRequestHandling", "gregorianCalendar"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "today"]
+- !private ["PSo26NSExtensionRequestHandling", "trainingNameForToday"]
+- !private ["PSo26NSExtensionRequestHandling", "updateData"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- !private ["PSo26NSExtensionRequestHandling", "weekdayComponent"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo20NSFetchRequestResult", "trainingName"]
+- !private ["CSo15NSManagedObject", "trainingName"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Date"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSCalendar"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSDateComponents"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "buttonState"]
+- !private ["CSo8NSObject", "checkTrainingsForToday"]
+- !private ["CSo8NSObject", "components"]
+- ["CSo8NSObject", "currentDay"]
+- !private ["CSo8NSObject", "currentTraining"]
+- ["CSo8NSObject", "dayLabel"]
+- !private ["CSo8NSObject", "destination"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "fromNumToNameOfTheDay"]
+- ["CSo8NSObject", "gregorianCalendar"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isHidden"]
+- !private ["CSo8NSObject", "listOfExercisesInActivityTraining"]
+- ["CSo8NSObject", "prepare"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "today"]
+- !private ["CSo8NSObject", "trainingName"]
+- ["CSo8NSObject", "trainingNameForToday"]
+- ["CSo8NSObject", "updateData"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "weekday"]
+- ["CSo8NSObject", "weekdayComponent"]
+- !private ["PSo16NSObjectProtocol", "NSCalendar"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- !private ["PSo16NSObjectProtocol", "buttonState"]
+- !private ["PSo16NSObjectProtocol", "checkTrainingsForToday"]
+- !private ["PSo16NSObjectProtocol", "components"]
+- !private ["PSo16NSObjectProtocol", "currentDay"]
+- !private ["PSo16NSObjectProtocol", "currentTraining"]
+- !private ["PSo16NSObjectProtocol", "dayLabel"]
+- !private ["PSo16NSObjectProtocol", "destination"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "fromNumToNameOfTheDay"]
+- !private ["PSo16NSObjectProtocol", "gregorianCalendar"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isHidden"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "today"]
+- !private ["PSo16NSObjectProtocol", "trainingName"]
+- !private ["PSo16NSObjectProtocol", "trainingNameForToday"]
+- !private ["PSo16NSObjectProtocol", "updateData"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "weekday"]
+- !private ["PSo16NSObjectProtocol", "weekdayComponent"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "components"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "weekday"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "weekday"]
+- !private ["Ps16RawRepresentable", "gregorian"]
+- !private ["Ps16RawRepresentable", "weekday"]
+- !private ["Ps10SetAlgebra", "weekday"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C9FitHelper8Training", "trainingName"]
+- !private ["PSo29UIAccessibilityIdentification", "isHidden"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "isHidden"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "NSCalendar"]
+- !private ["PSo21UIAppearanceContainer", "NSDate"]
+- !private ["PSo21UIAppearanceContainer", "buttonState"]
+- !private ["PSo21UIAppearanceContainer", "checkTrainingsForToday"]
+- !private ["PSo21UIAppearanceContainer", "currentDay"]
+- !private ["PSo21UIAppearanceContainer", "currentTraining"]
+- !private ["PSo21UIAppearanceContainer", "dayLabel"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "fromNumToNameOfTheDay"]
+- !private ["PSo21UIAppearanceContainer", "gregorianCalendar"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isHidden"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "today"]
+- !private ["PSo21UIAppearanceContainer", "trainingNameForToday"]
+- !private ["PSo21UIAppearanceContainer", "updateData"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- !private ["PSo21UIAppearanceContainer", "weekdayComponent"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "isHidden"]
+- !private ["PSo18UIContentContainer", "NSCalendar"]
+- !private ["PSo18UIContentContainer", "NSDate"]
+- !private ["PSo18UIContentContainer", "buttonState"]
+- !private ["PSo18UIContentContainer", "checkTrainingsForToday"]
+- !private ["PSo18UIContentContainer", "currentDay"]
+- !private ["PSo18UIContentContainer", "currentTraining"]
+- !private ["PSo18UIContentContainer", "dayLabel"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "fromNumToNameOfTheDay"]
+- !private ["PSo18UIContentContainer", "gregorianCalendar"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "today"]
+- !private ["PSo18UIContentContainer", "trainingNameForToday"]
+- !private ["PSo18UIContentContainer", "updateData"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- !private ["PSo18UIContentContainer", "weekdayComponent"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "isHidden"]
+- !private ["PSo17UICoordinateSpace", "isHidden"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "isHidden"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "NSCalendar"]
+- !private ["PSo18UIFocusEnvironment", "NSDate"]
+- !private ["PSo18UIFocusEnvironment", "buttonState"]
+- !private ["PSo18UIFocusEnvironment", "checkTrainingsForToday"]
+- !private ["PSo18UIFocusEnvironment", "currentDay"]
+- !private ["PSo18UIFocusEnvironment", "currentTraining"]
+- !private ["PSo18UIFocusEnvironment", "dayLabel"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "fromNumToNameOfTheDay"]
+- !private ["PSo18UIFocusEnvironment", "gregorianCalendar"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isHidden"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "today"]
+- !private ["PSo18UIFocusEnvironment", "trainingNameForToday"]
+- !private ["PSo18UIFocusEnvironment", "updateData"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- !private ["PSo18UIFocusEnvironment", "weekdayComponent"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "isHidden"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "Date"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSCalendar"]
+- ["CSo11UIResponder", "NSDate"]
+- ["CSo11UIResponder", "NSDateComponents"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "buttonState"]
+- !private ["CSo11UIResponder", "checkTrainingsForToday"]
+- ["CSo11UIResponder", "currentDay"]
+- !private ["CSo11UIResponder", "currentTraining"]
+- ["CSo11UIResponder", "dayLabel"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "fromNumToNameOfTheDay"]
+- ["CSo11UIResponder", "gregorianCalendar"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isHidden"]
+- !private ["CSo11UIResponder", "listOfExercisesInActivityTraining"]
+- ["CSo11UIResponder", "prepare"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "today"]
+- ["CSo11UIResponder", "trainingNameForToday"]
+- ["CSo11UIResponder", "updateData"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "weekdayComponent"]
+- !private ["PSo30UIResponderStandardEditActions", "NSCalendar"]
+- !private ["PSo30UIResponderStandardEditActions", "NSDate"]
+- !private ["PSo30UIResponderStandardEditActions", "buttonState"]
+- !private ["PSo30UIResponderStandardEditActions", "checkTrainingsForToday"]
+- !private ["PSo30UIResponderStandardEditActions", "currentDay"]
+- !private ["PSo30UIResponderStandardEditActions", "currentTraining"]
+- !private ["PSo30UIResponderStandardEditActions", "dayLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "fromNumToNameOfTheDay"]
+- !private ["PSo30UIResponderStandardEditActions", "gregorianCalendar"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "today"]
+- !private ["PSo30UIResponderStandardEditActions", "trainingNameForToday"]
+- !private ["PSo30UIResponderStandardEditActions", "updateData"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "weekdayComponent"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "currentTraining"]
+- !private ["PSo16UIStateRestoring", "NSCalendar"]
+- !private ["PSo16UIStateRestoring", "NSDate"]
+- !private ["PSo16UIStateRestoring", "buttonState"]
+- !private ["PSo16UIStateRestoring", "checkTrainingsForToday"]
+- !private ["PSo16UIStateRestoring", "currentDay"]
+- !private ["PSo16UIStateRestoring", "currentTraining"]
+- !private ["PSo16UIStateRestoring", "dayLabel"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "fromNumToNameOfTheDay"]
+- !private ["PSo16UIStateRestoring", "gregorianCalendar"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "today"]
+- !private ["PSo16UIStateRestoring", "trainingNameForToday"]
+- !private ["PSo16UIStateRestoring", "updateData"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "weekdayComponent"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destination"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["CSo21UITableViewController", "currentTraining"]
+- !private ["PSo21UITableViewDataSource", "currentTraining"]
+- !private ["PSo19UITableViewDelegate", "currentTraining"]
+- !private ["PSo18UITraitEnvironment", "NSCalendar"]
+- !private ["PSo18UITraitEnvironment", "NSDate"]
+- !private ["PSo18UITraitEnvironment", "buttonState"]
+- !private ["PSo18UITraitEnvironment", "checkTrainingsForToday"]
+- !private ["PSo18UITraitEnvironment", "currentDay"]
+- !private ["PSo18UITraitEnvironment", "currentTraining"]
+- !private ["PSo18UITraitEnvironment", "dayLabel"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "fromNumToNameOfTheDay"]
+- !private ["PSo18UITraitEnvironment", "gregorianCalendar"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isHidden"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "today"]
+- !private ["PSo18UITraitEnvironment", "trainingNameForToday"]
+- !private ["PSo18UITraitEnvironment", "updateData"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- !private ["PSo18UITraitEnvironment", "weekdayComponent"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "isHidden"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "Date"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "NSCalendar"]
+- ["CSo16UIViewController", "NSDate"]
+- ["CSo16UIViewController", "NSDateComponents"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "buttonState"]
+- !private ["CSo16UIViewController", "checkTrainingsForToday"]
+- ["CSo16UIViewController", "currentDay"]
+- !private ["CSo16UIViewController", "currentTraining"]
+- ["CSo16UIViewController", "dayLabel"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "fromNumToNameOfTheDay"]
+- ["CSo16UIViewController", "gregorianCalendar"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "listOfExercisesInActivityTraining"]
+- ["CSo16UIViewController", "prepare"]
+- ["CSo16UIViewController", "today"]
+- ["CSo16UIViewController", "trainingNameForToday"]
+- ["CSo16UIViewController", "updateData"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "weekdayComponent"]
+- ["CSo16UIViewController", ""]
+- !private ["VCSo10NSCalendar4Unit", "weekday"]
+- ["C9FitHelper8UserPage", "Bool"]
+- !private ["C9FitHelper8UserPage", "Date"]
+- ["C9FitHelper8UserPage", "Int"]
+- ["C9FitHelper8UserPage", "NSCalendar"]
+- ["C9FitHelper8UserPage", "NSDate"]
+- ["C9FitHelper8UserPage", "NSDateComponents"]
+- ["C9FitHelper8UserPage", "UIButton"]
+- ["C9FitHelper8UserPage", "UILabel"]
+- ["C9FitHelper8UserPage", "UIStoryboardSegue"]
+- ["C9FitHelper8UserPage", "buttonState"]
+- !private ["C9FitHelper8UserPage", "checkTrainingsForToday"]
+- ["C9FitHelper8UserPage", "currentDay"]
+- ["C9FitHelper8UserPage", "dayLabel"]
+- ["C9FitHelper8UserPage", "deinit"]
+- ["C9FitHelper8UserPage", "didReceiveMemoryWarning"]
+- !private ["C9FitHelper8UserPage", "fromNumToNameOfTheDay"]
+- ["C9FitHelper8UserPage", "gregorianCalendar"]
+- ["C9FitHelper8UserPage", "init"]
+- !private ["C9FitHelper8UserPage", "listOfExercisesInActivityTraining"]
+- ["C9FitHelper8UserPage", "prepare"]
+- ["C9FitHelper8UserPage", "today"]
+- ["C9FitHelper8UserPage", "trainingNameForToday"]
+- !private ["C9FitHelper8UserPage", "updateData"]
+- ["C9FitHelper8UserPage", "viewDidAppear"]
+- ["C9FitHelper8UserPage", "viewDidLoad"]
+- ["C9FitHelper8UserPage", "weekdayComponent"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "components"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "weekday"]
+- !private ["Ps9_Hashable", "NSCalendar"]
+- !private ["Ps9_Hashable", "NSDate"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "buttonState"]
+- !private ["Ps9_Hashable", "checkTrainingsForToday"]
+- !private ["Ps9_Hashable", "components"]
+- !private ["Ps9_Hashable", "currentDay"]
+- !private ["Ps9_Hashable", "currentTraining"]
+- !private ["Ps9_Hashable", "dayLabel"]
+- !private ["Ps9_Hashable", "destination"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "fromNumToNameOfTheDay"]
+- !private ["Ps9_Hashable", "gregorian"]
+- !private ["Ps9_Hashable", "gregorianCalendar"]
+- !private ["Ps9_Hashable", "identifier"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isHidden"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "today"]
+- !private ["Ps9_Hashable", "trainingName"]
+- !private ["Ps9_Hashable", "trainingNameForToday"]
+- !private ["Ps9_Hashable", "updateData"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- !private ["Ps9_Hashable", "weekday"]
+- !private ["Ps9_Hashable", "weekdayComponent"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "gregorian"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps20_SwiftNewtypeWrapper", "gregorian"]
+- !private ["C9FitHelper33listOfExercisesInActivityTraining", "currentTraining"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "VCSo10NSCalendar10Identifier"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "CSo10NSCalendar"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "CSo16NSDateComponents"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo20NSFetchRequestResult"
+- !private "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "C9FitHelper8Training"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "CSo21UITableViewController"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "VCSo10NSCalendar4Unit"
+- "C9FitHelper8UserPage"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+- !private "C9FitHelper33listOfExercisesInActivityTraining"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "d6e7f1d2ec88f3d200efb266218c2e61"

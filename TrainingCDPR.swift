@@ -20,7 +20,7 @@ extension Training {
     @NSManaged public var specification: String?
     @NSManaged public var trainingName: String?
     @NSManaged public var trainingType: String?
-    @NSManaged public var exercise: NSSet?
+    @NSManaged public var exercise: NSOrderedSet?
 
 }
 

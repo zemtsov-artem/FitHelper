@@ -12,7 +12,6 @@
 		B16E011B591FC08A528FE981 /* Pods_FitHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA1D77208FE29BC8A7E34FA /* Pods_FitHelper.framework */; };
 		F30E54491EB357AB0069FD83 /* UserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E54481EB357AB0069FD83 /* UserPage.swift */; };
 		F30E544B1EB357CE0069FD83 /* TrainingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E544A1EB357CE0069FD83 /* TrainingPage.swift */; };
-		F30E544F1EB358380069FD83 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E544E1EB358380069FD83 /* SettingsPage.swift */; };
 		F30E54511EB358860069FD83 /* GraphPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E54501EB358860069FD83 /* GraphPage.swift */; };
 		F3211EE11EBB2A1600007AD9 /* Localisation.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3211EE01EBB2A1600007AD9 /* Localisation.strings */; };
 		F3211EE51EBB319600007AD9 /* ExercisesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3211EE41EBB319600007AD9 /* ExercisesList.swift */; };
@@ -23,18 +22,32 @@
 		F32279F01EC26B9100EC9E08 /* TrainingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32279EF1EC26B9100EC9E08 /* TrainingsList.swift */; };
 		F33E7C451EBC83E200F6DD88 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33E7C441EBC83E200F6DD88 /* ExerciseCell.swift */; };
 		F33E7C471EBC96E300F6DD88 /* TheExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33E7C461EBC96E300F6DD88 /* TheExercise.swift */; };
+		F353C9A11EE82C8200BFEADF /* listOfExercisesInActivityTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C9A01EE82C8200BFEADF /* listOfExercisesInActivityTraining.swift */; };
+		F353C9A31EE82C9900BFEADF /* activityTrainingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C9A21EE82C9900BFEADF /* activityTrainingPage.swift */; };
+		F353C9A51EE82CB400BFEADF /* finalizeActivityTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C9A41EE82CB400BFEADF /* finalizeActivityTraining.swift */; };
+		F374FC5D1EE0BE4100D076E3 /* imagePickerForExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374FC5C1EE0BE4100D076E3 /* imagePickerForExercise.swift */; };
+		F374FC5F1EE1770C00D076E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F374FC5E1EE1770C00D076E3 /* Assets.xcassets */; };
+		F374FC611EE1933C00D076E3 /* FromNumToNameOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374FC601EE1933C00D076E3 /* FromNumToNameOfTheDay.swift */; };
+		F374FC631EE1949A00D076E3 /* checkTrainingsForToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374FC621EE1949A00D076E3 /* checkTrainingsForToday.swift */; };
+		F390DCAD1EEF6432001C9689 /* TrainingsHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F390DCAC1EEF6432001C9689 /* TrainingsHistoryTableViewController.swift */; };
+		F390DCAF1EF05141001C9689 /* FinalisedTrainingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F390DCAE1EF05141001C9689 /* FinalisedTrainingInfo.swift */; };
+		F3A610D01EF13D5800E583DF /* repeateNumberTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A610CF1EF13D5800E583DF /* repeateNumberTableView.swift */; };
 		F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */; };
 		F3B42F921EB1F57900295A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F901EB1F57900295A89 /* Main.storyboard */; };
-		F3B42F971EB1F57900295A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F961EB1F57900295A89 /* Assets.xcassets */; };
 		F3B42F9A1EB1F57900295A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B42F981EB1F57900295A89 /* LaunchScreen.storyboard */; };
 		F3B42FA51EB1F57900295A89 /* FitHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42FA41EB1F57900295A89 /* FitHelperTests.swift */; };
 		F3B42FB01EB1F57900295A89 /* FitHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B42FAF1EB1F57900295A89 /* FitHelperUITests.swift */; };
+		F3B4EE221EEAFB25007945E1 /* FinalisedExerciseCDClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4EE201EEAFB25007945E1 /* FinalisedExerciseCDClass.swift */; };
+		F3B4EE231EEAFB25007945E1 /* FinalisedTrainingCDClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4EE211EEAFB25007945E1 /* FinalisedTrainingCDClass.swift */; };
+		F3B4EE261EEAFB2F007945E1 /* FinalisedExerciseCDPR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4EE241EEAFB2F007945E1 /* FinalisedExerciseCDPR.swift */; };
+		F3B4EE271EEAFB2F007945E1 /* FinalisedTrainingCDPR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4EE251EEAFB2F007945E1 /* FinalisedTrainingCDPR.swift */; };
 		F3C16CC21EBA244D0007CB71 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CC01EBA244D0007CB71 /* Model.xcdatamodeld */; };
 		F3C16CC41EBA24C50007CB71 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CC31EBA24C50007CB71 /* CoreDataHelper.swift */; };
 		F3C16CE41EBA3CF10007CB71 /* ExerciseCDClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CE01EBA3CF10007CB71 /* ExerciseCDClass.swift */; };
 		F3C16CE51EBA3CF10007CB71 /* ExerciseCDPR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CE11EBA3CF10007CB71 /* ExerciseCDPR.swift */; };
 		F3C16CE61EBA3CF10007CB71 /* TrainingCDClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CE21EBA3CF10007CB71 /* TrainingCDClass.swift */; };
 		F3C16CE71EBA3CF10007CB71 /* TrainingCDPR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C16CE31EBA3CF10007CB71 /* TrainingCDPR.swift */; };
+		F3FECE9E1EE5B8F6001E20E9 /* ExercisesListFromTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FECE9D1EE5B8F6001E20E9 /* ExercisesListFromTraining.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +79,6 @@
 		DEA66DD728EEC1B1F0D91B0A /* Pods-FitHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHelperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitHelperUITests/Pods-FitHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F30E54481EB357AB0069FD83 /* UserPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserPage.swift; path = ViewControllers/UserPage.swift; sourceTree = "<group>"; };
 		F30E544A1EB357CE0069FD83 /* TrainingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainingPage.swift; path = ViewControllers/TrainingPage.swift; sourceTree = "<group>"; };
-		F30E544E1EB358380069FD83 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsPage.swift; path = ViewControllers/SettingsPage.swift; sourceTree = "<group>"; };
 		F30E54501EB358860069FD83 /* GraphPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphPage.swift; path = ViewControllers/GraphPage.swift; sourceTree = "<group>"; };
 		F3211EDC1EBA6F3B00007AD9 /* v0.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v0.1.xcdatamodel; sourceTree = "<group>"; };
 		F3211EE01EBB2A1600007AD9 /* Localisation.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localisation.strings; sourceTree = "<group>"; };
@@ -77,12 +89,25 @@
 		F32279E51EC22A8800EC9E08 /* StringChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringChecker.swift; sourceTree = "<group>"; };
 		F32279E81EC242C800EC9E08 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		F32279EF1EC26B9100EC9E08 /* TrainingsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingsList.swift; sourceTree = "<group>"; };
+		F32D66A01EE87C2400B15571 /* v.1.1.2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.1.1.2.xcdatamodel; sourceTree = "<group>"; };
+		F32D66A11EEAF61500B15571 /* v.1.1.3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.1.1.3.xcdatamodel; sourceTree = "<group>"; };
+		F32D66B21EEAFA0100B15571 /* v.1.1.4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.1.1.4.xcdatamodel; sourceTree = "<group>"; };
 		F33E7C441EBC83E200F6DD88 /* ExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
 		F33E7C461EBC96E300F6DD88 /* TheExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheExercise.swift; sourceTree = "<group>"; };
+		F353C9A01EE82C8200BFEADF /* listOfExercisesInActivityTraining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listOfExercisesInActivityTraining.swift; sourceTree = "<group>"; };
+		F353C9A21EE82C9900BFEADF /* activityTrainingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activityTrainingPage.swift; sourceTree = "<group>"; };
+		F353C9A41EE82CB400BFEADF /* finalizeActivityTraining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = finalizeActivityTraining.swift; sourceTree = "<group>"; };
+		F374FC5C1EE0BE4100D076E3 /* imagePickerForExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imagePickerForExercise.swift; sourceTree = "<group>"; };
+		F374FC5E1EE1770C00D076E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F374FC601EE1933C00D076E3 /* FromNumToNameOfTheDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromNumToNameOfTheDay.swift; sourceTree = "<group>"; };
+		F374FC621EE1949A00D076E3 /* checkTrainingsForToday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkTrainingsForToday.swift; sourceTree = "<group>"; };
+		F390DCAC1EEF6432001C9689 /* TrainingsHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingsHistoryTableViewController.swift; sourceTree = "<group>"; };
+		F390DCAE1EF05141001C9689 /* FinalisedTrainingInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalisedTrainingInfo.swift; sourceTree = "<group>"; };
+		F3A610CF1EF13D5800E583DF /* repeateNumberTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = repeateNumberTableView.swift; sourceTree = "<group>"; };
+		F3B33DDE1ED5AD8000BCE8F9 /* v.1.1.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.1.1.1.xcdatamodel; sourceTree = "<group>"; };
 		F3B42F891EB1F57900295A89 /* FitHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B42F8C1EB1F57900295A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B42F911EB1F57900295A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3B42F961EB1F57900295A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B42F991EB1F57900295A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3B42F9B1EB1F57900295A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3B42FA01EB1F57900295A89 /* FitHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +116,11 @@
 		F3B42FAB1EB1F57900295A89 /* FitHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B42FAF1EB1F57900295A89 /* FitHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHelperUITests.swift; sourceTree = "<group>"; };
 		F3B42FB11EB1F57900295A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B4EE201EEAFB25007945E1 /* FinalisedExerciseCDClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalisedExerciseCDClass.swift; sourceTree = "<group>"; };
+		F3B4EE211EEAFB25007945E1 /* FinalisedTrainingCDClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalisedTrainingCDClass.swift; sourceTree = "<group>"; };
+		F3B4EE241EEAFB2F007945E1 /* FinalisedExerciseCDPR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalisedExerciseCDPR.swift; sourceTree = "<group>"; };
+		F3B4EE251EEAFB2F007945E1 /* FinalisedTrainingCDPR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalisedTrainingCDPR.swift; sourceTree = "<group>"; };
+		F3B4EE281EEC33B8007945E1 /* v.1.1.5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.1.1.5.xcdatamodel; sourceTree = "<group>"; };
 		F3C16CC11EBA244D0007CB71 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		F3C16CC31EBA24C50007CB71 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		F3C16CE01EBA3CF10007CB71 /* ExerciseCDClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCDClass.swift; sourceTree = "<group>"; };
@@ -100,6 +130,7 @@
 		F3C729111EBC6DD000FDF22E /* v.0.1.2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.0.1.2.xcdatamodel; sourceTree = "<group>"; };
 		F3C729121EBC6F9C00FDF22E /* v.0.1.3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.0.1.3.xcdatamodel; sourceTree = "<group>"; };
 		F3C729131EBC73F800FDF22E /* v.1.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v.1.0.xcdatamodel; sourceTree = "<group>"; };
+		F3FECE9D1EE5B8F6001E20E9 /* ExercisesListFromTraining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesListFromTraining.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,10 +187,11 @@
 		F30E543F1EB350450069FD83 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F353C99F1EE82C4C00BFEADF /* activityTraining */,
 				F32279EA1EC26B1200EC9E08 /* First */,
 				F32279EB1EC26B2E00EC9E08 /* Trainings */,
 				F32279EC1EC26B3600EC9E08 /* Statistics */,
-				F32279ED1EC26B4100EC9E08 /* Settings */,
+				F32279ED1EC26B4100EC9E08 /* History */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -176,9 +208,10 @@
 		F30E54531EB3592B0069FD83 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F374FC5E1EE1770C00D076E3 /* Assets.xcassets */,
+				F3B33DDD1ED5AB7000BCE8F9 /* HelpFunctions */,
 				F32279E71EC242AF00EC9E08 /* AlertData */,
 				F3211EEB1EBB4D0600007AD9 /* DefaultsValues */,
-				F3B42F961EB1F57900295A89 /* Assets.xcassets */,
 				F3B42F9B1EB1F57900295A89 /* Info.plist */,
 				F3211EDF1EBB29F000007AD9 /* Localisation */,
 			);
@@ -188,6 +221,8 @@
 		F3211EDD1EBA74CE00007AD9 /* Property */ = {
 			isa = PBXGroup;
 			children = (
+				F3B4EE241EEAFB2F007945E1 /* FinalisedExerciseCDPR.swift */,
+				F3B4EE251EEAFB2F007945E1 /* FinalisedTrainingCDPR.swift */,
 				F3C16CE11EBA3CF10007CB71 /* ExerciseCDPR.swift */,
 				F3C16CE31EBA3CF10007CB71 /* TrainingCDPR.swift */,
 			);
@@ -197,6 +232,8 @@
 		F3211EDE1EBA74EE00007AD9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F3B4EE201EEAFB25007945E1 /* FinalisedExerciseCDClass.swift */,
+				F3B4EE211EEAFB25007945E1 /* FinalisedTrainingCDClass.swift */,
 				F3C16CE01EBA3CF10007CB71 /* ExerciseCDClass.swift */,
 				F3C16CE21EBA3CF10007CB71 /* TrainingCDClass.swift */,
 			);
@@ -233,7 +270,6 @@
 			isa = PBXGroup;
 			children = (
 				F3211EEC1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift */,
-				F32279E51EC22A8800EC9E08 /* StringChecker.swift */,
 			);
 			name = DefaultsValues;
 			sourceTree = "<group>";
@@ -257,8 +293,9 @@
 		F32279EB1EC26B2E00EC9E08 /* Trainings */ = {
 			isa = PBXGroup;
 			children = (
-				F30E544A1EB357CE0069FD83 /* TrainingPage.swift */,
 				F32279EF1EC26B9100EC9E08 /* TrainingsList.swift */,
+				F30E544A1EB357CE0069FD83 /* TrainingPage.swift */,
+				F3FECE9D1EE5B8F6001E20E9 /* ExercisesListFromTraining.swift */,
 				F32279EE1EC26B5700EC9E08 /* Exercise */,
 			);
 			name = Trainings;
@@ -272,12 +309,14 @@
 			name = Statistics;
 			sourceTree = "<group>";
 		};
-		F32279ED1EC26B4100EC9E08 /* Settings */ = {
+		F32279ED1EC26B4100EC9E08 /* History */ = {
 			isa = PBXGroup;
 			children = (
-				F30E544E1EB358380069FD83 /* SettingsPage.swift */,
+				F390DCAC1EEF6432001C9689 /* TrainingsHistoryTableViewController.swift */,
+				F390DCAE1EF05141001C9689 /* FinalisedTrainingInfo.swift */,
+				F3A610CF1EF13D5800E583DF /* repeateNumberTableView.swift */,
 			);
-			name = Settings;
+			name = History;
 			sourceTree = "<group>";
 		};
 		F32279EE1EC26B5700EC9E08 /* Exercise */ = {
@@ -287,6 +326,27 @@
 				F33E7C461EBC96E300F6DD88 /* TheExercise.swift */,
 			);
 			name = Exercise;
+			sourceTree = "<group>";
+		};
+		F353C99F1EE82C4C00BFEADF /* activityTraining */ = {
+			isa = PBXGroup;
+			children = (
+				F353C9A01EE82C8200BFEADF /* listOfExercisesInActivityTraining.swift */,
+				F353C9A21EE82C9900BFEADF /* activityTrainingPage.swift */,
+				F353C9A41EE82CB400BFEADF /* finalizeActivityTraining.swift */,
+			);
+			name = activityTraining;
+			sourceTree = "<group>";
+		};
+		F3B33DDD1ED5AB7000BCE8F9 /* HelpFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				F32279E51EC22A8800EC9E08 /* StringChecker.swift */,
+				F374FC5C1EE0BE4100D076E3 /* imagePickerForExercise.swift */,
+				F374FC601EE1933C00D076E3 /* FromNumToNameOfTheDay.swift */,
+				F374FC621EE1949A00D076E3 /* checkTrainingsForToday.swift */,
+			);
+			name = HelpFunctions;
 			sourceTree = "<group>";
 		};
 		F3B42F801EB1F57900295A89 = {
@@ -496,8 +556,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3B42F9A1EB1F57900295A89 /* LaunchScreen.storyboard in Resources */,
-				F3B42F971EB1F57900295A89 /* Assets.xcassets in Resources */,
 				F3B42F921EB1F57900295A89 /* Main.storyboard in Resources */,
+				F374FC5F1EE1770C00D076E3 /* Assets.xcassets in Resources */,
 				F3211EE11EBB2A1600007AD9 /* Localisation.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -663,23 +723,36 @@
 			files = (
 				F32279E91EC242C800EC9E08 /* Alert.swift in Sources */,
 				F32279F01EC26B9100EC9E08 /* TrainingsList.swift in Sources */,
+				F374FC611EE1933C00D076E3 /* FromNumToNameOfTheDay.swift in Sources */,
+				F353C9A31EE82C9900BFEADF /* activityTrainingPage.swift in Sources */,
 				F3211EE81EBB442200007AD9 /* TrainingCell.swift in Sources */,
 				F30E54511EB358860069FD83 /* GraphPage.swift in Sources */,
+				F390DCAF1EF05141001C9689 /* FinalisedTrainingInfo.swift in Sources */,
 				F3B42F8D1EB1F57900295A89 /* AppDelegate.swift in Sources */,
+				F353C9A11EE82C8200BFEADF /* listOfExercisesInActivityTraining.swift in Sources */,
+				F3A610D01EF13D5800E583DF /* repeateNumberTableView.swift in Sources */,
 				F30E544B1EB357CE0069FD83 /* TrainingPage.swift in Sources */,
+				F3FECE9E1EE5B8F6001E20E9 /* ExercisesListFromTraining.swift in Sources */,
 				F32279E61EC22A8800EC9E08 /* StringChecker.swift in Sources */,
+				F3B4EE221EEAFB25007945E1 /* FinalisedExerciseCDClass.swift in Sources */,
 				F3C16CE41EBA3CF10007CB71 /* ExerciseCDClass.swift in Sources */,
+				F3B4EE231EEAFB25007945E1 /* FinalisedTrainingCDClass.swift in Sources */,
+				F3B4EE271EEAFB2F007945E1 /* FinalisedTrainingCDPR.swift in Sources */,
 				F33E7C471EBC96E300F6DD88 /* TheExercise.swift in Sources */,
+				F374FC631EE1949A00D076E3 /* checkTrainingsForToday.swift in Sources */,
 				F3C16CC41EBA24C50007CB71 /* CoreDataHelper.swift in Sources */,
 				F30E54491EB357AB0069FD83 /* UserPage.swift in Sources */,
-				F30E544F1EB358380069FD83 /* SettingsPage.swift in Sources */,
+				F353C9A51EE82CB400BFEADF /* finalizeActivityTraining.swift in Sources */,
 				F33E7C451EBC83E200F6DD88 /* ExerciseCell.swift in Sources */,
 				F3C16CC21EBA244D0007CB71 /* Model.xcdatamodeld in Sources */,
+				F390DCAD1EEF6432001C9689 /* TrainingsHistoryTableViewController.swift in Sources */,
 				F3211EE51EBB319600007AD9 /* ExercisesList.swift in Sources */,
 				F3C16CE71EBA3CF10007CB71 /* TrainingCDPR.swift in Sources */,
 				F3C16CE51EBA3CF10007CB71 /* ExerciseCDPR.swift in Sources */,
 				F3211EED1EBB4D3300007AD9 /* DefaultsExerciseAndTrainings.swift in Sources */,
 				F3C16CE61EBA3CF10007CB71 /* TrainingCDClass.swift in Sources */,
+				F374FC5D1EE0BE4100D076E3 /* imagePickerForExercise.swift in Sources */,
+				F3B4EE261EEAFB2F007945E1 /* FinalisedExerciseCDPR.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -962,6 +1035,11 @@
 		F3C16CC01EBA244D0007CB71 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				F3B4EE281EEC33B8007945E1 /* v.1.1.5.xcdatamodel */,
+				F32D66B21EEAFA0100B15571 /* v.1.1.4.xcdatamodel */,
+				F32D66A11EEAF61500B15571 /* v.1.1.3.xcdatamodel */,
+				F32D66A01EE87C2400B15571 /* v.1.1.2.xcdatamodel */,
+				F3B33DDE1ED5AD8000BCE8F9 /* v.1.1.1.xcdatamodel */,
 				F3C729131EBC73F800FDF22E /* v.1.0.xcdatamodel */,
 				F3C729121EBC6F9C00FDF22E /* v.0.1.3.xcdatamodel */,
 				F3C729111EBC6DD000FDF22E /* v.0.1.2.xcdatamodel */,
@@ -969,7 +1047,7 @@
 				F3211EDC1EBA6F3B00007AD9 /* v0.1.xcdatamodel */,
 				F3C16CC11EBA244D0007CB71 /* Model.xcdatamodel */,
 			);
-			currentVersion = F3C729131EBC73F800FDF22E /* v.1.0.xcdatamodel */;
+			currentVersion = F3B4EE281EEC33B8007945E1 /* v.1.1.5.xcdatamodel */;
 			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "addMuscle25x25.png",
+      "filename" : "addMuscle25.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "addMuscle50x50.png",
+      "filename" : "addMuscle50.png",
       "scale" : "2x"
     },
     {

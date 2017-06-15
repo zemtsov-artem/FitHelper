@@ -1,0 +1,588 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo6UIView", ""]
+- ["CSo11NSPredicate", ""]
+- ["CSo12NSExpression", ""]
+- ["CSo6UIView", "findFirstResponder"]
+- ["CSo6UIView", "formCell"]
+- ["CSo11NSPredicate", "predicateVars"]
+- ["CSo12NSExpression", "expressionVars"]
+provides-dynamic-lookup:
+- "expressionVars"
+- "findFirstResponder"
+- "formCell"
+- "predicateVars"
+depends-top-level:
+- !private "..<"
+- "BaseCell"
+- "CastingPrecedence"
+- !private "NSComparisonPredicate"
+- !private "NSCompoundPredicate"
+- "NSExpression"
+- "NSPredicate"
+- "String"
+- !private "StringLiteralType"
+- !private "UITableViewCell"
+- "UIView"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "characters"]
+- !private ["Ps9AnyObject", "expressionType"]
+- !private ["Ps9AnyObject", "expressionVars"]
+- !private ["Ps9AnyObject", "findFirstResponder"]
+- !private ["Ps9AnyObject", "formCell"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isFirstResponder"]
+- !private ["Ps9AnyObject", "leftExpression"]
+- !private ["Ps9AnyObject", "predicateVars"]
+- !private ["Ps9AnyObject", "range"]
+- !private ["Ps9AnyObject", "rightExpression"]
+- !private ["Ps9AnyObject", "startIndex"]
+- !private ["Ps9AnyObject", "subpredicates"]
+- !private ["Ps9AnyObject", "substring"]
+- !private ["Ps9AnyObject", "subviews"]
+- !private ["Ps9AnyObject", "superview"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "index"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "findFirstResponder"]
+- !private ["PSo15CALayerDelegate", "formCell"]
+- !private ["PSo15CALayerDelegate", "isFirstResponder"]
+- !private ["PSo15CALayerDelegate", "subviews"]
+- !private ["PSo15CALayerDelegate", "superview"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "characters"]
+- !private ["Ps7CVarArg", "expressionType"]
+- !private ["Ps7CVarArg", "expressionVars"]
+- !private ["Ps7CVarArg", "findFirstResponder"]
+- !private ["Ps7CVarArg", "formCell"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isFirstResponder"]
+- !private ["Ps7CVarArg", "leftExpression"]
+- !private ["Ps7CVarArg", "predicateVars"]
+- !private ["Ps7CVarArg", "range"]
+- !private ["Ps7CVarArg", "rightExpression"]
+- !private ["Ps7CVarArg", "startIndex"]
+- !private ["Ps7CVarArg", "subpredicates"]
+- !private ["Ps7CVarArg", "substring"]
+- !private ["Ps7CVarArg", "subviews"]
+- !private ["Ps7CVarArg", "superview"]
+- !private ["VSS13CharacterView", "index"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "index"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "range"]
+- !private ["Ps10Comparable", "startIndex"]
+- !private ["Ps10Comparable", "substring"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "expressionType"]
+- !private ["Ps28CustomDebugStringConvertible", "expressionVars"]
+- !private ["Ps28CustomDebugStringConvertible", "findFirstResponder"]
+- !private ["Ps28CustomDebugStringConvertible", "formCell"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isFirstResponder"]
+- !private ["Ps28CustomDebugStringConvertible", "leftExpression"]
+- !private ["Ps28CustomDebugStringConvertible", "lowerBound"]
+- !private ["Ps28CustomDebugStringConvertible", "predicateVars"]
+- !private ["Ps28CustomDebugStringConvertible", "range"]
+- !private ["Ps28CustomDebugStringConvertible", "rightExpression"]
+- !private ["Ps28CustomDebugStringConvertible", "startIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "subpredicates"]
+- !private ["Ps28CustomDebugStringConvertible", "substring"]
+- !private ["Ps28CustomDebugStringConvertible", "subviews"]
+- !private ["Ps28CustomDebugStringConvertible", "superview"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "range"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "startIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "substring"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "lowerBound"]
+- !private ["Ps17CustomReflectable", "range"]
+- !private ["Ps17CustomReflectable", "startIndex"]
+- !private ["Ps17CustomReflectable", "substring"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- !private ["Ps23CustomStringConvertible", "expressionType"]
+- !private ["Ps23CustomStringConvertible", "expressionVars"]
+- !private ["Ps23CustomStringConvertible", "findFirstResponder"]
+- !private ["Ps23CustomStringConvertible", "formCell"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isFirstResponder"]
+- !private ["Ps23CustomStringConvertible", "leftExpression"]
+- !private ["Ps23CustomStringConvertible", "lowerBound"]
+- !private ["Ps23CustomStringConvertible", "predicateVars"]
+- !private ["Ps23CustomStringConvertible", "range"]
+- !private ["Ps23CustomStringConvertible", "rightExpression"]
+- !private ["Ps23CustomStringConvertible", "startIndex"]
+- !private ["Ps23CustomStringConvertible", "subpredicates"]
+- !private ["Ps23CustomStringConvertible", "substring"]
+- !private ["Ps23CustomStringConvertible", "subviews"]
+- !private ["Ps23CustomStringConvertible", "superview"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "characters"]
+- !private ["Ps9Equatable", "expressionType"]
+- !private ["Ps9Equatable", "expressionVars"]
+- !private ["Ps9Equatable", "findFirstResponder"]
+- !private ["Ps9Equatable", "formCell"]
+- ["Ps9Equatable", "function"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isFirstResponder"]
+- !private ["Ps9Equatable", "leftExpression"]
+- !private ["Ps9Equatable", "lowerBound"]
+- !private ["Ps9Equatable", "predicateVars"]
+- !private ["Ps9Equatable", "range"]
+- !private ["Ps9Equatable", "rightExpression"]
+- !private ["Ps9Equatable", "startIndex"]
+- !private ["Ps9Equatable", "subpredicates"]
+- !private ["Ps9Equatable", "substring"]
+- !private ["Ps9Equatable", "subviews"]
+- !private ["Ps9Equatable", "superview"]
+- ["Ps9Equatable", "variable"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "range"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "startIndex"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "substring"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "range"]
+- !private ["Ps26ExpressibleByStringLiteral", "startIndex"]
+- !private ["Ps26ExpressibleByStringLiteral", "substring"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "range"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "startIndex"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "substring"]
+- ["OCSo12NSExpression14ExpressionType", "function"]
+- ["OCSo12NSExpression14ExpressionType", "variable"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "characters"]
+- !private ["Ps8Hashable", "expressionType"]
+- !private ["Ps8Hashable", "expressionVars"]
+- !private ["Ps8Hashable", "findFirstResponder"]
+- !private ["Ps8Hashable", "formCell"]
+- ["Ps8Hashable", "function"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isFirstResponder"]
+- !private ["Ps8Hashable", "leftExpression"]
+- !private ["Ps8Hashable", "predicateVars"]
+- !private ["Ps8Hashable", "range"]
+- !private ["Ps8Hashable", "rightExpression"]
+- !private ["Ps8Hashable", "startIndex"]
+- !private ["Ps8Hashable", "subpredicates"]
+- !private ["Ps8Hashable", "substring"]
+- !private ["Ps8Hashable", "subviews"]
+- !private ["Ps8Hashable", "superview"]
+- ["Ps8Hashable", "variable"]
+- !private ["P6Eureka18InputTypeInitiable", "characters"]
+- !private ["P6Eureka18InputTypeInitiable", "init"]
+- !private ["P6Eureka18InputTypeInitiable", "range"]
+- !private ["P6Eureka18InputTypeInitiable", "startIndex"]
+- !private ["P6Eureka18InputTypeInitiable", "substring"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "range"]
+- !private ["Ps25LosslessStringConvertible", "startIndex"]
+- !private ["Ps25LosslessStringConvertible", "substring"]
+- !private ["Ps10MirrorPath", "characters"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "range"]
+- !private ["Ps10MirrorPath", "startIndex"]
+- !private ["Ps10MirrorPath", "substring"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "expressionType"]
+- !private ["PSo8NSCoding", "expressionVars"]
+- !private ["PSo8NSCoding", "findFirstResponder"]
+- !private ["PSo8NSCoding", "formCell"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isFirstResponder"]
+- !private ["PSo8NSCoding", "leftExpression"]
+- !private ["PSo8NSCoding", "predicateVars"]
+- !private ["PSo8NSCoding", "range"]
+- !private ["PSo8NSCoding", "rightExpression"]
+- !private ["PSo8NSCoding", "startIndex"]
+- !private ["PSo8NSCoding", "subpredicates"]
+- !private ["PSo8NSCoding", "substring"]
+- !private ["PSo8NSCoding", "subviews"]
+- !private ["PSo8NSCoding", "superview"]
+- !private ["CSo21NSComparisonPredicate", "leftExpression"]
+- !private ["CSo21NSComparisonPredicate", "rightExpression"]
+- !private ["CSo19NSCompoundPredicate", "subpredicates"]
+- !private ["PSo9NSCopying", "String"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "expressionType"]
+- !private ["PSo9NSCopying", "expressionVars"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "leftExpression"]
+- !private ["PSo9NSCopying", "predicateVars"]
+- !private ["PSo9NSCopying", "range"]
+- !private ["PSo9NSCopying", "rightExpression"]
+- !private ["PSo9NSCopying", "startIndex"]
+- !private ["PSo9NSCopying", "subpredicates"]
+- !private ["PSo9NSCopying", "substring"]
+- ["CSo12NSExpression", "String"]
+- !private ["CSo12NSExpression", "expressionType"]
+- ["CSo12NSExpression", "expressionVars"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "range"]
+- !private ["PSo16NSMutableCopying", "startIndex"]
+- !private ["PSo16NSMutableCopying", "substring"]
+- ["CSo8NSObject", "BaseCell"]
+- !private ["CSo8NSObject", "NSComparisonPredicate"]
+- !private ["CSo8NSObject", "NSCompoundPredicate"]
+- !private ["CSo8NSObject", "NSPredicate"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UITableViewCell"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "characters"]
+- !private ["CSo8NSObject", "expressionType"]
+- ["CSo8NSObject", "expressionVars"]
+- ["CSo8NSObject", "findFirstResponder"]
+- ["CSo8NSObject", "formCell"]
+- !private ["CSo8NSObject", "isFirstResponder"]
+- !private ["CSo8NSObject", "leftExpression"]
+- ["CSo8NSObject", "predicateVars"]
+- !private ["CSo8NSObject", "range"]
+- !private ["CSo8NSObject", "rightExpression"]
+- !private ["CSo8NSObject", "startIndex"]
+- !private ["CSo8NSObject", "subpredicates"]
+- !private ["CSo8NSObject", "substring"]
+- !private ["CSo8NSObject", "subviews"]
+- !private ["CSo8NSObject", "superview"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- !private ["PSo16NSObjectProtocol", "expressionType"]
+- !private ["PSo16NSObjectProtocol", "expressionVars"]
+- !private ["PSo16NSObjectProtocol", "findFirstResponder"]
+- !private ["PSo16NSObjectProtocol", "formCell"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isFirstResponder"]
+- !private ["PSo16NSObjectProtocol", "leftExpression"]
+- !private ["PSo16NSObjectProtocol", "predicateVars"]
+- !private ["PSo16NSObjectProtocol", "range"]
+- !private ["PSo16NSObjectProtocol", "rightExpression"]
+- !private ["PSo16NSObjectProtocol", "startIndex"]
+- !private ["PSo16NSObjectProtocol", "subpredicates"]
+- !private ["PSo16NSObjectProtocol", "substring"]
+- !private ["PSo16NSObjectProtocol", "subviews"]
+- !private ["PSo16NSObjectProtocol", "superview"]
+- !private ["CSo11NSPredicate", "NSComparisonPredicate"]
+- !private ["CSo11NSPredicate", "NSCompoundPredicate"]
+- !private ["CSo11NSPredicate", "NSPredicate"]
+- ["CSo11NSPredicate", "String"]
+- !private ["CSo11NSPredicate", "leftExpression"]
+- ["CSo11NSPredicate", "predicateVars"]
+- !private ["CSo11NSPredicate", "rightExpression"]
+- !private ["CSo11NSPredicate", "subpredicates"]
+- !private ["PSo14NSSecureCoding", "String"]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "expressionType"]
+- !private ["PSo14NSSecureCoding", "expressionVars"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "leftExpression"]
+- !private ["PSo14NSSecureCoding", "predicateVars"]
+- !private ["PSo14NSSecureCoding", "range"]
+- !private ["PSo14NSSecureCoding", "rightExpression"]
+- !private ["PSo14NSSecureCoding", "startIndex"]
+- !private ["PSo14NSSecureCoding", "subpredicates"]
+- !private ["PSo14NSSecureCoding", "substring"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "range"]
+- !private ["CSo8NSString", "startIndex"]
+- !private ["CSo8NSString", "substring"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Vs5Range", "lowerBound"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "index"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps16RawRepresentable", "function"]
+- ["Ps16RawRepresentable", "variable"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "index"]
+- !private ["Ps8Sequence", "init"]
+- !private ["SS", "characters"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "range"]
+- !private ["SS", "startIndex"]
+- !private ["SS", "substring"]
+- !private ["Ps16TextOutputStream", "characters"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "range"]
+- !private ["Ps16TextOutputStream", "startIndex"]
+- !private ["Ps16TextOutputStream", "substring"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "range"]
+- !private ["Ps20TextOutputStreamable", "startIndex"]
+- !private ["Ps20TextOutputStreamable", "substring"]
+- !private ["PSo29UIAccessibilityIdentification", "findFirstResponder"]
+- !private ["PSo29UIAccessibilityIdentification", "formCell"]
+- !private ["PSo29UIAccessibilityIdentification", "isFirstResponder"]
+- !private ["PSo29UIAccessibilityIdentification", "subviews"]
+- !private ["PSo29UIAccessibilityIdentification", "superview"]
+- !private ["PSo12UIAppearance", "findFirstResponder"]
+- !private ["PSo12UIAppearance", "formCell"]
+- !private ["PSo12UIAppearance", "isFirstResponder"]
+- !private ["PSo12UIAppearance", "subviews"]
+- !private ["PSo12UIAppearance", "superview"]
+- !private ["PSo21UIAppearanceContainer", "findFirstResponder"]
+- !private ["PSo21UIAppearanceContainer", "formCell"]
+- !private ["PSo21UIAppearanceContainer", "isFirstResponder"]
+- !private ["PSo21UIAppearanceContainer", "subviews"]
+- !private ["PSo21UIAppearanceContainer", "superview"]
+- !private ["PSo17UICoordinateSpace", "findFirstResponder"]
+- !private ["PSo17UICoordinateSpace", "formCell"]
+- !private ["PSo17UICoordinateSpace", "isFirstResponder"]
+- !private ["PSo17UICoordinateSpace", "subviews"]
+- !private ["PSo17UICoordinateSpace", "superview"]
+- !private ["PSo13UIDynamicItem", "findFirstResponder"]
+- !private ["PSo13UIDynamicItem", "formCell"]
+- !private ["PSo13UIDynamicItem", "isFirstResponder"]
+- !private ["PSo13UIDynamicItem", "subviews"]
+- !private ["PSo13UIDynamicItem", "superview"]
+- !private ["PSo18UIFocusEnvironment", "findFirstResponder"]
+- !private ["PSo18UIFocusEnvironment", "formCell"]
+- !private ["PSo18UIFocusEnvironment", "isFirstResponder"]
+- !private ["PSo18UIFocusEnvironment", "subviews"]
+- !private ["PSo18UIFocusEnvironment", "superview"]
+- !private ["PSo11UIFocusItem", "findFirstResponder"]
+- !private ["PSo11UIFocusItem", "formCell"]
+- !private ["PSo11UIFocusItem", "isFirstResponder"]
+- !private ["PSo11UIFocusItem", "subviews"]
+- !private ["PSo11UIFocusItem", "superview"]
+- ["CSo11UIResponder", "BaseCell"]
+- !private ["CSo11UIResponder", "UITableViewCell"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "findFirstResponder"]
+- ["CSo11UIResponder", "formCell"]
+- !private ["CSo11UIResponder", "isFirstResponder"]
+- !private ["CSo11UIResponder", "subviews"]
+- !private ["CSo11UIResponder", "superview"]
+- !private ["PSo30UIResponderStandardEditActions", "findFirstResponder"]
+- !private ["PSo30UIResponderStandardEditActions", "formCell"]
+- !private ["PSo30UIResponderStandardEditActions", "isFirstResponder"]
+- !private ["PSo30UIResponderStandardEditActions", "subviews"]
+- !private ["PSo30UIResponderStandardEditActions", "superview"]
+- !private ["PSo18UITraitEnvironment", "findFirstResponder"]
+- !private ["PSo18UITraitEnvironment", "formCell"]
+- !private ["PSo18UITraitEnvironment", "isFirstResponder"]
+- !private ["PSo18UITraitEnvironment", "subviews"]
+- !private ["PSo18UITraitEnvironment", "superview"]
+- ["CSo6UIView", "BaseCell"]
+- !private ["CSo6UIView", "UITableViewCell"]
+- ["CSo6UIView", "UIView"]
+- ["CSo6UIView", "findFirstResponder"]
+- ["CSo6UIView", "formCell"]
+- !private ["CSo6UIView", "isFirstResponder"]
+- !private ["CSo6UIView", "subviews"]
+- !private ["CSo6UIView", "superview"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "index"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "findFirstResponder"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "formCell"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isFirstResponder"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "subviews"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "superview"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "range"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "startIndex"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "substring"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "range"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "startIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "substring"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "range"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "startIndex"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "substring"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "range"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "startIndex"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "substring"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "characters"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "range"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "startIndex"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "substring"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "range"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "startIndex"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "substring"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "characters"]
+- !private ["Ps9_Hashable", "expressionType"]
+- !private ["Ps9_Hashable", "expressionVars"]
+- !private ["Ps9_Hashable", "findFirstResponder"]
+- !private ["Ps9_Hashable", "formCell"]
+- ["Ps9_Hashable", "function"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isFirstResponder"]
+- !private ["Ps9_Hashable", "leftExpression"]
+- !private ["Ps9_Hashable", "predicateVars"]
+- !private ["Ps9_Hashable", "range"]
+- !private ["Ps9_Hashable", "rightExpression"]
+- !private ["Ps9_Hashable", "startIndex"]
+- !private ["Ps9_Hashable", "subpredicates"]
+- !private ["Ps9_Hashable", "substring"]
+- !private ["Ps9_Hashable", "subviews"]
+- !private ["Ps9_Hashable", "superview"]
+- ["Ps9_Hashable", "variable"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "index"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "index"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "range"]
+- !private ["Ps21_ObjectiveCBridgeable", "startIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "substring"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "index"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "VSS13CharacterView"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "OCSo12NSExpression14ExpressionType"
+- "Ps8Hashable"
+- !private "P6Eureka18InputTypeInitiable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "CSo21NSComparisonPredicate"
+- !private "CSo19NSCompoundPredicate"
+- !private "PSo9NSCopying"
+- "CSo12NSExpression"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "CSo11NSPredicate"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Vs5Range"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/Target Support Files/Eureka/Eureka-umbrella.h"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Debug-iphoneos/Eureka.build/unextended-module.modulemap"
+interface-hash: "4860e6523a9f1afe4dddd4d882236a21"

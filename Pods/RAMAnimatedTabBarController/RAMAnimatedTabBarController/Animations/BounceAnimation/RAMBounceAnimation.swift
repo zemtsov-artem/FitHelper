@@ -34,7 +34,7 @@ open class RAMBounceAnimation : RAMItemAnimation {
    */
   override open func playAnimation(_ icon : UIImageView, textLabel : UILabel) {
     playBounceAnimation(icon)
-    textLabel.textColor = textSelectedColor
+    textLabel.textColor = UIColor.white
   }
   
   /**
@@ -53,7 +53,7 @@ open class RAMBounceAnimation : RAMItemAnimation {
         UIImageRenderingMode.alwaysTemplate
       let renderImage = iconImage.withRenderingMode(renderMode)
       icon.image = renderImage
-      icon.tintColor = defaultIconColor
+      icon.tintColor = UIColor.red
     }
   }
   
@@ -64,12 +64,12 @@ open class RAMBounceAnimation : RAMItemAnimation {
    - parameter textLabel: animating UITabBarItem textLabel
    */
   override open func selectedState(_ icon : UIImageView, textLabel : UILabel) {
-    textLabel.textColor = textSelectedColor
+    textLabel.textColor = UIColor.white
     
     if let iconImage = icon.image {
       let renderImage = iconImage.withRenderingMode(.alwaysTemplate)
       icon.image = renderImage
-      icon.tintColor = iconSelectedColor
+      icon.tintColor = UIColor.white
     }
   }
   
@@ -85,7 +85,7 @@ open class RAMBounceAnimation : RAMItemAnimation {
     if let iconImage = icon.image {
       let renderImage = iconImage.withRenderingMode(.alwaysTemplate)
       icon.image = renderImage
-      icon.tintColor = iconSelectedColor
+      icon.tintColor = UIColor.white
     }
   }
 }

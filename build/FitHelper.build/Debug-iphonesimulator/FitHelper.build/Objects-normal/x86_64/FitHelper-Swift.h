@@ -133,13 +133,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import ObjectiveC;
+@import CoreData;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 @class UIWindow;
 @class UIApplication;
-@class NSPersistentContainer;
 
 SWIFT_CLASS("_TtC9FitHelper11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -150,18 +152,325 @@ SWIFT_CLASS("_TtC9FitHelper11AppDelegate")
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
-@property (nonatomic, strong) NSPersistentContainer * _Nonnull persistentContainer;
-- (void)saveContext;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
+@class NSPersistentStoreCoordinator;
+@class NSManagedObjectModel;
+@class NSManagedObjectContext;
+@class NSManagedObject;
+
+SWIFT_CLASS("_TtC9FitHelper14CoreDataHelper")
+@interface CoreDataHelper : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CoreDataHelper * _Nonnull instance;)
++ (CoreDataHelper * _Nonnull)instance SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly, strong) NSPersistentStoreCoordinator * _Nonnull coordinator;
+@property (nonatomic, readonly, strong) NSManagedObjectModel * _Nonnull model;
+@property (nonatomic, readonly, strong) NSManagedObjectContext * _Nonnull context;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (NSArray<NSManagedObject *> * _Nonnull)allObjectsFromContext SWIFT_WARN_UNUSED_RESULT;
+- (void)save;
+@end
+
+@class NSEntityDescription;
+@class Training;
+
+SWIFT_CLASS("_TtC9FitHelper8Exercise")
+@interface Exercise : NSManagedObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSEntityDescription * _Nonnull Entity;)
++ (NSEntityDescription * _Nonnull)Entity SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithName:(NSString * _Nonnull)name specification:(NSString * _Nonnull)specification weight:(int16_t)weight interval:(int16_t)interval muscleGroup:(NSString * _Nonnull)muscleGroup repeateNumber:(int16_t)repeateNumber series:(int16_t)series training:(Training * _Nullable)training;
++ (NSArray<Exercise *> * _Nonnull)allExercises SWIFT_WARN_UNUSED_RESULT;
++ (NSArray<Exercise *> * _Nonnull)getCurrentExerciseWithInputName:(NSString * _Nonnull)inputName SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface Exercise (SWIFT_EXTENSION(FitHelper))
+@property (nonatomic, copy) NSString * _Nullable exerciseName;
+@property (nonatomic, copy) NSString * _Nullable specification;
+@property (nonatomic) int16_t weight;
+@property (nonatomic) int16_t interval;
+@property (nonatomic, copy) NSString * _Nullable muscleGroup;
+@property (nonatomic) int16_t repeateNumber;
+@property (nonatomic, strong) Training * _Nullable training;
+@property (nonatomic) int16_t series;
+@end
+
+@class UILabel;
+@class UIImageView;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC9FitHelper14ViewController")
-@interface ViewController : UIViewController
+SWIFT_CLASS("_TtC9FitHelper12ExerciseCell")
+@interface ExerciseCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified exerciseName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified muscleGroup;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified exerciseImage;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class UIStoryboardSegue;
+@class UITableViewRowAction;
+@class UIPresentationController;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC9FitHelper13ExercisesList")
+@interface ExercisesList : UITableViewController <UIAdaptivePresentationControllerDelegate, UIPopoverPresentationControllerDelegate>
+@property (nonatomic, copy) NSArray<Exercise *> * _Nonnull exerciseToSend;
+@property (nonatomic, copy) NSArray<Exercise *> * _Nonnull exercisesData;
+@property (nonatomic, copy) NSArray<Exercise *> * _Nonnull exerciseFromTraining;
+- (IBAction)sendDataToConnectController:(id _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (NSArray<UITableViewRowAction *> * _Nullable)tableView:(UITableView * _Nonnull)tableView editActionsForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UIModalPresentationStyle)adaptivePresentationStyleForPresentationController:(UIPresentationController * _Nonnull)controller SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9FitHelper25ExercisesListFromTraining")
+@interface ExercisesListFromTraining : UITableViewController
+@property (nonatomic, copy) NSArray<Exercise *> * _Nonnull exerciseList;
+@property (nonatomic, strong) Training * _Null_unspecified currentTraining;
+- (void)getSelectedExercisesWithInputExercises:(NSArray<Exercise *> * _Nonnull)inputExercises;
+- (IBAction)SaveListOfExercises:(id _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (UITableViewCellEditingStyle)tableView:(UITableView * _Nonnull)tableView editingStyleForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)tableView:(UITableView * _Nonnull)tableView shouldIndentWhileEditingRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView moveRowAtIndexPath:(NSIndexPath * _Nonnull)fromIndexPath toIndexPath:(NSIndexPath * _Nonnull)to;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9FitHelper9GraphPage")
+@interface GraphPage : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9FitHelper12SettingsPage")
+@interface SettingsPage : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+@class UITextView;
+@class UIImage;
+@class UITouch;
+@class UIEvent;
+@class UITapGestureRecognizer;
+@class UIPickerView;
+
+SWIFT_CLASS("_TtC9FitHelper11TheExercise")
+@interface TheExercise : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified exerciseName;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified exerciseMuscleGroup;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified exerciseWeight;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified exerciseRepeateNumber;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified exerciseSeries;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified exerciseInterval;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified exerciseSpecification;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified exerciseImage;
+@property (nonatomic, copy) NSArray<Exercise *> * _Nonnull listOfExercises;
+@property (nonatomic, copy) NSArray<Exercise *> * _Nonnull allExercises;
+@property (nonatomic, strong) Exercise * _Null_unspecified currentExercise;
+@property (nonatomic, strong) UIImage * _Null_unspecified image;
+@property (nonatomic, readonly, copy) NSArray<NSString *> * _Nonnull exercisesGroupNames;
+- (IBAction)saveIsClicked:(id _Nonnull)sender;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)viewDidLoad;
+- (void)updateImage;
+- (void)dismissKeybordWithRecognizer:(UITapGestureRecognizer * _Nonnull)recognizer;
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)pickerView:(UIPickerView * _Nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (void)pickerView:(UIPickerView * _Nonnull)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSSet;
+
+SWIFT_CLASS("_TtC9FitHelper8Training")
+@interface Training : NSManagedObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSEntityDescription * _Nonnull Entity;)
++ (NSEntityDescription * _Nonnull)Entity SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithDesiredDay:(NSString * _Nonnull)desiredDay specification:(NSString * _Nonnull)specification trainingName:(NSString * _Nonnull)trainingName trainingType:(NSString * _Nonnull)trainingType exercises:(NSSet * _Nullable)exercises;
++ (NSArray<Training *> * _Nonnull)allTrainings SWIFT_WARN_UNUSED_RESULT;
++ (NSArray<Training *> * _Nonnull)getCurrentTrainingWithInputName:(NSString * _Nonnull)inputName SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface Training (SWIFT_EXTENSION(FitHelper))
+- (void)addExerciseObject:(Exercise * _Nonnull)value;
+- (void)removeExerciseObject:(Exercise * _Nonnull)value;
+- (void)addExercise:(NSSet * _Nonnull)values;
+- (void)removeExercise:(NSSet * _Nonnull)values;
+@end
+
+
+@interface Training (SWIFT_EXTENSION(FitHelper))
+@property (nonatomic, copy) NSString * _Nullable desiredDay;
+@property (nonatomic, copy) NSString * _Nullable specification;
+@property (nonatomic, copy) NSString * _Nullable trainingName;
+@property (nonatomic, copy) NSString * _Nullable trainingType;
+@property (nonatomic, strong) NSSet * _Nullable exercise;
+@end
+
+
+SWIFT_CLASS("_TtC9FitHelper12TrainingCell")
+@interface TrainingCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified TrainingName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified MuscleGroup;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified DayOfTheWeek;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified TrainingImage;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9FitHelper12TrainingPage")
+@interface TrainingPage : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
+@property (nonatomic, copy) NSArray<Training *> * _Nonnull allTrainings;
+@property (nonatomic, copy) NSArray<Training *> * _Nonnull listOfTrainings;
+@property (nonatomic, strong) Training * _Null_unspecified currentTraining;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified exerciseNum;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified TrainingName;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified TrainingDescription;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified TrainingType;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified TrainingDay;
+- (IBAction)CreateButtonIsClicked:(id _Nonnull)sender;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull pickOption;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)pickerView:(UIPickerView * _Nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (void)pickerView:(UIPickerView * _Nonnull)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (void)dismissKeybordWithRecognizer:(UITapGestureRecognizer * _Nonnull)recognizer;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9FitHelper13TrainingsList")
+@interface TrainingsList : UITableViewController
+@property (nonatomic, copy) NSArray<Training *> * _Nonnull trainingData;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (NSArray<UITableViewRowAction *> * _Nullable)tableView:(UITableView * _Nonnull)tableView editActionsForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSDate;
+@class NSCalendar;
+@class NSDateComponents;
+@class UIButton;
+
+SWIFT_CLASS("_TtC9FitHelper8UserPage")
+@interface UserPage : UIViewController
+@property (nonatomic, strong) NSDate * _Null_unspecified today;
+@property (nonatomic, strong) NSCalendar * _Null_unspecified gregorianCalendar;
+@property (nonatomic, strong) NSDateComponents * _Null_unspecified weekdayComponent;
+@property (nonatomic) NSInteger currentDay;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified trainingNameForToday;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dayLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified buttonState;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9FitHelper20activityTrainingPage")
+@interface activityTrainingPage : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified currentExerciseName;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified currentExerciseImage;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified goNextButtonName;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified currentExerciseWeigth;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified currentExerciseRepeate;
+- (IBAction)goNextButtonIsClicked:(id _Nonnull)sender;
+@property (nonatomic, strong) Training * _Null_unspecified currentTraining;
+@property (nonatomic, strong) Exercise * _Null_unspecified currentExercise;
+@property (nonatomic, copy) NSArray<Exercise *> * _Null_unspecified listOfExercisesFromCurrentTraining;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9FitHelper24finalizeActivityTraining")
+@interface finalizeActivityTraining : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9FitHelper33listOfExercisesInActivityTraining")
+@interface listOfExercisesInActivityTraining : UITableViewController
+@property (nonatomic, copy) NSArray<Exercise *> * _Nonnull exercisesData;
+@property (nonatomic, copy) NSArray<Exercise *> * _Nonnull exerciseFromTraining;
+@property (nonatomic, strong) Training * _Null_unspecified currentTraining;
+- (IBAction)startIsClicked:(id _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

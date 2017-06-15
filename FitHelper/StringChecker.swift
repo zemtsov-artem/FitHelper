@@ -11,8 +11,12 @@ import UIKit
 
 
 func getInt16FromString(_ inputValue:String) ->Int16 {
-    let result = Int16 (inputValue.trimmingCharacters(in: .whitespacesAndNewlines))
-    return result!
+    if let result = Int16 (inputValue.trimmingCharacters(in: .whitespacesAndNewlines)){
+        return result
+    } else {
+        return 0
+    }
+    
 }
 
 //deprecated

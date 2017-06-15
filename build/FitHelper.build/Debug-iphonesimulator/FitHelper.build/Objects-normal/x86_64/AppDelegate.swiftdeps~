@@ -12,25 +12,22 @@ provides-dynamic-lookup:
 - "applicationWillEnterForeground"
 - "applicationWillResignActive"
 - "applicationWillTerminate"
-- "persistentContainer"
-- "saveContext"
 - "window"
 depends-top-level:
+- !private "=="
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
-- "CastingPrecedence"
-- !private "NSError"
-- "NSPersistentContainer"
-- "StringLiteralType"
+- !private "Exercise"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
 - "UIResponder"
 - "UIWindow"
-- !private "fatalError"
+- !private "setDefaultsExercises"
 depends-member:
-- !private ["Ps9AnyObject", "NSPersistentContainer"]
+- !private ["Ps9AnyObject", "Exercise"]
+- !private ["Ps9AnyObject", "allExercises"]
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
 - ["Ps9AnyObject", "applicationDidEnterBackground"]
@@ -43,20 +40,12 @@ depends-member:
 - ["Ps9AnyObject", "applicationWillEnterForeground"]
 - ["Ps9AnyObject", "applicationWillResignActive"]
 - ["Ps9AnyObject", "applicationWillTerminate"]
-- !private ["Ps9AnyObject", "fatalError"]
-- !private ["Ps9AnyObject", "hasChanges"]
 - !private ["Ps9AnyObject", "init"]
-- !private ["Ps9AnyObject", "loadPersistentStores"]
-- !private ["Ps9AnyObject", "persistentContainer"]
-- !private ["Ps9AnyObject", "save"]
-- !private ["Ps9AnyObject", "saveContext"]
-- !private ["Ps9AnyObject", "userInfo"]
-- !private ["Ps9AnyObject", "viewContext"]
+- !private ["Ps9AnyObject", "setDefaultsExercises"]
 - ["Ps9AnyObject", "window"]
 - ["Ps9AnyObject", ""]
 - ["C9FitHelper11AppDelegate", "Bool"]
-- !private ["C9FitHelper11AppDelegate", "NSError"]
-- ["C9FitHelper11AppDelegate", "NSPersistentContainer"]
+- !private ["C9FitHelper11AppDelegate", "Exercise"]
 - ["C9FitHelper11AppDelegate", "UIApplication"]
 - ["C9FitHelper11AppDelegate", "UIApplicationLaunchOptionsKey"]
 - ["C9FitHelper11AppDelegate", "UIWindow"]
@@ -73,14 +62,14 @@ depends-member:
 - ["C9FitHelper11AppDelegate", "applicationWillResignActive"]
 - ["C9FitHelper11AppDelegate", "applicationWillTerminate"]
 - ["C9FitHelper11AppDelegate", "deinit"]
-- !private ["C9FitHelper11AppDelegate", "fatalError"]
 - ["C9FitHelper11AppDelegate", "init"]
-- ["C9FitHelper11AppDelegate", "persistentContainer"]
-- !private ["C9FitHelper11AppDelegate", "persistentContainer.storage"]
-- ["C9FitHelper11AppDelegate", "saveContext"]
+- !private ["C9FitHelper11AppDelegate", "setDefaultsExercises"]
 - ["C9FitHelper11AppDelegate", "window"]
+- !private ["Sa", "count"]
+- !private ["Ps23BidirectionalCollection", "count"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["Ps7CVarArg", "NSPersistentContainer"]
+- !private ["Ps7CVarArg", "Exercise"]
+- !private ["Ps7CVarArg", "allExercises"]
 - ["Ps7CVarArg", "application"]
 - ["Ps7CVarArg", "applicationDidBecomeActive"]
 - ["Ps7CVarArg", "applicationDidEnterBackground"]
@@ -93,19 +82,14 @@ depends-member:
 - ["Ps7CVarArg", "applicationWillEnterForeground"]
 - ["Ps7CVarArg", "applicationWillResignActive"]
 - ["Ps7CVarArg", "applicationWillTerminate"]
-- !private ["Ps7CVarArg", "fatalError"]
-- !private ["Ps7CVarArg", "hasChanges"]
+- !private ["Ps7CVarArg", "count"]
 - !private ["Ps7CVarArg", "init"]
-- !private ["Ps7CVarArg", "loadPersistentStores"]
-- !private ["Ps7CVarArg", "persistentContainer"]
-- !private ["Ps7CVarArg", "save"]
-- !private ["Ps7CVarArg", "saveContext"]
-- !private ["Ps7CVarArg", "userInfo"]
-- !private ["Ps7CVarArg", "viewContext"]
+- !private ["Ps7CVarArg", "setDefaultsExercises"]
 - ["Ps7CVarArg", "window"]
 - ["Ps7CVarArg", ""]
-- !private ["Ps10Comparable", "init"]
-- !private ["Ps28CustomDebugStringConvertible", "NSPersistentContainer"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "Exercise"]
+- !private ["Ps28CustomDebugStringConvertible", "allExercises"]
 - ["Ps28CustomDebugStringConvertible", "application"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
@@ -118,23 +102,17 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
 - ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
-- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
-- !private ["Ps28CustomDebugStringConvertible", "hasChanges"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
-- !private ["Ps28CustomDebugStringConvertible", "loadPersistentStores"]
-- !private ["Ps28CustomDebugStringConvertible", "persistentContainer"]
-- !private ["Ps28CustomDebugStringConvertible", "save"]
-- !private ["Ps28CustomDebugStringConvertible", "saveContext"]
-- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
-- !private ["Ps28CustomDebugStringConvertible", "viewContext"]
+- !private ["Ps28CustomDebugStringConvertible", "setDefaultsExercises"]
 - ["Ps28CustomDebugStringConvertible", "window"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
-- !private ["Ps17CustomReflectable", "init"]
-- !private ["Ps23CustomStringConvertible", "NSPersistentContainer"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps23CustomStringConvertible", "Exercise"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "allExercises"]
 - ["Ps23CustomStringConvertible", "application"]
 - ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
 - ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
@@ -147,19 +125,14 @@ depends-member:
 - ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
 - ["Ps23CustomStringConvertible", "applicationWillResignActive"]
 - ["Ps23CustomStringConvertible", "applicationWillTerminate"]
-- !private ["Ps23CustomStringConvertible", "fatalError"]
-- !private ["Ps23CustomStringConvertible", "hasChanges"]
+- !private ["Ps23CustomStringConvertible", "count"]
 - !private ["Ps23CustomStringConvertible", "init"]
-- !private ["Ps23CustomStringConvertible", "loadPersistentStores"]
-- !private ["Ps23CustomStringConvertible", "persistentContainer"]
-- !private ["Ps23CustomStringConvertible", "save"]
-- !private ["Ps23CustomStringConvertible", "saveContext"]
-- !private ["Ps23CustomStringConvertible", "userInfo"]
-- !private ["Ps23CustomStringConvertible", "viewContext"]
+- !private ["Ps23CustomStringConvertible", "setDefaultsExercises"]
 - ["Ps23CustomStringConvertible", "window"]
 - ["Ps23CustomStringConvertible", ""]
-- !private ["Ps9Equatable", "NSPersistentContainer"]
+- !private ["Ps9Equatable", "Exercise"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allExercises"]
 - ["Ps9Equatable", "application"]
 - ["Ps9Equatable", "applicationDidBecomeActive"]
 - ["Ps9Equatable", "applicationDidEnterBackground"]
@@ -172,24 +145,16 @@ depends-member:
 - ["Ps9Equatable", "applicationWillEnterForeground"]
 - ["Ps9Equatable", "applicationWillResignActive"]
 - ["Ps9Equatable", "applicationWillTerminate"]
-- !private ["Ps9Equatable", "fatalError"]
-- !private ["Ps9Equatable", "hasChanges"]
 - !private ["Ps9Equatable", "init"]
-- !private ["Ps9Equatable", "loadPersistentStores"]
-- !private ["Ps9Equatable", "persistentContainer"]
-- !private ["Ps9Equatable", "save"]
-- !private ["Ps9Equatable", "saveContext"]
-- !private ["Ps9Equatable", "userInfo"]
-- !private ["Ps9Equatable", "viewContext"]
+- !private ["Ps9Equatable", "setDefaultsExercises"]
 - ["Ps9Equatable", "window"]
 - ["Ps9Equatable", ""]
-- !private ["Ps5Error", "userInfo"]
+- !private ["C9FitHelper8Exercise", "allExercises"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps26ExpressibleByStringLiteral", "init"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
-- !private ["Ps8Hashable", "NSPersistentContainer"]
+- !private ["Ps8Hashable", "Exercise"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "allExercises"]
 - ["Ps8Hashable", "application"]
 - ["Ps8Hashable", "applicationDidBecomeActive"]
 - ["Ps8Hashable", "applicationDidEnterBackground"]
@@ -202,38 +167,20 @@ depends-member:
 - ["Ps8Hashable", "applicationWillEnterForeground"]
 - ["Ps8Hashable", "applicationWillResignActive"]
 - ["Ps8Hashable", "applicationWillTerminate"]
-- !private ["Ps8Hashable", "fatalError"]
-- !private ["Ps8Hashable", "hasChanges"]
 - !private ["Ps8Hashable", "init"]
-- !private ["Ps8Hashable", "loadPersistentStores"]
-- !private ["Ps8Hashable", "persistentContainer"]
-- !private ["Ps8Hashable", "save"]
-- !private ["Ps8Hashable", "saveContext"]
-- !private ["Ps8Hashable", "userInfo"]
-- !private ["Ps8Hashable", "viewContext"]
+- !private ["Ps8Hashable", "setDefaultsExercises"]
 - ["Ps8Hashable", "window"]
 - ["Ps8Hashable", ""]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps25LosslessStringConvertible", "init"]
-- !private ["Ps10MirrorPath", "init"]
-- !private ["PSo8NSCoding", "hasChanges"]
-- !private ["PSo8NSCoding", "init"]
-- !private ["PSo8NSCoding", "save"]
-- !private ["PSo8NSCoding", "userInfo"]
-- !private ["PSo9NSCopying", "init"]
-- !private ["PSo9NSCopying", "userInfo"]
-- !private ["CSo7NSError", "userInfo"]
-- !private ["PSo9NSLocking", "hasChanges"]
-- !private ["PSo9NSLocking", "save"]
-- !private ["CSo22NSManagedObjectContext", "hasChanges"]
-- !private ["CSo22NSManagedObjectContext", "save"]
-- !private ["PSo16NSMutableCopying", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["PSo20NSFetchRequestResult", "allExercises"]
+- !private ["CSo15NSManagedObject", "allExercises"]
 - ["CSo8NSObject", "Bool"]
-- !private ["CSo8NSObject", "NSError"]
-- ["CSo8NSObject", "NSPersistentContainer"]
+- !private ["CSo8NSObject", "Exercise"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
 - ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "allExercises"]
 - ["CSo8NSObject", "application"]
 - ["CSo8NSObject", "applicationDidBecomeActive"]
 - ["CSo8NSObject", "applicationDidEnterBackground"]
@@ -246,18 +193,11 @@ depends-member:
 - ["CSo8NSObject", "applicationWillEnterForeground"]
 - ["CSo8NSObject", "applicationWillResignActive"]
 - ["CSo8NSObject", "applicationWillTerminate"]
-- !private ["CSo8NSObject", "fatalError"]
-- !private ["CSo8NSObject", "hasChanges"]
 - ["CSo8NSObject", "init"]
-- !private ["CSo8NSObject", "loadPersistentStores"]
-- ["CSo8NSObject", "persistentContainer"]
-- ["CSo8NSObject", "persistentContainer.storage"]
-- !private ["CSo8NSObject", "save"]
-- ["CSo8NSObject", "saveContext"]
-- !private ["CSo8NSObject", "userInfo"]
-- !private ["CSo8NSObject", "viewContext"]
+- !private ["CSo8NSObject", "setDefaultsExercises"]
 - ["CSo8NSObject", "window"]
-- !private ["PSo16NSObjectProtocol", "NSPersistentContainer"]
+- !private ["PSo16NSObjectProtocol", "Exercise"]
+- !private ["PSo16NSObjectProtocol", "allExercises"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
@@ -270,28 +210,14 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
 - ["PSo16NSObjectProtocol", "applicationWillResignActive"]
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
-- !private ["PSo16NSObjectProtocol", "fatalError"]
-- !private ["PSo16NSObjectProtocol", "hasChanges"]
 - !private ["PSo16NSObjectProtocol", "init"]
-- !private ["PSo16NSObjectProtocol", "loadPersistentStores"]
-- !private ["PSo16NSObjectProtocol", "persistentContainer"]
-- !private ["PSo16NSObjectProtocol", "save"]
-- !private ["PSo16NSObjectProtocol", "saveContext"]
-- !private ["PSo16NSObjectProtocol", "userInfo"]
-- !private ["PSo16NSObjectProtocol", "viewContext"]
+- !private ["PSo16NSObjectProtocol", "setDefaultsExercises"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
-- !private ["CSo21NSPersistentContainer", "init"]
-- !private ["CSo21NSPersistentContainer", "loadPersistentStores"]
-- !private ["CSo21NSPersistentContainer", "viewContext"]
-- !private ["PSo14NSSecureCoding", "init"]
-- !private ["PSo14NSSecureCoding", "userInfo"]
-- !private ["CSo8NSString", "init"]
-- !private ["Vs12StaticString", "init"]
-- !private ["SS", "init"]
-- !private ["Ps16TextOutputStream", "init"]
-- !private ["Ps20TextOutputStreamable", "init"]
-- !private ["PSo21UIApplicationDelegate", "NSPersistentContainer"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps8Sequence", "count"]
+- !private ["PSo21UIApplicationDelegate", "Exercise"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -304,14 +230,11 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
 - ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
 - ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
-- !private ["PSo21UIApplicationDelegate", "fatalError"]
-- !private ["PSo21UIApplicationDelegate", "persistentContainer"]
-- !private ["PSo21UIApplicationDelegate", "saveContext"]
+- !private ["PSo21UIApplicationDelegate", "setDefaultsExercises"]
 - ["PSo21UIApplicationDelegate", "window"]
 - ["PSo21UIApplicationDelegate", ""]
 - ["CSo11UIResponder", "Bool"]
-- !private ["CSo11UIResponder", "NSError"]
-- ["CSo11UIResponder", "NSPersistentContainer"]
+- !private ["CSo11UIResponder", "Exercise"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
 - ["CSo11UIResponder", "UIWindow"]
@@ -327,14 +250,11 @@ depends-member:
 - ["CSo11UIResponder", "applicationWillEnterForeground"]
 - ["CSo11UIResponder", "applicationWillResignActive"]
 - ["CSo11UIResponder", "applicationWillTerminate"]
-- !private ["CSo11UIResponder", "fatalError"]
 - ["CSo11UIResponder", "init"]
-- ["CSo11UIResponder", "persistentContainer"]
-- ["CSo11UIResponder", "persistentContainer.storage"]
-- ["CSo11UIResponder", "saveContext"]
+- !private ["CSo11UIResponder", "setDefaultsExercises"]
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
-- !private ["PSo30UIResponderStandardEditActions", "NSPersistentContainer"]
+- !private ["PSo30UIResponderStandardEditActions", "Exercise"]
 - ["PSo30UIResponderStandardEditActions", "application"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
@@ -347,21 +267,17 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
 - ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
 - ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
-- !private ["PSo30UIResponderStandardEditActions", "fatalError"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
-- !private ["PSo30UIResponderStandardEditActions", "persistentContainer"]
-- !private ["PSo30UIResponderStandardEditActions", "saveContext"]
+- !private ["PSo30UIResponderStandardEditActions", "setDefaultsExercises"]
 - ["PSo30UIResponderStandardEditActions", "window"]
 - ["PSo30UIResponderStandardEditActions", ""]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
-- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
-- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
-- !private ["Ps9_Hashable", "NSPersistentContainer"]
+- !private ["Ps9_Hashable", "Exercise"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "allExercises"]
 - ["Ps9_Hashable", "application"]
 - ["Ps9_Hashable", "applicationDidBecomeActive"]
 - ["Ps9_Hashable", "applicationDidEnterBackground"]
@@ -374,65 +290,57 @@ depends-member:
 - ["Ps9_Hashable", "applicationWillEnterForeground"]
 - ["Ps9_Hashable", "applicationWillResignActive"]
 - ["Ps9_Hashable", "applicationWillTerminate"]
-- !private ["Ps9_Hashable", "fatalError"]
-- !private ["Ps9_Hashable", "hasChanges"]
 - !private ["Ps9_Hashable", "init"]
-- !private ["Ps9_Hashable", "loadPersistentStores"]
-- !private ["Ps9_Hashable", "persistentContainer"]
-- !private ["Ps9_Hashable", "save"]
-- !private ["Ps9_Hashable", "saveContext"]
-- !private ["Ps9_Hashable", "userInfo"]
-- !private ["Ps9_Hashable", "viewContext"]
+- !private ["Ps9_Hashable", "setDefaultsExercises"]
 - ["Ps9_Hashable", "window"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps17_MutableIndexable", "count"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
 depends-nominal:
 - "Ps9AnyObject"
 - "C9FitHelper11AppDelegate"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
 - !private "Sb"
 - "Ps7CVarArg"
-- !private "Ps10Comparable"
+- !private "Ps10Collection"
 - "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
-- !private "Ps5Error"
+- !private "C9FitHelper8Exercise"
+- !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
-- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- !private "Ps26ExpressibleByStringLiteral"
-- !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
 - !private "Ps25LosslessStringConvertible"
-- !private "Ps10MirrorPath"
-- !private "PSo8NSCoding"
-- !private "PSo9NSCopying"
-- !private "CSo7NSError"
-- !private "PSo9NSLocking"
-- !private "CSo22NSManagedObjectContext"
-- !private "PSo16NSMutableCopying"
+- !private "Ps17MutableCollection"
+- !private "PSo20NSFetchRequestResult"
+- !private "CSo15NSManagedObject"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "CSo21NSPersistentContainer"
-- !private "PSo14NSSecureCoding"
-- !private "CSo8NSString"
-- !private "Vs12StaticString"
-- !private "SS"
-- !private "Ps16TextOutputStream"
-- !private "Ps20TextOutputStreamable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
 - "PSo21UIApplicationDelegate"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
-- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
-- !private "Ps34_ExpressibleByBuiltinStringLiteral"
-- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
-- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
-- !private "Ps33_ExpressibleByStringInterpolation"
-- !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
 - !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
@@ -442,6 +350,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
@@ -449,8 +358,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "69c8695f5e3be52ad27232a457b9c232"
+interface-hash: "d016189f02aefcf23d19d6b97289a4af"

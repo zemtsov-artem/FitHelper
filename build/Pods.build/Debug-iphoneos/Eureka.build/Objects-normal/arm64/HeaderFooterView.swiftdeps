@@ -1,0 +1,409 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HeaderFooterProvider"
+- "HeaderFooterType"
+- "HeaderFooterView"
+- "=="
+provides-nominal:
+- "O6Eureka20HeaderFooterProvider"
+- "O6Eureka16HeaderFooterType"
+- "V6Eureka16HeaderFooterView"
+provides-member:
+- ["O6Eureka20HeaderFooterProvider", ""]
+- ["O6Eureka16HeaderFooterType", ""]
+- ["V6Eureka16HeaderFooterView", ""]
+- ["CSo6UIView", ""]
+- ["CSo6UIView", "eurekaInvalidate"]
+provides-dynamic-lookup:
+- "eurekaInvalidate"
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bundle"
+- "CGFloat"
+- "CastingPrecedence"
+- "ExpressibleByStringLiteral"
+- "HeaderFooterProvider"
+- "HeaderFooterType"
+- "HeaderFooterView"
+- "HeaderFooterViewRepresentable"
+- "Section"
+- "String"
+- "UIView"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "footerView"]
+- !private ["Ps9AnyObject", "headerView"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadNibNamed"]
+- !private ["Ps9AnyObject", "setNeedsLayout"]
+- !private ["Ps9AnyObject", "setNeedsUpdateConstraints"]
+- !private ["Ps9AnyObject", "updateConstraintsIfNeeded"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "footerView"]
+- !private ["Ps23BidirectionalCollection", "headerView"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo6Bundle", "init"]
+- !private ["CSo6Bundle", "loadNibNamed"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "setNeedsLayout"]
+- !private ["PSo15CALayerDelegate", "setNeedsUpdateConstraints"]
+- !private ["PSo15CALayerDelegate", "updateConstraintsIfNeeded"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "loadNibNamed"]
+- !private ["Ps7CVarArg", "setNeedsLayout"]
+- !private ["Ps7CVarArg", "setNeedsUpdateConstraints"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "updateConstraintsIfNeeded"]
+- !private ["Ps10Collection", "footerView"]
+- !private ["Ps10Collection", "headerView"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "header"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "loadNibNamed"]
+- !private ["Ps28CustomDebugStringConvertible", "setNeedsLayout"]
+- !private ["Ps28CustomDebugStringConvertible", "setNeedsUpdateConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "updateConstraintsIfNeeded"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "header"]
+- !private ["Ps17CustomReflectable", "loadNibNamed"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "loadNibNamed"]
+- !private ["Ps23CustomStringConvertible", "setNeedsLayout"]
+- !private ["Ps23CustomStringConvertible", "setNeedsUpdateConstraints"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "updateConstraintsIfNeeded"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "footerView"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "header"]
+- !private ["Ps9Equatable", "headerView"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "loadNibNamed"]
+- !private ["Ps9Equatable", "setNeedsLayout"]
+- !private ["Ps9Equatable", "setNeedsUpdateConstraints"]
+- !private ["Ps9Equatable", "updateConstraintsIfNeeded"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "height"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "onSetupView"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "title"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "viewForSection"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "viewProvider"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", ""]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "header"]
+- !private ["Ps23ExpressibleByNilLiteral", "loadNibNamed"]
+- ["Ps26ExpressibleByStringLiteral", "height"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "onSetupView"]
+- ["Ps26ExpressibleByStringLiteral", "title"]
+- ["Ps26ExpressibleByStringLiteral", "viewForSection"]
+- !private ["Ps26ExpressibleByStringLiteral", "viewProvider"]
+- ["Ps26ExpressibleByStringLiteral", ""]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "height"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "onSetupView"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "title"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "viewForSection"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "viewProvider"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", ""]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "header"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "loadNibNamed"]
+- !private ["Ps8Hashable", "setNeedsLayout"]
+- !private ["Ps8Hashable", "setNeedsUpdateConstraints"]
+- !private ["Ps8Hashable", "updateConstraintsIfNeeded"]
+- ["Ps8Hashable", ""]
+- ["O6Eureka20HeaderFooterProvider", "Bundle"]
+- ["O6Eureka20HeaderFooterProvider", "String"]
+- ["O6Eureka20HeaderFooterProvider", "ViewType"]
+- ["O6Eureka20HeaderFooterProvider", "callback"]
+- ["O6Eureka20HeaderFooterProvider", "class"]
+- ["O6Eureka20HeaderFooterProvider", "createView"]
+- ["O6Eureka20HeaderFooterProvider", "nibFile"]
+- ["O6Eureka16HeaderFooterType", "=="]
+- ["O6Eureka16HeaderFooterType", "_toAnyHashable"]
+- ["O6Eureka16HeaderFooterType", "deinit"]
+- ["O6Eureka16HeaderFooterType", "footer"]
+- ["O6Eureka16HeaderFooterType", "hashValue"]
+- ["O6Eureka16HeaderFooterType", "header"]
+- ["V6Eureka16HeaderFooterView", "CGFloat"]
+- ["V6Eureka16HeaderFooterView", "ExtendedGraphemeClusterLiteralType"]
+- ["V6Eureka16HeaderFooterView", "HeaderFooterProvider"]
+- ["V6Eureka16HeaderFooterView", "HeaderFooterType"]
+- ["V6Eureka16HeaderFooterView", "Section"]
+- ["V6Eureka16HeaderFooterView", "String"]
+- ["V6Eureka16HeaderFooterView", "StringLiteralType"]
+- ["V6Eureka16HeaderFooterView", "UIView"]
+- ["V6Eureka16HeaderFooterView", "UnicodeScalarLiteralType"]
+- ["V6Eureka16HeaderFooterView", "ViewType"]
+- ["V6Eureka16HeaderFooterView", "Void"]
+- ["V6Eureka16HeaderFooterView", "deinit"]
+- ["V6Eureka16HeaderFooterView", "height"]
+- ["V6Eureka16HeaderFooterView", "init"]
+- ["V6Eureka16HeaderFooterView", "onSetupView"]
+- ["V6Eureka16HeaderFooterView", "title"]
+- ["V6Eureka16HeaderFooterView", "viewForSection"]
+- ["V6Eureka16HeaderFooterView", "viewProvider"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "height"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "init"]
+- !private ["P6Eureka29HeaderFooterViewRepresentable", "onSetupView"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "title"]
+- ["P6Eureka29HeaderFooterViewRepresentable", "viewForSection"]
+- !private ["P6Eureka29HeaderFooterViewRepresentable", "viewProvider"]
+- ["P6Eureka29HeaderFooterViewRepresentable", ""]
+- !private ["P6Eureka7Hidable", "footerView"]
+- !private ["P6Eureka7Hidable", "headerView"]
+- !private ["P6Eureka18InputTypeInitiable", "hashValue"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps17MutableCollection", "footerView"]
+- !private ["Ps17MutableCollection", "headerView"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "setNeedsLayout"]
+- !private ["PSo8NSCoding", "setNeedsUpdateConstraints"]
+- !private ["PSo8NSCoding", "updateConstraintsIfNeeded"]
+- ["CSo8NSObject", "eurekaInvalidate"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "loadNibNamed"]
+- !private ["CSo8NSObject", "setNeedsLayout"]
+- !private ["CSo8NSObject", "setNeedsUpdateConstraints"]
+- !private ["CSo8NSObject", "updateConstraintsIfNeeded"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "loadNibNamed"]
+- !private ["PSo16NSObjectProtocol", "setNeedsLayout"]
+- !private ["PSo16NSObjectProtocol", "setNeedsUpdateConstraints"]
+- !private ["PSo16NSObjectProtocol", "updateConstraintsIfNeeded"]
+- !private ["Sq", "header"]
+- !private ["Sq", "loadNibNamed"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "footerView"]
+- !private ["Ps26RangeReplaceableCollection", "headerView"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["C6Eureka7Section", "footerView"]
+- !private ["C6Eureka7Section", "headerView"]
+- !private ["P6Eureka15SectionDelegate", "footerView"]
+- !private ["P6Eureka15SectionDelegate", "headerView"]
+- !private ["Ps8Sequence", "footerView"]
+- !private ["Ps8Sequence", "headerView"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["P6Eureka8Taggable", "footerView"]
+- !private ["P6Eureka8Taggable", "headerView"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "setNeedsLayout"]
+- !private ["PSo29UIAccessibilityIdentification", "setNeedsUpdateConstraints"]
+- !private ["PSo29UIAccessibilityIdentification", "updateConstraintsIfNeeded"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "setNeedsLayout"]
+- !private ["PSo12UIAppearance", "setNeedsUpdateConstraints"]
+- !private ["PSo12UIAppearance", "updateConstraintsIfNeeded"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "setNeedsLayout"]
+- !private ["PSo21UIAppearanceContainer", "setNeedsUpdateConstraints"]
+- !private ["PSo21UIAppearanceContainer", "updateConstraintsIfNeeded"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "setNeedsLayout"]
+- !private ["PSo17UICoordinateSpace", "setNeedsUpdateConstraints"]
+- !private ["PSo17UICoordinateSpace", "updateConstraintsIfNeeded"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "setNeedsLayout"]
+- !private ["PSo13UIDynamicItem", "setNeedsUpdateConstraints"]
+- !private ["PSo13UIDynamicItem", "updateConstraintsIfNeeded"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "setNeedsLayout"]
+- !private ["PSo18UIFocusEnvironment", "setNeedsUpdateConstraints"]
+- !private ["PSo18UIFocusEnvironment", "updateConstraintsIfNeeded"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "setNeedsLayout"]
+- !private ["PSo11UIFocusItem", "setNeedsUpdateConstraints"]
+- !private ["PSo11UIFocusItem", "updateConstraintsIfNeeded"]
+- ["CSo11UIResponder", "eurekaInvalidate"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "setNeedsLayout"]
+- !private ["CSo11UIResponder", "setNeedsUpdateConstraints"]
+- !private ["CSo11UIResponder", "updateConstraintsIfNeeded"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "setNeedsLayout"]
+- !private ["PSo30UIResponderStandardEditActions", "setNeedsUpdateConstraints"]
+- !private ["PSo30UIResponderStandardEditActions", "updateConstraintsIfNeeded"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "setNeedsLayout"]
+- !private ["PSo18UITraitEnvironment", "setNeedsUpdateConstraints"]
+- !private ["PSo18UITraitEnvironment", "updateConstraintsIfNeeded"]
+- ["CSo6UIView", "eurekaInvalidate"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "setNeedsLayout"]
+- !private ["CSo6UIView", "setNeedsUpdateConstraints"]
+- !private ["CSo6UIView", "updateConstraintsIfNeeded"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "footerView"]
+- !private ["Ps23_BidirectionalIndexable", "headerView"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setNeedsLayout"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setNeedsUpdateConstraints"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "updateConstraintsIfNeeded"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "header"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "loadNibNamed"]
+- !private ["Ps9_Hashable", "setNeedsLayout"]
+- !private ["Ps9_Hashable", "setNeedsUpdateConstraints"]
+- !private ["Ps9_Hashable", "updateConstraintsIfNeeded"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "footerView"]
+- !private ["Ps10_Indexable", "headerView"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "footerView"]
+- !private ["Ps14_IndexableBase", "headerView"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps17_MutableIndexable", "footerView"]
+- !private ["Ps17_MutableIndexable", "headerView"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "header"]
+- !private ["Ps21_ObjectiveCBridgeable", "loadNibNamed"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "header"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "footerView"]
+- !private ["Ps26_RangeReplaceableIndexable", "headerView"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "CSo6Bundle"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "O6Eureka20HeaderFooterProvider"
+- "O6Eureka16HeaderFooterType"
+- "V6Eureka16HeaderFooterView"
+- "P6Eureka29HeaderFooterViewRepresentable"
+- !private "P6Eureka7Hidable"
+- !private "P6Eureka18InputTypeInitiable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "C6Eureka7Section"
+- !private "P6Eureka15SectionDelegate"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "P6Eureka8Taggable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/Target Support Files/Eureka/Eureka-umbrella.h"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Debug-iphoneos/Eureka.build/unextended-module.modulemap"
+interface-hash: "cfceb61276ae52c45122b17df50548cd"

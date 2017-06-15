@@ -17,17 +17,17 @@ public class Exercise: NSManagedObject {
     convenience init(
         name: String = "",
         specification: String = "",
-        weigth: Int16 = 0,
+        weight: Int16 = 0,
         interval: Int16 = 0,
         muscleGroup: String = "",
         repeateNumber: Int16 = 0,
-        series:Int16 = 0,
+        series:Int16,
         training: Training? = nil)
         {
             self.init(entity: Exercise.Entity, insertInto: CoreDataHelper.instance.context)
             self.exerciseName = name
             self.specification = specification
-            self.weigth = weigth
+            self.weight = weight
             self.interval = interval
             self.repeateNumber = repeateNumber
             self.training = training
@@ -47,14 +47,23 @@ public class Exercise: NSManagedObject {
         return result!
     }
 
+    class func getCurrentExercise(inputExercise:Exercise) ->[Exercise]{
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName:"Exercise")
+        let namePredicate:NSPredicate = NSPredicate(format: "exerciseName = %@", inputExercise.exerciseName!)
+        let weightPredicate:NSPredicate = NSPredicate(format: "weight = %d", inputExercise.weight)
+        let specificationPredicate:NSPredicate = NSPredicate(format: "specification = %@", inputExercise.specification!)
+        let muscleGroupPredicate:NSPredicate = NSPredicate(format: "muscleGroup = %@", inputExercise.muscleGroup!)
+        let repeateNumberPredicate:NSPredicate = NSPredicate(format: "repeateNumber = %d", inputExercise.repeateNumber)
+        let seriesPredicate:NSPredicate = NSPredicate(format: "series = %d", inputExercise.series)
+        request.predicate = NSCompoundPredicate(type: .and, subpredicates: [namePredicate,muscleGroupPredicate,weightPredicate,specificationPredicate,repeateNumberPredicate,seriesPredicate])
+        var result:[Exercise]? = []
+        do {
+            result = try CoreDataHelper.instance.context.fetch(request) as? [Exercise]
+        } catch let error{
+            print("Error ocorupped \(error.localizedDescription)")
+        }
+        return result!
+    }
+
 }
-func showExercise(exercise:Exercise)->Void{
-    print (exercise.exerciseName ?? "none name")
-    print (exercise.specification ?? "none specification")
-    print (exercise.weigth)
-    print (exercise.interval)
-    print (exercise.muscleGroup ?? "none muscle group")
-    print (exercise.repeateNumber)
-    print (exercise.series)
-    print (exercise.training ?? "none training")
-}
+

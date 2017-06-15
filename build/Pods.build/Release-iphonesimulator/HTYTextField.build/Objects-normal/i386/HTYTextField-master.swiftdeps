@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "1afe898057e4abf3d78a559a2a7b2b67"
+build_time: [549323627, 437478000]
+inputs:
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/HTYTextField/HTYTextField/HTYTextField.swift": [9223372036854775807, 0]

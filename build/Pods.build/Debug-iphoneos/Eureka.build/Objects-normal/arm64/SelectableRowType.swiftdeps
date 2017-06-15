@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SelectableRowType"
+provides-nominal:
+- "P6Eureka17SelectableRowType"
+provides-member:
+- ["P6Eureka17SelectableRowType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "RowType"
+- "SelectableRowType"
+- "TypedRowType"
+depends-member:
+- ["Ps9AnyObject", "Cell"]
+- ["Ps9AnyObject", "Value"]
+- ["Ps9AnyObject", "selectableValue"]
+- ["C6Eureka8BaseCell", "Value"]
+- ["P6Eureka12BaseCellType", "Value"]
+- ["P6Eureka11BaseRowType", "Cell"]
+- ["P6Eureka11BaseRowType", "selectableValue"]
+- ["PSo15CALayerDelegate", "Value"]
+- ["Ps7CVarArg", "Value"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "Value"]
+- ["Ps9Equatable", "Value"]
+- ["Ps8Hashable", "Value"]
+- ["PSo8NSCoding", "Value"]
+- ["CSo8NSObject", "Value"]
+- ["PSo16NSObjectProtocol", "Value"]
+- ["P6Eureka7RowType", "Cell"]
+- ["P6Eureka7RowType", "selectableValue"]
+- ["P6Eureka7RowType", ""]
+- ["P6Eureka17SelectableRowType", "Cell"]
+- ["P6Eureka17SelectableRowType", "selectableValue"]
+- ["P6Eureka8Taggable", "Cell"]
+- ["P6Eureka8Taggable", "selectableValue"]
+- ["P6Eureka13TypedCellType", "Value"]
+- ["P6Eureka12TypedRowType", "Cell"]
+- ["P6Eureka12TypedRowType", "selectableValue"]
+- ["P6Eureka12TypedRowType", ""]
+- ["PSo29UIAccessibilityIdentification", "Value"]
+- ["PSo12UIAppearance", "Value"]
+- ["PSo21UIAppearanceContainer", "Value"]
+- ["PSo17UICoordinateSpace", "Value"]
+- ["PSo13UIDynamicItem", "Value"]
+- ["PSo18UIFocusEnvironment", "Value"]
+- ["PSo11UIFocusItem", "Value"]
+- ["PSo27UIGestureRecognizerDelegate", "Value"]
+- ["CSo11UIResponder", "Value"]
+- ["PSo30UIResponderStandardEditActions", "Value"]
+- ["CSo15UITableViewCell", "Value"]
+- ["PSo18UITraitEnvironment", "Value"]
+- ["CSo6UIView", "Value"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "Value"]
+- ["Ps9_Hashable", "Value"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C6Eureka8BaseCell"
+- "P6Eureka12BaseCellType"
+- "P6Eureka11BaseRowType"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "P6Eureka7RowType"
+- "P6Eureka17SelectableRowType"
+- "P6Eureka8Taggable"
+- "P6Eureka13TypedCellType"
+- "P6Eureka12TypedRowType"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/Target Support Files/Eureka/Eureka-umbrella.h"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Debug-iphoneos/Eureka.build/unextended-module.modulemap"
+interface-hash: "e87b8b489be9a3db9b803ac68f6b5035"

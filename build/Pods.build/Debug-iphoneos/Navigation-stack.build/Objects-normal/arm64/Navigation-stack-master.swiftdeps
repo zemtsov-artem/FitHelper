@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "2e0020af6b773a015900cf0cf1001ea7"
+build_time: [549294851, 274119000]
+inputs:
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/Navigation-stack/Source/CollectionView/CollectionStackViewController.swift": [549291562, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/Navigation-stack/Source/CollectionView/Cell/CollectionViewStackCell.swift": [549291562, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/Navigation-stack/Source/CollectionView/FlowLayout/CollectionViewStackFlowLayout.swift": [549291562, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/Navigation-stack/Source/NavigationStack.swift": [549291562, 0]

@@ -1,0 +1,20 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "fc39b576108a90af15f21041f28ed4ba"
+build_time: [550226772, 904248000]
+inputs:
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/Extensions.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/Swipeable.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeAction.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeActionButton.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeActionsView.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeActionTransitioning.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeAnimator.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeExpanding.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeExpansionStyle.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeFeedback.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeTableOptions.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeTableViewCell+Accessibility.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeTableViewCell+Display.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeTableViewCell.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeTableViewCellDelegate.swift": [9223372036854775807, 0]
+  "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/SwipeCellKit/Source/SwipeTransitionLayout.swift": [9223372036854775807, 0]

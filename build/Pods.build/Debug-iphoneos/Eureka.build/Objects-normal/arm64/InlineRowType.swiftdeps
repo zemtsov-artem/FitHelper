@@ -1,0 +1,565 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseInlineRowType"
+- "InlineRowType"
+provides-nominal:
+- "P6Eureka17BaseInlineRowType"
+- "P6Eureka13InlineRowType"
+provides-member:
+- ["P6Eureka17BaseInlineRowType", ""]
+- ["P6Eureka13InlineRowType", ""]
+- ["P6Eureka13InlineRowType", "inlineRow"]
+- ["P6Eureka13InlineRowType", "expandInlineRow"]
+- ["P6Eureka13InlineRowType", "collapseInlineRow"]
+- ["P6Eureka13InlineRowType", "toggleInlineRow"]
+- ["P6Eureka13InlineRowType", "onExpandInlineRow"]
+- ["P6Eureka13InlineRowType", "onCollapseInlineRow"]
+- ["P6Eureka13InlineRowType", "onCollapseInlineRowCallback"]
+- ["P6Eureka13InlineRowType", "onExpandInlineRowCallback"]
+- ["P6Eureka13InlineRowType", "isExpanded"]
+- ["P6Eureka13InlineRowType", "isCollapsed"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- !private "??"
+- "AssignmentPrecedence"
+- "BaseInlineRowType"
+- "BaseRow"
+- "Bool"
+- "CastingPrecedence"
+- !private "Form"
+- "InlineRowType"
+- "RowType"
+- "TypedRowType"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "BaseInlineRowType"]
+- ["Ps9AnyObject", "BaseRow"]
+- ["Ps9AnyObject", "Bool"]
+- ["Ps9AnyObject", "Cell"]
+- !private ["Ps9AnyObject", "Form"]
+- ["Ps9AnyObject", "InlineRow"]
+- ["Ps9AnyObject", "RowType"]
+- ["Ps9AnyObject", "Self"]
+- ["Ps9AnyObject", "TypedRowType"]
+- ["Ps9AnyObject", "Void"]
+- !private ["Ps9AnyObject", "_inlineRow"]
+- !private ["Ps9AnyObject", "allRows"]
+- !private ["Ps9AnyObject", "callbackOnCollapseInlineRow"]
+- !private ["Ps9AnyObject", "callbackOnExpandInlineRow"]
+- !private ["Ps9AnyObject", "cell"]
+- !private ["Ps9AnyObject", "collapseInlineRow"]
+- !private ["Ps9AnyObject", "defaultInlineRowHideOptions"]
+- !private ["Ps9AnyObject", "expandInlineRow"]
+- !private ["Ps9AnyObject", "form"]
+- !private ["Ps9AnyObject", "formViewController"]
+- !private ["Ps9AnyObject", "indexPath"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "inlineRow"]
+- !private ["Ps9AnyObject", "inlineRowHideOptions"]
+- !private ["Ps9AnyObject", "insert"]
+- !private ["Ps9AnyObject", "isExpanded"]
+- !private ["Ps9AnyObject", "makeRowVisible"]
+- !private ["Ps9AnyObject", "onChange"]
+- !private ["Ps9AnyObject", "onCollapseInlineRowCallback"]
+- !private ["Ps9AnyObject", "onExpandInlineRowCallback"]
+- !private ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "section"]
+- ["Ps9AnyObject", "setupInlineRow"]
+- !private ["Ps9AnyObject", "updateCell"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["C6Eureka8BaseCell", "formViewController"]
+- !private ["P6Eureka12BaseCellType", "formViewController"]
+- !private ["P6Eureka17BaseInlineRowType", "BaseInlineRowType"]
+- ["P6Eureka17BaseInlineRowType", "BaseRow"]
+- ["P6Eureka17BaseInlineRowType", "Bool"]
+- ["P6Eureka17BaseInlineRowType", "Cell"]
+- !private ["P6Eureka17BaseInlineRowType", "Form"]
+- ["P6Eureka17BaseInlineRowType", "InlineRow"]
+- ["P6Eureka17BaseInlineRowType", "RowType"]
+- ["P6Eureka17BaseInlineRowType", "Self"]
+- ["P6Eureka17BaseInlineRowType", "TypedRowType"]
+- ["P6Eureka17BaseInlineRowType", "Void"]
+- !private ["P6Eureka17BaseInlineRowType", "_inlineRow"]
+- !private ["P6Eureka17BaseInlineRowType", "callbackOnCollapseInlineRow"]
+- !private ["P6Eureka17BaseInlineRowType", "callbackOnExpandInlineRow"]
+- !private ["P6Eureka17BaseInlineRowType", "cell"]
+- ["P6Eureka17BaseInlineRowType", "collapseInlineRow"]
+- ["P6Eureka17BaseInlineRowType", "expandInlineRow"]
+- !private ["P6Eureka17BaseInlineRowType", "indexPath"]
+- !private ["P6Eureka17BaseInlineRowType", "inlineRow"]
+- !private ["P6Eureka17BaseInlineRowType", "isExpanded"]
+- !private ["P6Eureka17BaseInlineRowType", "onCollapseInlineRowCallback"]
+- !private ["P6Eureka17BaseInlineRowType", "onExpandInlineRowCallback"]
+- !private ["P6Eureka17BaseInlineRowType", "section"]
+- ["P6Eureka17BaseInlineRowType", "setupInlineRow"]
+- ["P6Eureka17BaseInlineRowType", "toggleInlineRow"]
+- !private ["P6Eureka17BaseInlineRowType", "updateCell"]
+- !private ["P6Eureka17BaseInlineRowType", "value"]
+- ["P6Eureka17BaseInlineRowType", ""]
+- !private ["C6Eureka7BaseRow", "BaseInlineRowType"]
+- ["C6Eureka7BaseRow", "Bool"]
+- ["C6Eureka7BaseRow", "Cell"]
+- !private ["C6Eureka7BaseRow", "Form"]
+- ["C6Eureka7BaseRow", "InlineRow"]
+- ["C6Eureka7BaseRow", "Self"]
+- ["C6Eureka7BaseRow", "Void"]
+- !private ["C6Eureka7BaseRow", "_inlineRow"]
+- !private ["C6Eureka7BaseRow", "callbackOnCollapseInlineRow"]
+- !private ["C6Eureka7BaseRow", "callbackOnExpandInlineRow"]
+- !private ["C6Eureka7BaseRow", "cell"]
+- !private ["C6Eureka7BaseRow", "collapseInlineRow"]
+- !private ["C6Eureka7BaseRow", "deinit"]
+- !private ["C6Eureka7BaseRow", "expandInlineRow"]
+- !private ["C6Eureka7BaseRow", "indexPath"]
+- !private ["C6Eureka7BaseRow", "init"]
+- !private ["C6Eureka7BaseRow", "inlineRow"]
+- !private ["C6Eureka7BaseRow", "isExpanded"]
+- !private ["C6Eureka7BaseRow", "onChange"]
+- !private ["C6Eureka7BaseRow", "onCollapseInlineRowCallback"]
+- !private ["C6Eureka7BaseRow", "onExpandInlineRowCallback"]
+- !private ["C6Eureka7BaseRow", "section"]
+- !private ["C6Eureka7BaseRow", "setupInlineRow"]
+- !private ["C6Eureka7BaseRow", "updateCell"]
+- !private ["C6Eureka7BaseRow", "value"]
+- !private ["P6Eureka11BaseRowType", "BaseInlineRowType"]
+- ["P6Eureka11BaseRowType", "BaseRow"]
+- ["P6Eureka11BaseRowType", "Bool"]
+- ["P6Eureka11BaseRowType", "Cell"]
+- !private ["P6Eureka11BaseRowType", "Form"]
+- ["P6Eureka11BaseRowType", "InlineRow"]
+- ["P6Eureka11BaseRowType", "RowType"]
+- ["P6Eureka11BaseRowType", "Self"]
+- ["P6Eureka11BaseRowType", "TypedRowType"]
+- ["P6Eureka11BaseRowType", "Void"]
+- !private ["P6Eureka11BaseRowType", "_inlineRow"]
+- !private ["P6Eureka11BaseRowType", "callbackOnCollapseInlineRow"]
+- !private ["P6Eureka11BaseRowType", "callbackOnExpandInlineRow"]
+- !private ["P6Eureka11BaseRowType", "cell"]
+- !private ["P6Eureka11BaseRowType", "collapseInlineRow"]
+- !private ["P6Eureka11BaseRowType", "expandInlineRow"]
+- !private ["P6Eureka11BaseRowType", "indexPath"]
+- !private ["P6Eureka11BaseRowType", "init"]
+- !private ["P6Eureka11BaseRowType", "inlineRow"]
+- !private ["P6Eureka11BaseRowType", "isExpanded"]
+- !private ["P6Eureka11BaseRowType", "onChange"]
+- !private ["P6Eureka11BaseRowType", "onCollapseInlineRowCallback"]
+- !private ["P6Eureka11BaseRowType", "onExpandInlineRowCallback"]
+- !private ["P6Eureka11BaseRowType", "section"]
+- ["P6Eureka11BaseRowType", "setupInlineRow"]
+- !private ["P6Eureka11BaseRowType", "updateCell"]
+- !private ["P6Eureka11BaseRowType", "value"]
+- !private ["Ps23BidirectionalCollection", "form"]
+- !private ["Ps23BidirectionalCollection", "insert"]
+- !private ["Ps23BidirectionalCollection", "remove"]
+- !private ["Ps23BidirectionalCollection", "row"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "formViewController"]
+- !private ["Ps7CVarArg", "formViewController"]
+- !private ["Ps7CVarArg", "makeRowVisible"]
+- !private ["Ps10Collection", "allRows"]
+- !private ["Ps10Collection", "defaultInlineRowHideOptions"]
+- !private ["Ps10Collection", "form"]
+- !private ["Ps10Collection", "inlineRowHideOptions"]
+- !private ["Ps10Collection", "insert"]
+- !private ["Ps10Collection", "remove"]
+- !private ["Ps10Collection", "row"]
+- !private ["Ps10Comparable", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "formViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "makeRowVisible"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "row"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "formViewController"]
+- !private ["Ps23CustomStringConvertible", "makeRowVisible"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- !private ["P6Eureka11Disableable", "Form"]
+- ["P6Eureka11Disableable", "InlineRow"]
+- !private ["P6Eureka11Disableable", "_inlineRow"]
+- !private ["P6Eureka11Disableable", "callbackOnCollapseInlineRow"]
+- !private ["P6Eureka11Disableable", "callbackOnExpandInlineRow"]
+- !private ["P6Eureka11Disableable", "cell"]
+- !private ["P6Eureka11Disableable", "collapseInlineRow"]
+- !private ["P6Eureka11Disableable", "expandInlineRow"]
+- !private ["P6Eureka11Disableable", "indexPath"]
+- !private ["P6Eureka11Disableable", "init"]
+- !private ["P6Eureka11Disableable", "inlineRow"]
+- !private ["P6Eureka11Disableable", "isExpanded"]
+- !private ["P6Eureka11Disableable", "onChange"]
+- !private ["P6Eureka11Disableable", "onCollapseInlineRowCallback"]
+- !private ["P6Eureka11Disableable", "onExpandInlineRowCallback"]
+- !private ["P6Eureka11Disableable", "section"]
+- !private ["P6Eureka11Disableable", "setupInlineRow"]
+- !private ["P6Eureka11Disableable", "updateCell"]
+- !private ["P6Eureka11Disableable", "value"]
+- !private ["Ps9Equatable", "AnotherInlineRowIsShown"]
+- !private ["Ps9Equatable", "Form"]
+- ["Ps9Equatable", "InlineRow"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_inlineRow"]
+- !private ["Ps9Equatable", "callbackOnCollapseInlineRow"]
+- !private ["Ps9Equatable", "callbackOnExpandInlineRow"]
+- !private ["Ps9Equatable", "cell"]
+- !private ["Ps9Equatable", "collapseInlineRow"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "expandInlineRow"]
+- !private ["Ps9Equatable", "form"]
+- !private ["Ps9Equatable", "formViewController"]
+- !private ["Ps9Equatable", "indexPath"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "inlineRow"]
+- !private ["Ps9Equatable", "insert"]
+- !private ["Ps9Equatable", "isExpanded"]
+- !private ["Ps9Equatable", "makeRowVisible"]
+- !private ["Ps9Equatable", "onChange"]
+- !private ["Ps9Equatable", "onCollapseInlineRowCallback"]
+- !private ["Ps9Equatable", "onExpandInlineRowCallback"]
+- !private ["Ps9Equatable", "remove"]
+- !private ["Ps9Equatable", "row"]
+- !private ["Ps9Equatable", "section"]
+- !private ["Ps9Equatable", "setupInlineRow"]
+- !private ["Ps9Equatable", "updateCell"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps25ExpressibleByArrayLiteral", "AnotherInlineRowIsShown"]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "row"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["C6Eureka4Form", "allRows"]
+- !private ["C6Eureka4Form", "defaultInlineRowHideOptions"]
+- !private ["C6Eureka4Form", "inlineRowHideOptions"]
+- !private ["P6Eureka12FormDelegate", "makeRowVisible"]
+- !private ["C6Eureka18FormViewController", "deinit"]
+- !private ["C6Eureka18FormViewController", "makeRowVisible"]
+- !private ["P6Eureka26FormViewControllerProtocol", "makeRowVisible"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "formViewController"]
+- !private ["Ps8Hashable", "makeRowVisible"]
+- !private ["Ps8Hashable", "row"]
+- !private ["P6Eureka7Hidable", "Form"]
+- ["P6Eureka7Hidable", "InlineRow"]
+- !private ["P6Eureka7Hidable", "_inlineRow"]
+- !private ["P6Eureka7Hidable", "callbackOnCollapseInlineRow"]
+- !private ["P6Eureka7Hidable", "callbackOnExpandInlineRow"]
+- !private ["P6Eureka7Hidable", "cell"]
+- !private ["P6Eureka7Hidable", "collapseInlineRow"]
+- !private ["P6Eureka7Hidable", "expandInlineRow"]
+- !private ["P6Eureka7Hidable", "form"]
+- !private ["P6Eureka7Hidable", "indexPath"]
+- !private ["P6Eureka7Hidable", "init"]
+- !private ["P6Eureka7Hidable", "inlineRow"]
+- !private ["P6Eureka7Hidable", "insert"]
+- !private ["P6Eureka7Hidable", "isExpanded"]
+- !private ["P6Eureka7Hidable", "onChange"]
+- !private ["P6Eureka7Hidable", "onCollapseInlineRowCallback"]
+- !private ["P6Eureka7Hidable", "onExpandInlineRowCallback"]
+- !private ["P6Eureka7Hidable", "remove"]
+- !private ["P6Eureka7Hidable", "section"]
+- !private ["P6Eureka7Hidable", "setupInlineRow"]
+- !private ["P6Eureka7Hidable", "updateCell"]
+- !private ["P6Eureka7Hidable", "value"]
+- !private ["V10Foundation9IndexPath", "row"]
+- !private ["V6Eureka20InlineRowHideOptions", "AnotherInlineRowIsShown"]
+- !private ["V6Eureka20InlineRowHideOptions", "contains"]
+- !private ["V6Eureka20InlineRowHideOptions", "deinit"]
+- !private ["P6Eureka13InlineRowType", "BaseInlineRowType"]
+- ["P6Eureka13InlineRowType", "BaseRow"]
+- ["P6Eureka13InlineRowType", "Bool"]
+- ["P6Eureka13InlineRowType", "Cell"]
+- !private ["P6Eureka13InlineRowType", "Form"]
+- ["P6Eureka13InlineRowType", "InlineRow"]
+- ["P6Eureka13InlineRowType", "RowType"]
+- ["P6Eureka13InlineRowType", "Self"]
+- ["P6Eureka13InlineRowType", "TypedRowType"]
+- ["P6Eureka13InlineRowType", "Void"]
+- !private ["P6Eureka13InlineRowType", "_inlineRow"]
+- !private ["P6Eureka13InlineRowType", "callbackOnCollapseInlineRow"]
+- !private ["P6Eureka13InlineRowType", "callbackOnExpandInlineRow"]
+- !private ["P6Eureka13InlineRowType", "cell"]
+- ["P6Eureka13InlineRowType", "collapseInlineRow"]
+- ["P6Eureka13InlineRowType", "expandInlineRow"]
+- !private ["P6Eureka13InlineRowType", "indexPath"]
+- ["P6Eureka13InlineRowType", "inlineRow"]
+- ["P6Eureka13InlineRowType", "isCollapsed"]
+- ["P6Eureka13InlineRowType", "isExpanded"]
+- ["P6Eureka13InlineRowType", "onCollapseInlineRow"]
+- ["P6Eureka13InlineRowType", "onCollapseInlineRowCallback"]
+- ["P6Eureka13InlineRowType", "onExpandInlineRow"]
+- ["P6Eureka13InlineRowType", "onExpandInlineRowCallback"]
+- !private ["P6Eureka13InlineRowType", "section"]
+- ["P6Eureka13InlineRowType", "setupInlineRow"]
+- ["P6Eureka13InlineRowType", "toggleInlineRow"]
+- !private ["P6Eureka13InlineRowType", "updateCell"]
+- !private ["P6Eureka13InlineRowType", "value"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps17MutableCollection", "allRows"]
+- !private ["Ps17MutableCollection", "defaultInlineRowHideOptions"]
+- !private ["Ps17MutableCollection", "form"]
+- !private ["Ps17MutableCollection", "inlineRowHideOptions"]
+- !private ["Ps17MutableCollection", "insert"]
+- !private ["Ps17MutableCollection", "remove"]
+- !private ["Ps17MutableCollection", "row"]
+- !private ["PSo8NSCoding", "formViewController"]
+- !private ["PSo8NSCoding", "makeRowVisible"]
+- !private ["PSo26NSExtensionRequestHandling", "makeRowVisible"]
+- !private ["CSo8NSObject", "formViewController"]
+- !private ["CSo8NSObject", "makeRowVisible"]
+- !private ["PSo16NSObjectProtocol", "formViewController"]
+- !private ["PSo16NSObjectProtocol", "makeRowVisible"]
+- !private ["Ps9OptionSet", "AnotherInlineRowIsShown"]
+- !private ["Ps9OptionSet", "contains"]
+- !private ["Ps22RandomAccessCollection", "row"]
+- !private ["Ps26RangeReplaceableCollection", "allRows"]
+- !private ["Ps26RangeReplaceableCollection", "defaultInlineRowHideOptions"]
+- !private ["Ps26RangeReplaceableCollection", "form"]
+- !private ["Ps26RangeReplaceableCollection", "inlineRowHideOptions"]
+- !private ["Ps26RangeReplaceableCollection", "insert"]
+- !private ["Ps26RangeReplaceableCollection", "remove"]
+- !private ["Ps16RawRepresentable", "AnotherInlineRowIsShown"]
+- !private ["Ps16RawRepresentable", "contains"]
+- !private ["P10Foundation20ReferenceConvertible", "row"]
+- !private ["P6Eureka7RowType", "init"]
+- !private ["P6Eureka7RowType", "onChange"]
+- !private ["P6Eureka7RowType", "value"]
+- !private ["C6Eureka7Section", "deinit"]
+- !private ["C6Eureka7Section", "form"]
+- !private ["C6Eureka7Section", "insert"]
+- !private ["C6Eureka7Section", "remove"]
+- !private ["P6Eureka15SectionDelegate", "form"]
+- !private ["P6Eureka15SectionDelegate", "insert"]
+- !private ["P6Eureka15SectionDelegate", "remove"]
+- !private ["Ps8Sequence", "allRows"]
+- !private ["Ps8Sequence", "defaultInlineRowHideOptions"]
+- !private ["Ps8Sequence", "form"]
+- !private ["Ps8Sequence", "inlineRowHideOptions"]
+- !private ["Ps8Sequence", "insert"]
+- !private ["Ps8Sequence", "remove"]
+- !private ["Ps8Sequence", "row"]
+- !private ["Ps10SetAlgebra", "AnotherInlineRowIsShown"]
+- !private ["Ps10SetAlgebra", "contains"]
+- !private ["P6Eureka8Taggable", "BaseInlineRowType"]
+- ["P6Eureka8Taggable", "BaseRow"]
+- ["P6Eureka8Taggable", "Bool"]
+- ["P6Eureka8Taggable", "Cell"]
+- !private ["P6Eureka8Taggable", "Form"]
+- ["P6Eureka8Taggable", "InlineRow"]
+- ["P6Eureka8Taggable", "RowType"]
+- ["P6Eureka8Taggable", "Self"]
+- ["P6Eureka8Taggable", "TypedRowType"]
+- ["P6Eureka8Taggable", "Void"]
+- !private ["P6Eureka8Taggable", "_inlineRow"]
+- !private ["P6Eureka8Taggable", "callbackOnCollapseInlineRow"]
+- !private ["P6Eureka8Taggable", "callbackOnExpandInlineRow"]
+- !private ["P6Eureka8Taggable", "cell"]
+- !private ["P6Eureka8Taggable", "collapseInlineRow"]
+- !private ["P6Eureka8Taggable", "expandInlineRow"]
+- !private ["P6Eureka8Taggable", "form"]
+- !private ["P6Eureka8Taggable", "indexPath"]
+- !private ["P6Eureka8Taggable", "init"]
+- !private ["P6Eureka8Taggable", "inlineRow"]
+- !private ["P6Eureka8Taggable", "insert"]
+- !private ["P6Eureka8Taggable", "isExpanded"]
+- !private ["P6Eureka8Taggable", "onChange"]
+- !private ["P6Eureka8Taggable", "onCollapseInlineRowCallback"]
+- !private ["P6Eureka8Taggable", "onExpandInlineRowCallback"]
+- !private ["P6Eureka8Taggable", "remove"]
+- !private ["P6Eureka8Taggable", "section"]
+- ["P6Eureka8Taggable", "setupInlineRow"]
+- !private ["P6Eureka8Taggable", "updateCell"]
+- !private ["P6Eureka8Taggable", "value"]
+- !private ["P6Eureka13TypedCellType", "formViewController"]
+- !private ["P6Eureka12TypedRowType", "BaseInlineRowType"]
+- ["P6Eureka12TypedRowType", "BaseRow"]
+- ["P6Eureka12TypedRowType", "Bool"]
+- ["P6Eureka12TypedRowType", "Cell"]
+- !private ["P6Eureka12TypedRowType", "Form"]
+- ["P6Eureka12TypedRowType", "InlineRow"]
+- ["P6Eureka12TypedRowType", "RowType"]
+- ["P6Eureka12TypedRowType", "Self"]
+- ["P6Eureka12TypedRowType", "TypedRowType"]
+- ["P6Eureka12TypedRowType", "Void"]
+- !private ["P6Eureka12TypedRowType", "_inlineRow"]
+- !private ["P6Eureka12TypedRowType", "callbackOnCollapseInlineRow"]
+- !private ["P6Eureka12TypedRowType", "callbackOnExpandInlineRow"]
+- !private ["P6Eureka12TypedRowType", "cell"]
+- !private ["P6Eureka12TypedRowType", "collapseInlineRow"]
+- !private ["P6Eureka12TypedRowType", "expandInlineRow"]
+- !private ["P6Eureka12TypedRowType", "indexPath"]
+- !private ["P6Eureka12TypedRowType", "init"]
+- !private ["P6Eureka12TypedRowType", "inlineRow"]
+- !private ["P6Eureka12TypedRowType", "isExpanded"]
+- !private ["P6Eureka12TypedRowType", "onChange"]
+- !private ["P6Eureka12TypedRowType", "onCollapseInlineRowCallback"]
+- !private ["P6Eureka12TypedRowType", "onExpandInlineRowCallback"]
+- !private ["P6Eureka12TypedRowType", "section"]
+- ["P6Eureka12TypedRowType", "setupInlineRow"]
+- !private ["P6Eureka12TypedRowType", "updateCell"]
+- !private ["P6Eureka12TypedRowType", "value"]
+- ["P6Eureka12TypedRowType", ""]
+- !private ["PSo29UIAccessibilityIdentification", "formViewController"]
+- !private ["PSo12UIAppearance", "formViewController"]
+- !private ["PSo21UIAppearanceContainer", "formViewController"]
+- !private ["PSo21UIAppearanceContainer", "makeRowVisible"]
+- !private ["PSo18UIContentContainer", "makeRowVisible"]
+- !private ["PSo17UICoordinateSpace", "formViewController"]
+- !private ["PSo13UIDynamicItem", "formViewController"]
+- !private ["PSo18UIFocusEnvironment", "formViewController"]
+- !private ["PSo18UIFocusEnvironment", "makeRowVisible"]
+- !private ["PSo11UIFocusItem", "formViewController"]
+- !private ["PSo27UIGestureRecognizerDelegate", "formViewController"]
+- !private ["CSo11UIResponder", "formViewController"]
+- !private ["CSo11UIResponder", "makeRowVisible"]
+- !private ["PSo30UIResponderStandardEditActions", "formViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "makeRowVisible"]
+- !private ["PSo20UIScrollViewDelegate", "makeRowVisible"]
+- !private ["PSo16UIStateRestoring", "makeRowVisible"]
+- !private ["CSo15UITableViewCell", "formViewController"]
+- !private ["PSo21UITableViewDataSource", "makeRowVisible"]
+- !private ["PSo19UITableViewDelegate", "makeRowVisible"]
+- !private ["PSo18UITraitEnvironment", "formViewController"]
+- !private ["PSo18UITraitEnvironment", "makeRowVisible"]
+- !private ["CSo6UIView", "formViewController"]
+- !private ["CSo16UIViewController", "makeRowVisible"]
+- !private ["Ps23_BidirectionalIndexable", "form"]
+- !private ["Ps23_BidirectionalIndexable", "insert"]
+- !private ["Ps23_BidirectionalIndexable", "remove"]
+- !private ["Ps23_BidirectionalIndexable", "row"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "formViewController"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "formViewController"]
+- !private ["Ps9_Hashable", "makeRowVisible"]
+- !private ["Ps9_Hashable", "row"]
+- !private ["Ps10_Indexable", "allRows"]
+- !private ["Ps10_Indexable", "defaultInlineRowHideOptions"]
+- !private ["Ps10_Indexable", "form"]
+- !private ["Ps10_Indexable", "inlineRowHideOptions"]
+- !private ["Ps10_Indexable", "insert"]
+- !private ["Ps10_Indexable", "remove"]
+- !private ["Ps10_Indexable", "row"]
+- !private ["Ps14_IndexableBase", "allRows"]
+- !private ["Ps14_IndexableBase", "defaultInlineRowHideOptions"]
+- !private ["Ps14_IndexableBase", "form"]
+- !private ["Ps14_IndexableBase", "inlineRowHideOptions"]
+- !private ["Ps14_IndexableBase", "insert"]
+- !private ["Ps14_IndexableBase", "remove"]
+- !private ["Ps14_IndexableBase", "row"]
+- !private ["Ps17_MutableIndexable", "allRows"]
+- !private ["Ps17_MutableIndexable", "defaultInlineRowHideOptions"]
+- !private ["Ps17_MutableIndexable", "form"]
+- !private ["Ps17_MutableIndexable", "inlineRowHideOptions"]
+- !private ["Ps17_MutableIndexable", "insert"]
+- !private ["Ps17_MutableIndexable", "remove"]
+- !private ["Ps17_MutableIndexable", "row"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "row"]
+- !private ["Ps22_RandomAccessIndexable", "row"]
+- !private ["Ps26_RangeReplaceableIndexable", "allRows"]
+- !private ["Ps26_RangeReplaceableIndexable", "defaultInlineRowHideOptions"]
+- !private ["Ps26_RangeReplaceableIndexable", "form"]
+- !private ["Ps26_RangeReplaceableIndexable", "inlineRowHideOptions"]
+- !private ["Ps26_RangeReplaceableIndexable", "insert"]
+- !private ["Ps26_RangeReplaceableIndexable", "remove"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C6Eureka8BaseCell"
+- !private "P6Eureka12BaseCellType"
+- "P6Eureka17BaseInlineRowType"
+- "C6Eureka7BaseRow"
+- "P6Eureka11BaseRowType"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P6Eureka11Disableable"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "C6Eureka4Form"
+- !private "P6Eureka12FormDelegate"
+- !private "C6Eureka18FormViewController"
+- !private "P6Eureka26FormViewControllerProtocol"
+- !private "Ps8Hashable"
+- "P6Eureka7Hidable"
+- !private "V10Foundation9IndexPath"
+- !private "V6Eureka20InlineRowHideOptions"
+- "P6Eureka13InlineRowType"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "Ps9OptionSet"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "P6Eureka7RowType"
+- !private "C6Eureka7Section"
+- !private "P6Eureka15SectionDelegate"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "P6Eureka8Taggable"
+- !private "P6Eureka13TypedCellType"
+- "P6Eureka12TypedRowType"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- !private "PSo16UIStateRestoring"
+- !private "CSo15UITableViewCell"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/Pods/Target Support Files/Eureka/Eureka-umbrella.h"
+- "/Users/artemon/Desktop/projects/Swift/HARMAN/FitHelper/build/Pods.build/Debug-iphoneos/Eureka.build/unextended-module.modulemap"
+interface-hash: "102b7099820c3083a0e180b0682607b4"
